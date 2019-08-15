@@ -1,0 +1,107 @@
+local map = ...
+local game = map:get_game()
+local music_map = map:get_music()
+texte_boss = sol.surface.create(sol.language.get_language().."/texte_boss/zeldo.png")
+
+local door_manager = require("maps/lib/door_manager")
+door_manager:manage_map(map)
+local chest_manager = require("maps/lib/chest_manager")
+chest_manager:manage_map(map)
+local separator_manager = require("maps/lib/separator_manager")
+separator_manager:manage_map(map)
+
+
+--DEBUT DE LA MAP
+function map:on_started()
+  --Initialisation de base
+  map:set_entities_enabled("auto_chest",false)
+  tails:set_enabled(false)
+  map:set_doors_open("door_boss")
+  boss:set_enabled(false)
+  texte_boss_1:set_enabled(false)
+end
+
+--DIALOGUE AVANT LE BOSS
+function boss_sensor:on_activated()
+  hero:freeze()
+  boss_sensor:set_enabled(false)
+  game:set_pause_allowed(false)
+  map:close_doors("door_boss")
+  sol.timer.start(map,1000,function()
+    game:start_dialog("zeldo.boss.intro",function()
+      sol.audio.play_music("zeldo_battle")
+      map:get_entity("texte_boss_1"):set_enabled(true)
+      sol.timer.start(map,5000,function()
+        game:start_dialog("zeldo.boss.music",function()
+          hero:unfreeze()
+          zeldo:set_enabled(false)
+          game:set_pause_allowed(true)
+          boss:set_enabled(true)
+          map:get_entity("texte_boss_1"):set_enabled(false)
+        end)
+      end)
+    end)
+  end)
+end
+
+--BOSS: ZELDO
+if boss ~= nil then
+ function boss:on_dying()
+  hero:freeze()
+  game:set_pause_allowed(false)
+  sol.audio.play_music(nil)
+  boss:get_sprite():set_ignore_suspend(true)
+  game:start_dialog("zeldo.boss.dead",function()
+    sol.timer.start(map,7000,function()
+      game:set_dialog_style("blank")
+      game:start_dialog("zeldo.boss.true_ending",function()
+        tails:set_enabled(true)
+        tails:get_sprite():fade_in(50,function()
+          hero:unfreeze()
+          game:set_pause_allowed(true)
+        end)
+      end)
+    end)
+  end)
+ end
+end
+
+--DIALOGUE AVEC TAILS PUIS ENVOL AVEC LINK, ENCHAINEMENT AVEC CINEMATIQUE FINALE
+function tails:on_interaction()
+  game:start_dialog("tails.rescued",function()
+    hero:freeze()
+    game:set_pause_allowed(false)
+    game:set_life(game:get_max_life())
+    game:set_magic(game:get_max_magic())
+    sol.audio.play_music("tails_rescued",false)
+    sol.timer.start(map,4000,function()
+      local m = sol.movement.create("target")
+      m:set_speed(72)
+      m:set_ignore_obstacles()
+      m:set_target(target_tails_1)
+      m:start(tails,function()
+        sol.timer.start(map,4000,function()
+          local x,y = hero:get_position()
+          local m = sol.movement.create("target")
+          m:set_speed(160)
+          m:set_ignore_obstacles()
+          m:set_target(x,y - 24)
+          m:start(tails_2,function()
+            local sprite
+            if game:get_ability("tunic") == 1 then sprite = flying_tails_tunic_1 else sprite = flying_tails_tunic_2 end
+            sprite:set_position(hero:get_position())
+            tails_2:set_enabled(false)
+            hero:set_visible(false)
+            local m = sol.movement.create("target")
+            m:set_speed(160)
+            m:set_ignore_obstacles()
+            m:set_target(target_tails_2)
+            m:start(sprite,function()
+              sol.timer.start(map,5000,function() hero:teleport("ending") end)
+            end)
+          end)
+        end)
+      end)     
+    end)
+  end)
+end

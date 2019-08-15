@@ -1,0 +1,1076 @@
+properties{
+  x = 2240,
+  y = 720,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "dungeon_300",
+  floor = 7,
+  tileset = "Absolute Dungeon 14",
+  music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  enabled_at_start = false,
+  width = 512,
+  height = 80,
+  pattern = "12429",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 320,
+  height = 144,
+  pattern = "12440",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 16,
+  pattern = "8106",
+  tileset = "Full Hyrule",
+}
+
+destination{
+  name = "target_tails_1",
+  layer = 0,
+  x = 248,
+  y = -19,
+  direction = 1,
+}
+
+destination{
+  name = "target_tails_2",
+  layer = 0,
+  x = 336,
+  y = 45,
+  direction = 1,
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 64,
+  width = 224,
+  height = 144,
+  pattern = "floor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 80,
+  width = 128,
+  height = 96,
+  pattern = "floor_border.4",
+  tileset = "Absolute Dungeon 01",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 48,
+  width = 192,
+  height = 16,
+  pattern = "floor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 40,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 216,
+  enabled_at_start = false,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 216,
+  enabled_at_start = false,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 216,
+  enabled_at_start = false,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 208,
+  enabled_at_start = false,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 208,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 208,
+  enabled_at_start = false,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 80,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 80,
+  width = 8,
+  height = 128,
+  pattern = "wall_border.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 184,
+  enabled_at_start = false,
+  width = 24,
+  height = 32,
+  pattern = "wall.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 184,
+  enabled_at_start = false,
+  width = 24,
+  height = 32,
+  pattern = "wall.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "balcony_low_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "balcony_high_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.3",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 88,
+  width = 8,
+  height = 32,
+  pattern = "balcony_low_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 88,
+  width = 8,
+  height = 32,
+  pattern = "balcony_high_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.3",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 168,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.4",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "balcony_low_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 136,
+  width = 8,
+  height = 32,
+  pattern = "balcony_high_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.4",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 88,
+  width = 8,
+  height = 32,
+  pattern = "balcony_low_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 88,
+  width = 8,
+  height = 32,
+  pattern = "balcony_high_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "balcony_pillar.4",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.4",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.8",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.8",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.8",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.8",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.7",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.7",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.7",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.7",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.7",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.6",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "balcony_diag_railing.5",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "balcony_pillar.1",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "balcony_pillar.1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 32,
+  width = 144,
+  height = 8,
+  pattern = "balcony_high_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 16,
+  width = 144,
+  height = 8,
+  pattern = "balcony_low_railing.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "balcony_pillar.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_down.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 88,
+  width = 112,
+  height = 80,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 104,
+  width = 96,
+  height = 56,
+  pattern = "4068",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 176,
+  width = 64,
+  height = 32,
+  pattern = "floor_border.4",
+  tileset = "Absolute Dungeon 01",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 176,
+  width = 48,
+  height = 32,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 208,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-8",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 208,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-8",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 216,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 216,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.2-1",
+}
+
+destination{
+  name = "escalier",
+  layer = 1,
+  x = 160,
+  y = 229,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/memories_tower/6ET",
+  destination = "escalier_sommet",
+}
+
+stairs{
+  layer = 1,
+  x = 152,
+  y = 216,
+  direction = 3,
+  subtype = 3,
+}
+
+npc{
+  name = "tails",
+  layer = 1,
+  x = 160,
+  y = 125,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails",
+}
+
+npc{
+  name = "tails_2",
+  layer = 1,
+  x = -8,
+  y = -3,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails",
+}
+
+npc{
+  name = "flying_tails_tunic_1",
+  layer = 1,
+  x = 368,
+  y = 149,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails_and_link_tunic_1",
+}
+
+npc{
+  name = "flying_tails_tunic_2",
+  layer = 1,
+  x = 368,
+  y = 205,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails_and_link_tunic_2",
+}
+
+sensor{
+  name = "dungeon_room_1",
+  layer = 1,
+  x = 160,
+  y = 229,
+  width = 16,
+  height = 16,
+}
+
+npc{
+  name = "zeldo",
+  layer = 1,
+  x = 160,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/zeldo",
+}
+
+door{
+  name = "door_boss",
+  layer = 1,
+  x = 152,
+  y = 216,
+  direction = 3,
+  sprite = "entities/Doors/Inside/door_d1_normal",
+  cannot_open_dialog = "door.closed.1",
+}
+
+sensor{
+  name = "boss_sensor",
+  layer = 1,
+  x = 152,
+  y = 213,
+  width = 32,
+  height = 16,
+}
+
+enemy{
+  name = "boss",
+  layer = 1,
+  x = 160,
+  y = 125,
+  direction = 3,
+  breed = "boss/zeldo",
+}
+
+sensor{
+  name = "texte_boss_1",
+  layer = 1,
+  x = 152,
+  y = 213,
+  width = 32,
+  height = 16,
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 232,
+  enabled_at_start = false,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.2-2",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_down.2-2",
+}
+
