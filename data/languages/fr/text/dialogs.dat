@@ -1,0 +1,4532 @@
+dialog{
+  id = "CHARA.1",
+  text = [[
+$1J'ai attendu...$0
+
+
+Seul...$0
+
+
+Si longtemps...$0
+]],
+}
+
+dialog{
+  id = "CHARA.2",
+  text = [[
+$1Tu ne peux plus t'enfuir...$0
+
+
+Si on jouait à un jeu ?$0
+
+
+Tu as 10 secondes pour 
+te cacher...$0
+]],
+}
+
+dialog{
+  id = "CHARA.3",
+  text = [[
+$1Prêt ou non...$0
+J'arrive...$0
+]],
+}
+
+dialog{
+  id = "CHARA.4",
+  text = [[
+Trouvé...$0 
+
+
+:)$0
+]],
+}
+
+dialog{
+  id = "CHARA.5",
+  text = [[
+   $1Merci encore d'avoir joué
+   avec moi...$0
+   On pourrait remettre ça...$0 :)$0
+]],
+}
+
+dialog{
+  id = "_1st_shield",
+  skip = "current",
+  text = [[
+Te retrouver muni d'un bouclier
+augmente ta défense !
+]],
+}
+
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur de cristal. 
+Frappe-le avec quelque chose...
+]],
+}
+
+dialog{
+  id = "_empty_chest",
+  icon = "41",
+  skip = "all",
+  text = [[
+Ce coffre est vide ! $0
+Tant pis pour toi !
+]],
+}
+
+dialog{
+  id = "_need_magic",
+  skip = "all",
+  text = [[
+Tu es à court de pouvoirs
+magiques ! Tu ne peux pas 
+utiliser cet objet maintenant !
+]],
+}
+
+dialog{
+  id = "_no_empty_bottle",
+  skip = "all",
+  text = [[
+Tu n'as pas de bouteille vide !
+Par conséquent, tu ne peux
+pas en transporter !
+]],
+}
+
+dialog{
+  id = "_quit",
+  question = "1",
+  skip = "current",
+  text = [[
+Voulez-vous continuer la partie ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "_save",
+  question = "1",
+  skip = "current",
+  text = [[
+Voulez-vous sauvegarder ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "_shop.amount_full",
+  skip = "current",
+  text = [[
+Tu es déjà au maximum !
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  skip = "current",
+  text = [[
+Désolé, mais tu n'as
+pas assez d'argent !
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Prix : $v rubis.
+Acheter
+Ne pas acheter
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/boss_key.1",
+  icon = "89",
+  skip = "current",
+  text = [[
+Tu as trouvé la Clé d'Or ! $0
+
+
+Tu peux maintenant accéder
+au repaire du Boss de 
+ce Donjon !
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/compass.1",
+  icon = "82",
+  skip = "current",
+  text = [[
+Tu as trouvé la Boussole ! $0
+
+
+Ta position ainsi que celle
+des coffres et de l'objet clé 
+du Donjon te sont révélés. 
+Ouvre la carte pour jeter 
+un oeil à tout ça !
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/map.1",
+  icon = "81",
+  skip = "current",
+  text = [[
+Tu as trouvé la Carte du
+Donjon ! $0
+
+Tu peux à présent avoir 
+accès à la carte des lieux. 
+
+Tu peux également passer 
+d'un étage à l'autre
+sur l'écran de carte. 
+Les pièces sombres sont 
+celles inexplorées pour le 
+moment.
+]],
+}
+
+dialog{
+  id = "_treasure.dungeons/small_key.1",
+  icon = "80",
+  skip = "all",
+  text = [[
+Tu as obtenu une Petite Clé!$0
+
+
+Elle doit servir à ouvrir
+une porte dans cette zone...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/bomb_bag.1",
+  icon = "64",
+  skip = "current",
+  text = [[
+Tu as trouvé un Sac
+de Bombes !$0 
+
+Il contient 20 Bombes.
+Assigne-les à une touche et 
+fais tout sauter !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/bomb_bag.2",
+  icon = "65",
+  skip = "current",
+  text = [[
+Tu obtiens le
+Grand Sac de Bombes !$0
+
+Il peut contenir
+jusqu'à 40 Bombes
+au lieu de 20 !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/bomb_bag.3",
+  icon = "66",
+  skip = "current",
+  text = [[
+Tu obtiens le Sac
+de Bombes Géant !$0
+
+Il peut contenir
+jusqu'à 99 Bombes !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/flippers.1",
+  icon = "43",
+  skip = "current",
+  text = [[
+Tu as trouvé les
+Palmes !$0
+
+Tu peux désormais
+nager en eau profonde !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.1",
+  icon = "40",
+  skip = "current",
+  text = [[
+Tu obtiens les Bracelets 
+de Force ! $0
+
+Tu peux maintenant soulever
+des objets ! Approche-toi
+et appuie sur Action pour
+les soulever.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.2",
+  icon = "41",
+  skip = "current",
+  text = [[
+Tu obtiens les Gants de 
+Puissance ! $0
+
+Tu peux maintenant soulever
+les pierres blanches ou
+autres objets qui étaient
+trop lourds pour toi !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/glove.3",
+  icon = "42",
+  skip = "current",
+  text = [[
+Tu obtiens les Mouffles des
+Titans ! $0
+
+Tu peux maintenant soulever
+les pierres noires qu'il 
+t'était impossible d'ébranler !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/golden_ore.1",
+  icon = "208",
+  skip = "current",
+  text = [[
+Tu as trouvé du Minerai
+doré ! $0
+
+Ce matériau rarissime
+est utilisé en forge pour
+fabriquer les lames
+les plus puissantes.
+C'est en tout cas ce que
+disent les forgerons...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/ice_key.1",
+  icon = "44",
+  skip = "current",
+  text = [[
+Tu as trouvé la
+Clé de Glace !$0
+
+Elle doit sûrement
+servir à ouvrir une
+porte glacée...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/pegasus_shoes.1",
+  icon = "45",
+  skip = "current",
+  text = [[
+Tu obtiens les Bottes de
+Pégase ! $0
+
+Ces bottes te permettront 
+de filer comme le vent !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/power_moon_detector.1",
+  icon = "48",
+  skip = "current",
+  text = [[
+Tu reçois le Détecteur
+de Lunes de Puissance !$0
+
+Grace à cet objet, tu pourras
+être informé de la présence
+de Lunes dans une zone.
+En entrant dans un lieu, 
+tu entendras un son si des 
+Lunes s'y trouvent.
+Dans un Donjon, le Détecteur
+fera un son si une Lune
+est présente dans l'étage.
+C'est ça le progrès !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/quiver.2",
+  icon = "68",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 60 Flèches
+au lieu de 30 !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/quiver.3",
+  icon = "69",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 99 Flèches
+au lieu de 60 !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/rupee_bag.1",
+  icon = "60",
+  skip = "current",
+  text = [[
+Tu as trouvé une bourse ! $0
+
+
+Tu peux maintenant 
+transporter des rubis, la
+monnaie d'Hyrule ! 
+Mais attention, tu ne peux en 
+avoir que 300 au maximum...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/rupee_bag.2",
+  icon = "61",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Grand Sac de Rubis !$0
+
+Il peut contenir
+jusqu'à 1000 rubis !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/rupee_bag.3",
+  icon = "62",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Sac de Rubis Géant !$0
+
+Il peut contenir
+jusqu'à 5000 rubis !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/rupee_bag.4",
+  icon = "63",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Sac de Rubis sans fond !$0
+
+Il peut contenir
+jusqu'à 9999 rubis !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.1",
+  icon = "73",
+  skip = "current",
+  text = [[
+Tu obtiens un Petit 
+Bouclier !$0
+
+Tu es protégé contre les
+projectiles ennemis comme
+les pierres ou les flèches.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.2",
+  icon = "74",
+  skip = "current",
+  text = [[
+Tu obtiens le
+Bouclier hylien !$0
+
+Tu es désormais protégé 
+contre les attaques magiques.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/shield.3",
+  icon = "75",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Bouclier Miroir !$0
+
+Tu peux désormais
+contrer les lasers ou les
+sorts les plus puissants.
+La magie du bouclier 
+augmente également
+ta Défense !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.1",
+  icon = "76",
+  skip = "current",
+  text = [[
+Tu as trouvé une Epée !$0
+
+
+Appuie sur Attaque pour t'en
+servir et combattre tes
+ennemis. 
+Maintient Attaque enfoncé 
+pour charger ton épée et 
+relache le bouton après un
+certains temps pour faire
+une attaque circulaire
+dévastatrice !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.2",
+  icon = "77",
+  skip = "current",
+  text = [[
+Tu as fait forger
+ton épée !$0
+
+Ta force augmente !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.3",
+  icon = "78",
+  skip = "current",
+  text = [[
+Tu as trouvé
+l'Epée de Légende !$0
+
+Cette Lame légendaire
+aurait le pouvoir de
+repousser le mal !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/sword.4",
+  icon = "79",
+  skip = "current",
+  text = [[
+Tu as fait forger 
+l'Epée de Légende !$0
+
+La puissance de
+cette épée dépasse
+l'entendement...
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/swordsman_scroll.1",
+  icon = "48",
+  skip = "current",
+  text = [[
+Tu obtiens le Précis
+d'escrime !$0
+
+Tu peux désormais faire
+l'attaque tornade, technique
+des grands maîtres épéistes !
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/tunic.2",
+  icon = "71",
+  skip = "current",
+  text = [[
+Tu as trouvé la Tunique
+bleue ! $0
+
+Celle-ci augmente 
+ta défense.
+]],
+}
+
+dialog{
+  id = "_treasure.equipment/tunic.3",
+  icon = "72",
+  skip = "current",
+  text = [[
+Tu as trouvé la Tunique
+rouge ! $0
+
+Celle-ci augmente 
+encore ta défense !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/boomerang.1",
+  icon = "3",
+  skip = "current",
+  text = [[
+Tu as trouvé un
+Boomerang !$0
+
+Utilise-le pour immobiliser 
+des ennemis à distance ou 
+pour activer des mécanismes.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/boomerang.2",
+  icon = "4",
+  skip = "current",
+  text = [[
+Tu as trouvé le
+Super Boomerang !$0
+
+Il est plus rapide
+et va plus loin que
+le vieux !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_1.1",
+  icon = "10",
+  skip = "current",
+  text = [[
+Tu obtiens une bouteille ! $0
+
+
+Celle-ci te permettra de 
+stocker de nombreuses choses
+comme des potions ou des fées.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_1.2",
+  icon = "11",
+  skip = "current",
+  text = [[
+Tu as rempli ta bouteille
+avec de l'eau ! $0
+
+Tu peux l'utiliser pour la 
+verser sur quelque chose 
+ou la donner à quelqu'un.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_2.1",
+  icon = "10",
+  skip = "current",
+  text = [[
+Tu obtiens une bouteille ! $0
+
+
+Celle-ci te permettra de 
+stocker de nombreuses choses
+comme des potions ou des fées.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bottle_2.2",
+  icon = "11",
+  skip = "current",
+  text = [[
+Tu as rempli ta bouteille
+avec de l'eau ! $0
+
+Tu peux l'utiliser pour la 
+verser sur quelque chose 
+ou la donner à quelqu'un.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bow.1",
+  icon = "1",
+  skip = "current",
+  text = [[
+Tu as trouvé un Arc 
+et des flèches !$0
+
+Tu peux maintenant vaincre
+les ennemis à distance et
+sans risque !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/cane_of_somaria.1",
+  icon = "20",
+  skip = "current",
+  text = [[
+Tu as trouvé la Canne
+de Somaria ! $0
+
+Elle te permettra d'invoquer
+des blocs devant toi.
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.1",
+  icon = "220",
+  skip = "current",
+  text = [[
+Tu as acheté une Bière ! $0
+
+
+Dommage tu détestes en
+boire... mais peut-être
+que quelqu'un en voudrait ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.2",
+  icon = "221",
+  skip = "current",
+  text = [[
+Tu obtiens une Poêle
+à frire ! $0
+
+Bien joué...$0
+Tu sais cuisiner au moins ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.3",
+  icon = "222",
+  skip = "current",
+  text = [[
+Tu obtiens une
+Roche volcanique ! $0
+
+Cette pierre venant du
+Volcan grondant est très
+chaude !
+Celui qui en a besoin doit
+se les geler !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.4",
+  icon = "223",
+  skip = "current",
+  text = [[
+Tu as acheté une Bière ! $0
+
+
+Dommage tu détestes en
+boire... mais peut-être
+que quelqu'un en voudrait ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.5",
+  icon = "224",
+  skip = "current",
+  text = [[
+Tu obtiens un Rappeltout ! $0
+
+
+Avec ça, tu n'oublieras
+plus jamais rien !$0
+En théorie...
+Qui a des soucis de mémoire ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.6",
+  icon = "225",
+  skip = "current",
+  text = [[
+Tu obtiens une Corde ! $0
+
+
+Elle peut te servir à
+construire une barque...
+Je dis ça je dis rien...
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.7",
+  icon = "226",
+  skip = "current",
+  text = [[
+Tu obtiens une Pokéball ! $0
+
+
+Cet objet mystérieux doit
+avoir été perdu...
+Connais-tu son propriétaire ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/echange.8",
+  icon = "227",
+  skip = "current",
+  text = [[
+Tu obtiens un Diamant ! $0
+
+
+Cette pierre très chère
+est recherchée par moult
+collectionneurs...
+Peut-être que tu connaitrais
+une personne intéressée ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/fire_rod.1",
+  icon = "16",
+  skip = "current",
+  text = [[
+Tu obtiens la Baguette de
+Feu ! $0
+
+Grace à elle tu pourras
+allumer les torches à
+distance !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/hammer.1",
+  icon = "9",
+  skip = "current",
+  text = [[
+Tu obtiens un Marteau ! $0
+
+
+Il te permettra d'enfoncer
+les pilones sur ta route et
+les interrupteurs rouillés !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/hookshot.1",
+  icon = "6",
+  skip = "current",
+  text = [[
+Tu as trouvé le Grappin ! $0
+
+
+Il se détend et se contracte
+et te permettra de t'agripper
+à beaucoup de choses !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/lamp.1",
+  icon = "5",
+  skip = "current",
+  text = [[
+Tu obtiens une Lanterne !  $0
+
+
+Elle te permettra de 
+t'éclairer dans l'obscurité.
+Mais prends garde à ta magie !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_cape.1",
+  icon = "8",
+  skip = "current",
+  text = [[
+Tu obtiens la Cape magique ! $0
+
+
+Tu peux te rendre invincible
+tant que tu as de la magie !
+
+Cependant tu ne pourras
+pas utiliser ton épée ni
+mettre le jeu en pause
+pendant ton invulnérabilité.
+A utiliser prudemment !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_mushroom.1",
+  icon = "18",
+  skip = "current",
+  text = [[
+Tu as trouvé un
+Champignon ! $0
+
+Il a une odeur... spéciale.
+Peut-être que quelqu'un en
+a besoin ?
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/magic_powder.1",
+  icon = "19",
+  skip = "current",
+  text = [[
+Tu obtiens de la
+Poudre magique ! $0
+
+Essaie de la saupoudrer
+sur toutes sortes de choses.
+Qui sait ce qui se passera !
+]],
+}
+
+dialog{
+  id = "_treasure.other/blue_potion.1",
+  icon = "14",
+  skip = "current",
+  text = [[
+Tu obtiens de la
+Potion bleue ! $0
+
+Cette potion te restaurera
+toute ta magie et tes 
+coeurs si tu la bois.
+]],
+}
+
+dialog{
+  id = "_treasure.other/green_potion.1",
+  icon = "13",
+  skip = "current",
+  text = [[
+Tu obtiens de la
+Potion verte ! $0
+
+Cette potion te restaurera
+toute ta magie si tu
+la bois.
+]],
+}
+
+dialog{
+  id = "_treasure.other/inn_key.1",
+  icon = "120",
+  skip = "current",
+  text = [[
+Tu obtiens la clé d'une
+chambre pour cette auberge ! $0
+
+Tu peux a présent te
+reposer dans cette auberge.
+
+Mais attention ! Tu perdras
+la clé en quittant 
+l'auberge.
+]],
+}
+
+dialog{
+  id = "_treasure.other/red_potion.1",
+  icon = "12",
+  skip = "current",
+  text = [[
+Tu obtiens de la
+Potion rouge ! $0
+
+Cette potion te restaurera
+tous tes coeurs si tu
+la bois.
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/arrow.1",
+  icon = "95",
+  next = "_treasure.pickable/arrow.1.1",
+  skip = "current",
+  text = [[
+Tu as trouvé une
+flèche !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/arrow.1.1",
+  skip = "current",
+  text = [[
+Utilise l'Arc et les flèches 
+pour vaincre des ennemis à
+distance et sans risque.
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/arrow.2",
+  icon = "95",
+  next = "_treasure.pickable/arrow.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens 5 flèches !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/arrow.3",
+  icon = "95",
+  next = "_treasure.pickable/arrow.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens 10 flèches !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/arrow.4",
+  icon = "95",
+  next = "_treasure.pickable/arrow.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens un lot de
+30 flèches !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/bomb.1",
+  icon = "94",
+  next = "_treasure.pickable/bomb.1.1",
+  skip = "current",
+  text = [[
+Tu as trouvé une
+bombe !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/bomb.1.1",
+  skip = "current",
+  text = [[
+Utilise une Bombe
+pour faire exploser
+un ennemi ou un obstacle.
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/bomb.2",
+  icon = "94",
+  next = "_treasure.pickable/bomb.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens 5 bombes !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/bomb.3",
+  icon = "94",
+  next = "_treasure.pickable/bomb.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens 10 bombes !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/bomb.4",
+  icon = "94",
+  next = "_treasure.pickable/bomb.1.1",
+  skip = "current",
+  text = [[
+Tu obtiens un lot de
+20 bombes !$0
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/heart.1",
+  icon = "96",
+  skip = "current",
+  text = [[
+Tu obtiens un Coeur de vie ! $0
+
+
+Ton énergie remonte
+d'un coeur !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/hearts_pile.1",
+  icon = "90",
+  skip = "current",
+  text = [[
+Tu obtiens un Tas
+de 3 coeurs ! $0
+
+Ton énergie remonte de
+3 coeurs !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/magic_flask.1",
+  icon = "91",
+  skip = "current",
+  text = [[
+Tu obtiens une petite
+Fiole de magie !$0
+
+Ton énergie magique est
+restaurée en partie.
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/magic_flask.2",
+  icon = "92",
+  skip = "current",
+  text = [[
+Tu obtiens une Grande
+Fiole de magie !$0
+
+Ton énergie magique est
+restaurée en 
+grande partie !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.1",
+  icon = "110",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis vert ! $0
+
+Un rubis vert vaut 
+1 rubis vert !
+
+Les rubis sont la monnaie en
+Hyrule, essaie d'en collecter
+le plus possible !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.2",
+  icon = "111",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis bleu ! $0
+
+Un rubis bleu vaut
+5 rubis verts !
+C'est bien !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.3",
+  icon = "112",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis rouge ! $0
+
+Un rubis rouge vaut 
+20 rubis verts !
+C'est joli !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.4",
+  icon = "113",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis violet ! $0
+
+Un rubis violet vaut
+50 rubis verts !
+C'est super !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.5",
+  icon = "114",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis orange ! $0
+
+Un rubis orange vaut
+100 rubis verts !
+C'est grandiose !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.6",
+  icon = "115",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis d'argent ! $0
+
+Un rubis d'argent vaut
+200 rubis verts !
+C'est épatant !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupee.7",
+  icon = "116",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Rubis doré ! $0
+
+Un rubis doré vaut
+300 rubis verts !
+C'est l'extase !
+]],
+}
+
+dialog{
+  id = "_treasure.pickable/rupoor.1",
+  icon = "117",
+  skip = "current",
+  text = [[
+Tu as trouvé
+un Roupir ! $0
+
+Tu perds 50 rubis !
+C'est dommage !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/certificate.1",
+  icon = "131",
+  skip = "current",
+  text = [[
+Tu obtiens le Certificat
+de Collectionneur
+Perfectionniste ! $0
+Ce certificat est la preuve
+que tu as trouvé toutes les 
+Lunes de Puissance du jeu !
+...Sérieusement ?$0
+Tu t'es vraiment em{{{{{ à 
+chercher toutes ces m{{{{{ ?
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/heart_container.1",
+  icon = "129",
+  skip = "current",
+  text = [[
+Tu obtiens un Réceptacle
+de coeur ! $0
+
+Ton énergie vitale augmente
+d'un coeur !
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/piece_of_heart.1",
+  icon = "125",
+  skip = "current",
+  text = [[
+Tu as trouvé un
+Quart de Coeur !$0
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/power_moon.1",
+  icon = "209",
+  skip = "all",
+  text = [[
+Vous gagnez une Lune ! $0
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/triforce.1",
+  text = [[
+Tu as trouvé la Triforce ! $0
+
+
+]],
+}
+
+dialog{
+  id = "_treasure.quest_items/trophy.1",
+  icon = "130",
+  text = [[
+Tu obtiens le Trophée
+de la Victoire ! $0
+
+Tu as terminé ce donjon
+et réussi le défi de Zeldo !
+Bien joué !
+]],
+}
+
+dialog{
+  id = "decorations.barrel",
+  skip = "all",
+  text = [[
+Tu inspectes ce tonneau...
+Tu n'y trouves rien d'utile...
+]],
+}
+
+dialog{
+  id = "decorations.bath",
+  skip = "all",
+  text = [[
+C'est un bassin... cela permet
+aux gens de se laver.
+
+Et oui, on fait avec ce qu'on a
+dans les RPG !
+]],
+}
+
+dialog{
+  id = "decorations.bath_smith",
+  skip = "all",
+  text = [[
+C'est un bassin... mais celui-ci
+est utilisé pour refroidir les
+armes de la forge.
+Il vaut mieux ne pas s'y laver !
+]],
+}
+
+dialog{
+  id = "decorations.bed",
+  skip = "all",
+  text = [[
+C'est un lit... mais il est déjà
+à quelqu'un... Tu ne vas pas y
+dormir quand même !
+]],
+}
+
+dialog{
+  id = "decorations.cooker",
+  skip = "all",
+  text = [[
+C'est une cuisinière, dommage
+que tu ne saches pas cuisiner...
+
+Et oui, il ne suffit pas de lancer
+des ingrédients au hasard pour
+faire un plat !
+]],
+}
+
+dialog{
+  id = "decorations.fireplace",
+  skip = "all",
+  text = [[
+C'est une cheminée...
+Attention ça brûle !
+]],
+}
+
+dialog{
+  id = "decorations.library",
+  skip = "all",
+  text = [[
+Cette bibliothèque contient
+de nombreux livres... Mais rien
+de bien utile à l'aventure...
+]],
+}
+
+dialog{
+  id = "decorations.shelf",
+  skip = "all",
+  text = [[
+De nombreux ornements sont
+présents sur cette étagère...
+C'est joli mais surtout inutile !
+]],
+}
+
+dialog{
+  id = "decorations.smith_lava",
+  skip = "all",
+  text = [[
+Ce bassin de lave doit permettre
+au forgeron de travailler...
+Ne te brûle pas !
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+C'est beaucoup trop
+lourd pour toi !
+]],
+}
+
+dialog{
+  id = "destructible_cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+Oh la la, c'est
+bien trop lourd !
+
+Tu n'y arriveras jamais
+rien que par la force
+de tes bras !
+]],
+}
+
+dialog{
+  id = "door.block.locked",
+  skip = "all",
+  text = [[
+Ce bloc possede un trou de
+serrure.Si tu avais une Petite
+Clé, tu pourrais avancer !
+]],
+}
+
+dialog{
+  id = "door.block.weaked",
+  skip = "all",
+  text = [[
+Ce bloc est fissuré... il
+serait sûrement destructible 
+par explosion...
+]],
+}
+
+dialog{
+  id = "door.closed.1",
+  skip = "all",
+  text = [[
+Cette porte est fermée. Tu ne 
+peux pas l'ouvrir de tes 
+mains.
+]],
+}
+
+dialog{
+  id = "door.closed.2",
+  skip = "all",
+  text = [[
+Cette porte est fermée a clé.
+Si tu avais une Petite Clé, tu
+pourrais l'ouvrir !
+]],
+}
+
+dialog{
+  id = "door.closed.3",
+  skip = "all",
+  text = [[
+Cette porte possède un verrou
+spécial... seule une Clé d'Or
+te permettra de l'ouvrir...
+]],
+}
+
+dialog{
+  id = "door.ice_palace",
+  skip = "all",
+  text = [[
+C'est une serrure de glace...
+Une clé ordinaire ne pourra
+pas ouvrir cette porte...
+]],
+}
+
+dialog{
+  id = "door.weak",
+  skip = "all",
+  text = [[
+Ce mur semble fissuré...
+peut-être qu'une explosion
+pourrait dévoiler un passage...
+]],
+}
+
+dialog{
+  id = "end.get_heroic_mode",
+  skip = "current",
+  text = [[
+Bravo et merci encore pour avoir
+terminé le jeu.
+
+Pour vous récompenser, voici un
+petit cadeau: le Mode Héroïque !
+
+Dans ce mode, les ennemis vous
+ingligeront deux fois plus
+de dommages.
+De plus, toute présence de
+coeurs de vie disparaitra.
+
+Lorsque vous recommencerez une
+nouvelle partie à l'avenir, vous
+pourrez choisir de jouer en
+Mode Héroïque ou non.
+Bon amusement et bon courage si
+le challenge vous tente !
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.answer_no",
+  skip = "current",
+  text = [[
+Ah bon ?
+Tu es aussi étourdi que
+mon frère ? Soit...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.answer_yes",
+  skip = "current",
+  text = [[
+Génial ! Je vais le donner
+directement à mon frère !
+Enfin libre de faire son travail !
+Ah oui... Pour t'aider: si tu ne
+sais pas avancer dans le
+labyrinthe de la forêt, sache
+qu'à chaque fois que tu vois
+une feuille, cela représente
+un croisement dans le dédale.
+Ah tu le savais déjà ?$0
+Hum...$0
+Et bien...$0
+En tout cas, j'ai cette corde
+pour toi ! Elle est faite pour
+résister à l'eau et fabriquer
+une barque si tu as des planches
+avec elle.
+
+Quoi ? Tu as un autre moyen de
+nager ? Bon... bah tant pis...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.need_item",
+  skip = "current",
+  text = [[
+Oh j'en ai marre de lui...
+Tiens salut, tu as besoin
+d'une info ?
+Désolé mais tu tombes mal.
+Je dois encore faire le
+travail de mon frère à sa place.
+Il oublie toujours ce qu'il
+doit faire !
+A moins qu'il se fiche de moi...
+En tout cas, si tu trouves
+quelque chose qui permet de ne 
+plus rien oublier, donne-le moi.
+Je t'aiderai en retour...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.need_item_2",
+  skip = "current",
+  text = [[
+Ah enfin fini de travailler...
+Tiens salut, tu as besoin
+d'une info ?
+J'aimerais bien t'aider mais
+je suis vraiment troublé
+par mon petit frère...
+Il oublie toujours ce qu'il
+doit faire !
+A moins qu'il se fiche de moi...
+En tout cas, si tu trouves
+quelque chose qui permet de ne 
+plus rien oublier, donne-le moi.
+Je t'aiderai en retour...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Qu'est-ce que c'est ?
+Un Rappeltout ?
+Jamais entendu parler...
+Ca permet de te rappeler ce que
+tu as oublié ? Super !
+Si tu me le donnes, je t'aiderai !
+Tu ne le regretteras pas !
+Je te le donne
+Pas besoin d'aide...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_1.trade_done",
+  skip = "current",
+  text = [[
+Oh c'est toi ! Merci encore
+pour le Rappeltout !
+Par contre mon frère a trouvé
+le moyen de le perdre...
+Je me demande s'il ne se fiche
+pas vraiment de moi...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_2.before_trade",
+  skip = "current",
+  text = [[
+Salut toi ! Je ne t'ai jamais
+vu par ici...
+
+Par contre excuse-moi j'étais
+occupé de...$0 Heu...$0
+J'ai carrément oublié...
+]],
+}
+
+dialog{
+  id = "forest.lumberjack_2.trade_done",
+  skip = "current",
+  text = [[
+Salut ! Dis, c'est bien toi
+qui a donné un Rappeltout
+pour moi ? 
+Merci beaucoup ! Grace à ça
+je sais exactement quoi...
+Heu...$0 Oh mince !
+En plus je ne sais plus où
+j'ai rangé le Rappeltout !
+]],
+}
+
+dialog{
+  id = "forest.syrup.get_mushroom",
+  skip = "current",
+  text = [[
+Te revoilà étranger.
+As-tu trouvé une utilité
+à ma poudre ?
+Besoin d'une potion ?
+Je peux t'en vendre si tu as
+au moins une bouteille vide.
+]],
+}
+
+dialog{
+  id = "forest.syrup.give_powder",
+  skip = "current",
+  text = [[
+Mais c'est un champignon de la
+forêt que tu as là !
+Attends un peu...$0
+...$0 
+...$0 
+Et voilà !$0
+Tiens c'est pour toi !
+Je ne sais pas à quoi ça sert
+mais je t'en donne quand même !
+]],
+}
+
+dialog{
+  id = "forest.syrup.need_mushroom",
+  skip = "current",
+  text = [[
+Il ne me manque qu'un champignon
+pour achever ma préparation
+mais je suis bien trop vieille
+pour aller en chercher...
+Ils se trouvent au fond
+de la forêt...
+Ah bienvenue étranger !
+Désolé j'étais distraite...
+Je vends des potions si tu veux.
+La seule condition pour en
+acheter est que tu aies 
+au moins une bouteille vide...
+]],
+}
+
+dialog{
+  id = "found_fairy",
+  question = "1",
+  skip = "current",
+  text = [[
+Tu as trouvé une fée.
+Elle est merveilleuse !
+
+Que vas-tu en faire ?
+La mettre dans une bouteille
+Utiliser ses soins
+]],
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  skip = "current",
+  text = [[
+Tu n'as pas de bouteille vide !
+Tu utilises par conséquent les
+soins de la fée directement.
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.1",
+  icon = "126",
+  skip = "current",
+  text = [[
+4 Quarts de coeur forment
+un Réceptacle de Coeur.
+Encore 3 à trouver !
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.2",
+  icon = "127",
+  skip = "current",
+  text = [[
+Encore 2 et tu obtiendras
+un coeur supplémentaire !
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.3",
+  icon = "128",
+  skip = "current",
+  text = [[
+Plus qu'un à trouver pour
+obtenir un nouveau coeur !
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.4",
+  icon = "129",
+  skip = "current",
+  text = [[
+Les 4 Quarts de coeur te
+donnent un Réceptacle de
+Coeur. 
+Ton énergie augmente
+d'un coeur !
+]],
+}
+
+dialog{
+  id = "found_water",
+  question = "1",
+  skip = "current",
+  text = [[
+Veux-tu prendre de l'eau ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  skip = "current",
+  text = [[
+Tu peux prendre de l'eau ici mais
+tu n'as pas de récipient pour
+la transporter...
+]],
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  skip = "current",
+  text = [[
+Tu peux prendre de l'eau ici mais
+tu n'as pas de bouteille vide
+pour la transporter...
+]],
+}
+
+dialog{
+  id = "hermit.answer_no",
+  skip = "current",
+  text = [[
+$1Froid...$0
+Si froid...$0
+]],
+}
+
+dialog{
+  id = "hermit.answer_yes",
+  skip = "current",
+  text = [[
+$1Froid...$0
+Fr...$0
+...$0
+Aaaah...$0 Je vais un peu mieux 
+merci...$0
+Tiens...$0 Pour toi...$0
+]],
+}
+
+dialog{
+  id = "hermit.need_item",
+  skip = "current",
+  text = [[
+$1Froid...$0
+Si froid...$0
+Toi...$0 Tu pourrais m'aider ?$0
+]],
+}
+
+dialog{
+  id = "hermit.question",
+  question = "1",
+  skip = "current",
+  text = [[
+$1Ca... Chaud ?$0
+Donne-le moi...$0
+S'il te plait...$0
+Donner chaud ?$0
+$3Oui chaud chaud !
+Non...
+]],
+}
+
+dialog{
+  id = "hermit.trade_done",
+  skip = "current",
+  text = [[
+$1Oh toi...$0
+Merci...$0
+Mais froid revenir...$0
+]],
+}
+
+dialog{
+  id = "hs.need_book_of_mudora",
+  skip = "all",
+  text = [[
+{|{|{|{|{|{|{{{|
+{}||}{}|{}|{}|}{
+|{|{|{|}|}
+]],
+}
+
+dialog{
+  id = "inn.answer_no",
+  skip = "current",
+  text = [[
+Très bien. Revenez me voir si
+vous changez d'avis.
+]],
+}
+
+dialog{
+  id = "inn.answer_yes",
+  skip = "current",
+  text = [[
+Merci Monsieur. Voici votre clé
+de chambre. Bon séjour !
+]],
+}
+
+dialog{
+  id = "inn.bed.rest",
+  question = "1",
+  skip = "current",
+  text = [[
+Souhaitez-vous vous reposer ?
+(cette action fera passer
+une demi journée)
+Dormir ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "inn.good_stay",
+  skip = "current",
+  text = [[
+Passez un bon séjour !
+]],
+}
+
+dialog{
+  id = "inn.need_inn_key",
+  skip = "all",
+  text = [[
+Il te faut une clé pour accéder
+à cette chambre et te reposer.
+]],
+}
+
+dialog{
+  id = "inn.no_money",
+  skip = "current",
+  text = [[
+Désolé mais vous n'avez pas
+assez d'argent.
+]],
+}
+
+dialog{
+  id = "inn.not_front_office",
+  skip = "current",
+  text = [[
+Si vous souhaitez me parler,
+veuillez aller de l'autre
+côté du comptoir.
+]],
+}
+
+dialog{
+  id = "inn.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Bienvenue à l'auberge ! 
+Voulez-vous vous reposer ? Une
+chambre vous coutera 5 rubis.
+Séjourner ici ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "intro.fresco_1",
+  text = [[
+$1C'est ainsi qu'il y a 2 ans, 
+Adenothe réussit le défi 
+originel de Zeldo...
+]],
+}
+
+dialog{
+  id = "intro.fresco_2",
+  text = [[
+$1Zeldo passa depuis de bons
+moments en famille et en
+toute tranquilité...
+]],
+}
+
+dialog{
+  id = "intro.fresco_3",
+  text = [[
+$1Cependant un jour, Skye
+provoqua à nouveau Zeldo
+en duel...
+]],
+}
+
+dialog{
+  id = "intro.fresco_4",
+  text = [[
+$1Ainsi Zeldo se remit au
+travail, préparant une Tour
+faites de pièces de ALTTP...
+]],
+}
+
+dialog{
+  id = "intro.fresco_5",
+  text = [[
+$1A présent il est temps pour toi, 
+que tu sois Skye ou un autre, 
+d'essayer ce second défi de Zeldo !
+]],
+}
+
+dialog{
+  id = "lost_man.answer_no",
+  skip = "current",
+  text = [[
+Oh non s'il te plait !
+J'ai tellement besoin de
+retourner à la civilisation !
+]],
+}
+
+dialog{
+  id = "lost_man.answer_yes",
+  skip = "current",
+  text = [[
+Mille merci à toi !
+Grace à cette corde, je vais
+pouvoir finir ma barque !
+Tiens, laisse-moi t'offrir
+ceci... Cette balle bizarre
+s'est échouée ici...
+Je suis sur que tu lui
+trouveras une utilité.
+]],
+}
+
+dialog{
+  id = "lost_man.need_item",
+  skip = "current",
+  text = [[
+Oh ça alors ! Quelqu'un !
+Tu viens du village ?
+
+J'étais de service près du
+pont mais je suis tombé 
+à l'eau !
+J'ai donc dérivé et je suis
+arrivé sur cette ile...
+Ca fait des jours que je vis ici !
+J'ai commencé à construire une
+barque à l'aide de bois mais
+sans corde ça ne sert à rien !
+J'ai bien peur de finir ma vie
+ici... Si tu peux m'aider
+ce serait avec joie !
+]],
+}
+
+dialog{
+  id = "lost_man.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Comment ? Mais c'est une corde
+que tu as là ! Grace à ça je 
+pourrai finir ma barque !
+Tu me la donnes ? S'il te plait ?
+Tiens prends-la
+Non pas envie...
+]],
+}
+
+dialog{
+  id = "lost_man.ready_to_go",
+  skip = "current",
+  text = [[
+Bon et bien il ne me reste
+qu'à me mettre au travail...
+En avant !
+]],
+}
+
+dialog{
+  id = "lost_man.trade_done",
+  skip = "current",
+  text = [[
+Oh c'est toi. Depuis mon retour
+ici mon ile me manque...
+Mais ma barque s'est brisée...
+J'avais oublié à quel point
+mon boulot était ennuyeux...
+J'aimerais bien repartir...
+]],
+}
+
+dialog{
+  id = "mailbox.smith",
+  skip = "current",
+  text = [[
+Chez Smith le forgeron nain
+]],
+}
+
+dialog{
+  id = "mailbox.symetry",
+  skip = "current",
+  text = [[
+Chez les frères Symétrie
+]],
+}
+
+dialog{
+  id = "mailbox.takapa",
+  skip = "current",
+  text = [[
+Manoir de Takapa
+]],
+}
+
+dialog{
+  id = "mailbox.tim",
+  skip = "current",
+  text = [[
+Chez Tim
+]],
+}
+
+dialog{
+  id = "pokemon_trainer.answer_no",
+  skip = "current",
+  text = [[
+Quoi ? Mais c'est ma pokéball ! 
+Rends-la moi ! 
+Espèce de voleur !
+]],
+}
+
+dialog{
+  id = "pokemon_trainer.answer_yes",
+  skip = "current",
+  text = [[
+Merci bien ! Pikachu pourra enfin
+retourner dans sa pokéball.
+
+Tiens prends cette pierre. 
+Je pensais que c'était une 
+pierre de feu mais non...
+Donc je te la donne !
+]],
+}
+
+dialog{
+  id = "pokemon_trainer.need_item",
+  skip = "current",
+  text = [[
+Salut ! Je suis Red, jeune
+dresseur de pokémons.
+
+Je faisais route vers Kanto
+mais j'ai perdu ma pokéball...
+Mon pikachu l'a jetée...
+Elle a du dériver mais sans 
+pokemon qui maitrise la CP Surf 
+impossible de la retrouver...
+Bref ! Si jamais tu la retrouves
+pourrais-tu me la rendre ?
+Ce serait gentil, merci.
+]],
+}
+
+dialog{
+  id = "pokemon_trainer.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Eh ! C'est ma pokéball !
+Tu l'as retrouvée ? C'est génial !
+Pikachu pourra enfin y rentrer.
+Donne-la vite !
+Tiens
+Nan je la garde !
+]],
+}
+
+dialog{
+  id = "pokemon_trainer.trade_done",
+  skip = "current",
+  text = [[
+Tiens te revoila. Je vais rester
+encore un peu ici avant de
+reprendre la route vers Kanto...
+Par contre mon Pikachu refuse
+toujours de rentrer dans
+sa pokéball...
+]],
+}
+
+dialog{
+  id = "ruins_trader.answer_no",
+  skip = "current",
+  text = [[
+Très bien... Je comprends
+que tu veuilles garder
+ce précieux joyau...
+]],
+}
+
+dialog{
+  id = "ruins_trader.answer_yes",
+  skip = "current",
+  text = [[
+Formidable ! Ce diamant sera
+le clou de ma collection !
+
+Comme promis, je vais te remettre
+un objet unique. Il s'agit de
+la Cape magique !
+Cette Cape unique te rendra
+invisible et invincible !
+Par contre elle consomme de
+la magie et il te sera impossible
+d'utiliser ton épée tant que
+tu la porteras mais bon...
+Tiens, je te la donne et
+gratuitement. Considérons ton
+diamant comme mon pairement...
+]],
+}
+
+dialog{
+  id = "ruins_trader.need_item",
+  skip = "current",
+  text = [[
+Je suis ravi de te retrouver ici.
+Les affaires vont pouvoir
+reprendre...
+Savais-tu que j'ai commencé une
+collection de pierres précieuses
+depuis ton départ ?
+J'avais juste envie de le dire...
+Juste comme ça...
+]],
+}
+
+dialog{
+  id = "ruins_trader.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Oui ? Que veux-tu me donner ?
+Oh un diamant ! Il serait parfait
+pour ma collection de joyaux !
+Tu veux bien me le donner en
+échange d'un article
+complètement fou et unique ?
+Alors ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "ruins_trader.trade_done",
+  skip = "current",
+  text = [[
+Cette région est vraiment
+bizarre... ressemblant à Hyrule
+mais tellement différente aussi...
+N'hésite pas à utiliser la
+Cape magique pour te faciliter
+la vie. Tu l'as bien méritée !
+]],
+}
+
+dialog{
+  id = "shop.arrow",
+  icon = "95",
+  skip = "current",
+  text = [[
+Un lot de Flèches.
+
+
+Utilise-les pour
+éliminer tes ennemis
+de loin et sans risque !
+]],
+}
+
+dialog{
+  id = "shop.blue_potion",
+  icon = "102",
+  skip = "current",
+  text = [[
+Une Potion bleue.
+
+
+Ce breuvage restaurera à
+la fois ton énergie vitale
+et magique.
+N'en achète pas sans 
+bouteille vide !
+]],
+}
+
+dialog{
+  id = "shop.bomb",
+  icon = "94",
+  skip = "current",
+  text = [[
+Un paquet de Bombes.
+
+
+Utilise les pour tout
+faire sauter !
+]],
+}
+
+dialog{
+  id = "shop.bottle",
+  icon = "10",
+  skip = "current",
+  text = [[
+Une bouteille vide.
+
+
+Ca peut toujours te servir
+à stocker des objets comme
+des potions ou des fées.
+C'est ma dernière en stock,
+ne passe pas à côté !
+]],
+}
+
+dialog{
+  id = "shop.flippers",
+  icon = "43",
+  skip = "current",
+  text = [[
+Des Palmes.
+
+
+Avec ça, nager ne te fera
+plus peur !
+]],
+}
+
+dialog{
+  id = "shop.glove",
+  icon = "41",
+  skip = "current",
+  text = [[
+Des Gants de Puissance.
+
+
+Ces gants te donneront la
+force de soulever les pierres
+qui te barrent la route.
+Un objet qui te libèrera
+de nombreux chemins dans
+les environs !
+]],
+}
+
+dialog{
+  id = "shop.green_potion",
+  icon = "101",
+  skip = "current",
+  text = [[
+Une Potion verte.
+
+
+Ce breuvage restaurera
+ton énergie magique. N'en
+achète pas sans bouteille !
+]],
+}
+
+dialog{
+  id = "shop.heart_piece",
+  icon = "125",
+  skip = "current",
+  text = [[
+Un Quart de coeur.
+
+
+Il parait qu'en collecter
+beaucoup permet d'allonger
+la vitalité.
+Offre spéciale sur cet
+article: Les premiers achetés
+seront les moins chers !
+]],
+}
+
+dialog{
+  id = "shop.heart_pile",
+  icon = "90",
+  skip = "current",
+  text = [[
+Un tas de
+3 coeurs.
+
+Il te restaurera une
+partie de ton énergie
+vitale.
+]],
+}
+
+dialog{
+  id = "shop.hookshot",
+  icon = "6",
+  skip = "current",
+  text = [[
+Un Grappin.
+
+
+Il te servira à t'agriper
+à certains objets comme des
+coffres ou des blocs.
+L'outil indispensable pour
+franchir les gouffres !
+]],
+}
+
+dialog{
+  id = "shop.magic_flask",
+  icon = "92",
+  skip = "current",
+  text = [[
+Une grosse Flasque verte
+de magie.
+
+Celle-ci te restaurera
+une grande partie de
+ta jauge de magie.
+]],
+}
+
+dialog{
+  id = "shop.moon",
+  icon = "209",
+  skip = "current",
+  text = [[
+Une Lune de Puissance.
+
+
+J'en ai tout un stock, par
+contre j'ignore totalement
+à quoi ça sert...
+Offre spéciale sur cet
+article: Les premières
+achetées seront les moins
+chères !
+]],
+}
+
+dialog{
+  id = "shop.red_potion",
+  icon = "100",
+  skip = "current",
+  text = [[
+Une Potion rouge.
+
+
+Ce breuvage restaurera
+ton énergie vitale. N'en
+achète pas sans bouteille !
+]],
+}
+
+dialog{
+  id = "shop.welcome_merchant",
+  skip = "current",
+  text = [[
+Link, salut à toi !
+Achète donc quelque chose...
+]],
+}
+
+dialog{
+  id = "shop.welcome_merchant_1st_time",
+  skip = "current",
+  text = [[
+Link ! Tu me reconnais ?
+
+
+Je suis le marchand ambulant
+qui voyageait dans Hyrule.
+
+Cependant depuis ton départ
+les affaires ne marchent
+plus trop bien...
+Je suis donc venu ici et
+on se retrouve, quel bonheur !
+
+Je vends des articles
+indispensables pour tout
+aventurier à prix réduit !
+Ne pars pas sans ces objets,
+ils seront indispensables
+à ton aventure !
+]],
+}
+
+dialog{
+  id = "shop.welcome_merchant_all_sold",
+  skip = "current",
+  text = [[
+Salut Link ! Encore merci
+d'avoir acheté tous mes
+articles !
+Si tu veux tu peux toujours
+venir bavarder...
+]],
+}
+
+dialog{
+  id = "shop.welcome_takapa_shop_rdc",
+  skip = "current",
+  text = [[
+Bonjour Monsieur.
+Besoin d'un article en
+particulier ?
+Nous avons tout ce qui peut
+servir aux aventuriers.
+
+Mon frère vend des articles
+plus rares au sous-sol si 
+vous en avez besoin.
+]],
+}
+
+dialog{
+  id = "shop.welcome_takapa_shop_ss1",
+  skip = "current",
+  text = [[
+Oh salut... tu as besoin de
+quelque chose ?
+
+Je vends des articles
+rarissimes ! Regarde donc et
+n'hésite pas à acheter !
+]],
+}
+
+dialog{
+  id = "shop.welcome_takapa_shop_ss1_all_sold",
+  skip = "current",
+  text = [[
+Ah, mon meilleur client !
+Je n'ai plus rien en stock
+malheureusement... Merci !
+]],
+}
+
+dialog{
+  id = "sign.A1_ice_palace_entrance",
+  skip = "current",
+  text = [[
+Palais de la Glace.
+Fermé en raison de moult
+claviers et manettes cassés.
+Si vous souhaitez y entrer,
+récupérez la Clé de Glace dans 
+la caverne du Rivage abrupt.
+Elle y a été cachée pour éviter
+qu'elle ne soit encore volée par 
+un ours et un oiseau suspects.
+]],
+}
+
+dialog{
+  id = "sign.A2_to_mountain",
+  skip = "current",
+  text = [[
+Accès vers le Sommet enneigé.
+Bloqué par des pierres blanches.
+Gants de Puissance requis !
+]],
+}
+
+dialog{
+  id = "sign.A2_village_entrance",
+  skip = "current",
+  text = [[
+Village de Takapa
+]],
+}
+
+dialog{
+  id = "sign.B1_to_mountain",
+  skip = "current",
+  text = [[
+Accès vers le Volcan grondant.
+Attention aux fortes chaleurs
+et à la lave !
+]],
+}
+
+dialog{
+  id = "sign.B2_lumberjack_note",
+  skip = "current",
+  text = [[
+Attention de ne pas se perdre
+dans la forêt ! Nous avons placé
+des lampes pour votre sécurité.
+Ne déviez pas de leur route !
+
+- Les frères Bucheron
+]],
+}
+
+dialog{
+  id = "sign.B2_maze_hint",
+  skip = "current",
+  text = [[
+La forêt s'épaissit à partir
+d'ici. 
+
+Pour ne pas vous perdre
+dans les feuillus, suivez la
+route des feuilles.
+]],
+}
+
+dialog{
+  id = "sign.fire_palace_entrance",
+  skip = "current",
+  text = [[
+Palais du Feu.
+Scellé en raison de la
+présence de monstres trop forts.
+Si vous êtes un vrai guerrier,
+vous pouvez y entrer en activant
+la sphère à proximité.
+Si vous ne la voyez pas,
+observez les alentours en
+appuyant sur S.
+]],
+}
+
+dialog{
+  id = "tails.rescued",
+  skip = "current",
+  text = [[
+Hey Kibô !
+Comment tu vas depuis 
+le combat contre Anima ?
+Moi ? Et bien Zeldo m'a fait
+quitter Mobius via un téléporteur
+jusqu'ici...
+Il ne va sûrement pas en 
+rester là !
+
+Il a comme projet de mélanger
+plusieurs univers pour créer un 
+Royaume à son image !
+Cela sèmerait le Chaos dans les
+univers originaux !
+Il faut l'arrêter !
+Vite, partons pour La Capitale !
+En volant nous y serons en
+peu de temps ! En avant !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.barman.beer_answer_no",
+  skip = "current",
+  text = [[
+Tu n'aimes pas l'alcool ?
+Si tu veux de l'eau, va
+t'abreuver dehors !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.barman.beer_bought",
+  skip = "current",
+  text = [[
+Apparemment tu n'as pas l'air
+d'apprécier la bière...
+C'est bien dommage...
+Je ne peux rien pour toi, c'est
+une taverne ici, pas un bar
+à jus !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.barman.beer_no_money",
+  skip = "current",
+  text = [[
+Tu n'as pas assez d'argent ?
+Tu ne vaux pas mieux que cet
+écureuil roux, va le rejoindre !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.barman.beer_question",
+  question = "1",
+  skip = "current",
+  text = [[
+Tiens un nouveau ! Besoin d'une
+petite douceur ? Une bière
+te coutera 2 rubis.
+Alors intéressé ?
+Oh oui !
+Heu... nan
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.barman.dialog",
+  skip = "current",
+  text = [[
+Heu... désolé mais je ne discute
+jamais avec les clients. Ils
+sont bien trop bourrés pour
+s'en soucier...
+Donc fais-moi plaisir et va de
+l'autre côté du comptoir.
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.body_guard_night",
+  skip = "current",
+  text = [[
+Nous escortons le Capitaine
+tant qu'il n'est pas chez lui.
+Ceci est purement professionnel.
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.captain_guard",
+  skip = "current",
+  text = [[
+Après une dure journée de labeur
+il n'y a rien de mieux qu'une
+bonne bière !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.conker.answer_no",
+  skip = "current",
+  text = [[
+QUOI ???$0
+J'ai du mal piger là...$0
+Répète pour voir !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.conker.answer_yes",
+  skip = "current",
+  text = [[
+Super ! Merci mon gars !
+Tiens c'est pour toi.
+Je n'en aurai plus besoin...
+J'ai déjà assomé assez de clés
+et de maïs avec ça.
+Elle est pour toi !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.conker.need_beer",
+  skip = "current",
+  text = [[
+Put{{{ de tavernier de m{{{{ !
+Je suis venu ici pour goûter
+la meilleure bière au monde
+mais ce c{{{{{{ refuse mes
+dollars ! Il n'accepte que des
+'rubis'.
+Résultat je suis coincé ici !
+Je suis le Roi dans mon pays
+je fais ce que je veux bord{{ !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.conker.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Qu'est-ce que tu me veux bord...$0
+...$0 Oh !$0
+C'est une bière !
+Donne-moi ca tout de suite mec !
+Allez fais pas ta p{{{ !
+Je t'offrirai mon arme en retour !
+Alors ?
+Allez, tiens
+Va te faire f{{{{{ !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.conker.trade_done",
+  skip = "current",
+  text = [[
+Fan-fuc{{{{-tastique...
+C'est vraiment la meilleure
+bière de ma vie ! Merci mon gars !
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.day_guard",
+  skip = "current",
+  text = [[
+Je suis de garde au bar le temps
+de la journée...$0
+Quoi ?$0 Cette bière ?$0
+C'est pour le travail...$0
+Hips !$0
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.drunk_man",
+  skip = "current",
+  text = [[
+Hips !$0
+Ce vin est vraiment délicieux !$0
+Gloire à Takapa et Zeldo !$0 Hips !$0
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.merchant_1",
+  skip = "current",
+  text = [[
+Aaah... les bières de ce serveur
+sont vraiment les meilleures !
+
+Il vient du Nord parait-il...
+De Bel... gie ? Je ne me 
+souviens plus du nom exact...
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.merchant_2",
+  skip = "current",
+  text = [[
+Bonsoir cher client !
+Désolé mais le Magasin est fermé
+pendant la nuit.
+Si tu veux acheter de nouveaux
+articles tu devras attendre
+le jour.
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.old_man_day",
+  skip = "current",
+  text = [[
+Toi ! Oui toi ! Tu es nouveau 
+ici ? Je t'en prie écoute-moi !
+
+Je suis le frère de Takapa mais
+ce bougre a trompé tout le monde !
+Ellie n'est pas sa fille...
+C'est moi son véritable père !
+C'est moi qui devrait gouverner
+le Comté !
+C'est mon héritière ! Ma fille
+chérie... Bientôt Takapa
+tombera...
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.old_man_night",
+  skip = "current",
+  text = [[
+Zzzz...$0 Zzzz...$0
+Ellie...$0 Ma fille chérie...$0
+Zzzz...$0
+]],
+}
+
+dialog{
+  id = "takapa_village.bar.thief",
+  skip = "current",
+  text = [[
+Dis, savais-tu qu'une ancienne
+Fontaine de Grande Fée se cache
+derrière la cascade du vilage ?
+Il parait que si tu y fais une
+offrande, une Grande Fée
+t'exaucera un voeu ! 
+]],
+}
+
+dialog{
+  id = "takapa_village.cucco_keeper",
+  skip = "current",
+  text = [[
+Sois gentil avec les cocottes !
+Elles n'en ont pas l'air mais
+elle peuvent être redoutables !
+Encore plus que les pires
+monstres de ce monde.
+
+Je te le répète fais bien
+attention... 
+
+Ces cocottes sont encore plus 
+agressives que celles qu'on peut 
+trouver en Hyrule !
+]],
+}
+
+dialog{
+  id = "takapa_village.ellie",
+  skip = "current",
+  text = [[
+Tu es bien Link, Héros d'Hyrule ?
+C'est un honneur, je suis Ellie,
+fille du Comte Takapa.
+J'ai lu un tas de choses sur toi !
+Sa Majesté Zeldo t'a invitée chez
+nous alors fais ce qu'il te plait.
+]],
+}
+
+dialog{
+  id = "takapa_village.fountain.offering_done",
+  skip = "current",
+  text = [[
+Tu as démasqué le voleur et
+compris son arnaque !
+
+Par conséquent je pense que ce
+serait complètement stupide
+de refaire une offrande...
+Qui c'est qui avait raison
+tantôt hein ? :P
+]],
+}
+
+dialog{
+  id = "takapa_village.fountain.offering_no_money",
+  skip = "current",
+  text = [[
+C'est bien mignon mais on dirait
+que tu n'as pas assez d'argent...
+Reviens avec plus de rubis !
+]],
+}
+
+dialog{
+  id = "takapa_village.fountain.offering_question",
+  question = "1",
+  skip = "current",
+  text = [[
+C'est une Fontaine de Grande Fée. 
+Il parait que si tu y fais une
+offrande, une Grande Fée viendra.
+Personnellement je pense que
+ce sont des balivernes mais
+libre à toi !
+Que décides-tu ?
+Faire une offrande
+Ne rien faire
+]],
+}
+
+dialog{
+  id = "takapa_village.fountain.offering_question_how_much",
+  question = "1",
+  skip = "current",
+  text = [[
+Sérieux ? Et de combien ?
+5 rubis
+20 rubis
+]],
+}
+
+dialog{
+  id = "takapa_village.inn.cooker.answer_no",
+  skip = "current",
+  text = [[
+Ah je comprends...
+Tu dois sûrement en avoir
+besoin pour cuisiner...
+]],
+}
+
+dialog{
+  id = "takapa_village.inn.cooker.answer_yes",
+  skip = "current",
+  text = [[
+Oh c'est super gentil ! Merci !
+En échange, je te permets de
+venir déjeuner ici mes omelettes
+au fromage quand tu le voudras 
+et gratuitement ! Et en prime,
+je te donne ceci !
+]],
+}
+
+dialog{
+  id = "takapa_village.inn.cooker.need_item",
+  skip = "current",
+  text = [[
+Oh non ! Que vais-je faire ?
+Je n'ai plus de poêle
+à frire !
+Comment vais-je préparer
+mes omelettes pour les
+clients qui viennent
+déjeuner le matin...
+Si seulement j'en trouvais
+une ce serait un miracle !
+]],
+}
+
+dialog{
+  id = "takapa_village.inn.cooker.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Mais c'est une poêle à frire
+que tu as là !
+
+Si tu me la donnais je
+pourrais enfin refaire
+des omelettes pour mes clients !
+S'il te plait ?
+Allez tiens
+Non je la garde
+]],
+}
+
+dialog{
+  id = "takapa_village.inn.cooker.trade_done",
+  skip = "current",
+  text = [[
+Oh c'est toi ! Merci encore
+pour ton aide ! Je suis sauvée !
+Et les clients sont satisfaits !
+Tiens, prends ce petit
+morceau d'omelette au fromage.
+Ca me fait plaisir !
+]],
+}
+
+dialog{
+  id = "takapa_village.mansion_cooker",
+  skip = "current",
+  text = [[
+Travailler ici c'est vraiment
+le pied ! Quand je pense à ma
+fille qui travaille à l'auberge...
+Elle travaille plus dur pour
+les clients et gagne moins !
+Ce monde est vraiment mal fait !
+]],
+}
+
+dialog{
+  id = "takapa_village.sahasrahla.house",
+  skip = "current",
+  text = [[
+Salut Link !
+Et puis ? Y a-t-il eu de
+l'avancement dans ta quête ?
+]],
+}
+
+dialog{
+  id = "takapa_village.sahasrahla.house_1st_time",
+  skip = "current",
+  text = [[
+Tiens Link, te revoilà.
+Ce jeune homme a gentiment
+accepté de m'accueillir.
+Si tu es venu me voir c'est 
+que tu as besoin d'aide, non ?
+Ca tombe bien !
+J'ai justement emmené avec
+moi ma collection du Guide
+de l'Aventurier.
+J'ai rangé ces livres dans le
+sous-sol de cette maison. Tu 
+peux aller les consulter si
+tu en as besoin.
+
+
+Et maintenant je vais répéter
+la même phrase à chaque fois
+que tu viendras me parler...
+]],
+}
+
+dialog{
+  id = "takapa_village.sahasrahla.intro",
+  skip = "current",
+  text = [[
+Link, te voilà !
+Laisse-moi te faire part
+de la situation...
+Le trophée que tu as pris
+dans le donjon du Défi
+de Zeldo était un portoloin !
+Il t'a amené ici, dans les
+terres de Takapa, à l'ouest
+d'Haïroule, Royaume de Zeldo !
+Zeldo t'attend à présent
+au sommet de la Tour des
+Souvenirs, au nord-est d'ici.
+Libre à toi de te rendre
+tout de suite à la tour mais
+tu peux aussi explorer
+le nouveau monde qui s'ouvre
+à toi pour te préparer à
+ce second défi.
+Pour ma part, je vais
+m'installer dans la maison
+juste à gauche.
+Si tu as besoin d'aide,
+n'hèsite pas à venir me voir.
+Bonne chance !
+]],
+}
+
+dialog{
+  id = "takapa_village.sahasrahla.intro_wall",
+  skip = "all",
+  text = [[
+Link, reviens ici !
+J'ai à te parler, c'est
+super important !
+]],
+}
+
+dialog{
+  id = "takapa_village.shop.hp_done",
+  skip = "current",
+  text = [[
+On dirait que tu as acheté
+tout mon stock de Quarts
+de coeur !
+Merci beaucoup ! Je ne pensais
+jamais tomber sur un tel pig...$0
+hum...$0 un tel bon client.
+]],
+}
+
+dialog{
+  id = "takapa_village.shop.moons_done",
+  skip = "current",
+  text = [[
+On dirait que tu as acheté
+tout mon stock de Lunes
+de Puissance !
+Mais tu es complètement c...$0
+hum...$0 fan de ces merveilles
+ma parole ! Merci pour tes achats.
+]],
+}
+
+dialog{
+  id = "takapa_village.shop.next_hp",
+  skip = "current",
+  text = [[
+Merci bien ! Mais le prochain
+sera plus cher !
+]],
+}
+
+dialog{
+  id = "takapa_village.shop.next_moon",
+  skip = "current",
+  text = [[
+Merci bien ! Mais la prochaine
+sera plus chère !
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.finished",
+  skip = "current",
+  text = [[
+Ah te revoila... J'espère que
+mon travail te facilite
+la vie face aux monstres.
+Par contre tu m'excuseras mais
+j'ai plein de boulot de retard.
+Ca m'apprendra à glander...
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.interupt_working",
+  skip = "current",
+  text = [[
+Hum... Je comprends que tu
+veuilles m'aider mais laisse
+les pros faire ce sera mieux...
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.sword_not_ready",
+  skip = "current",
+  text = [[
+Je t'ai déjà dit que tu ne peux
+récupérer ton épée qu'en début
+de journée.
+Tu vas encore devoir patienter !
+Décidément ces jeunes, toujours
+aussi pressés...
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.sword_ready",
+  skip = "current",
+  text = [[
+Rebonjour! J'ai terminé ton
+épée. Tiens, voilà pour toi.
+
+Par contre je viens de remarquer
+que j'ai encore plus de retard
+maintenant... vite au boulot !
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.temper_no",
+  skip = "current",
+  text = [[
+Ah bon ? Tu es un bien curieux
+personnage mais bon si tu
+préfères ton épée naturelle soit.
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.temper_no_money",
+  skip = "current",
+  text = [[
+Désolé mais tu n'as pas assez
+d'argent. Je serais ravi de
+t'aider mais il faut me payer !
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.temper_question",
+  question = "1",
+  skip = "current",
+  text = [[
+Bonjour jeune homme...
+Mais c'est du Minerai doré
+que tu as là !
+Grace à ça je pourrai forger ton
+épée à la perfection !
+Tu sais quoi ? Revoir une telle
+beauté m'a remotivé ! Je vais
+faire ton épée avant le reste
+de mon travail même !
+Par contre tu devras me payer
+100 rubis pour mes services.
+Rien n'est gratuit dans ce monde !
+Alors qu'en dis-tu ?
+Oui volontier
+Non j'aime mon épée comme ca
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.temper_yes",
+  skip = "current",
+  text = [[
+Parfait ! Je vais donc m'occuper
+de ton épée. Par contre je
+n'aurai pas fini avant demain.
+Tu ne pourras venir chercher ton
+épée qu'au debut de la journée
+par contre. Ce sont mes horaires !
+Si tu trouves le temps long
+tu peux toujours aller
+à l'auberge... à demain !
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.welcome",
+  skip = "current",
+  text = [[
+Bonjour jeune homme. Je suis
+le forgeron de Takapa et oui
+je suis un nain.
+Faut croire que les concepteurs
+de JRPG adorent faire des 
+forgerons nains... enfin bref !
+Si tu souhaites perfectionner
+ton épée tu es arrivé au bon
+endroit !
+Cependant au vu de ta Lame
+seul du Minerai doré me
+permettra d'en faire de quoi...
+Je suis désolé pour toi. Mais
+si tu m'en ramènes je te promets
+que je t'aiderai !
+Par contre j'ai du boulot moi...
+Bah, ca pourra attendre à
+plus tard...
+]],
+}
+
+dialog{
+  id = "takapa_village.smith.work",
+  skip = "current",
+  text = [[
+Hé ne touche pas à ça !
+C'est ma livraison pour le
+Capitaine de la Garde.
+D'ailleurs ça me fait penser
+que ça fait un bon moment qu'il 
+était supposé passer la chercher...
+Pourtant il n'a que ça à faire
+de ses journées...$0 Hum...$0
+Je n'ai rien dit !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.1",
+  skip = "current",
+  text = [[
+Nous montons la garde.
+Ne fais pas de bêtises ou tu
+auras affaire à nous !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.2",
+  skip = "current",
+  text = [[
+Cette zone est sous notre
+surveillance. De nuit comme
+de jour...
+Vivement l'augmentation...
+On pourras enfin se reposer
+à la tav...$0 Hum !$0 Circulez !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.3",
+  skip = "current",
+  text = [[
+Monter la garde c'est 
+fatiguant à la longue...
+Rester fixe sans but...
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.4",
+  skip = "current",
+  text = [[
+Halte citoyen ! Avez-vous votre
+passeport en ordre ? Sinon vous 
+pouvez retourner chez vous !
+Comment ?$0 Originaire d'Hyrule ?$0
+Ah vous devez être Link...$0
+Très bien vous pouvez passer...
+Le Roi en personne nous a chargé
+de vous exempter de toutes ces
+formalités inuti...$0 Hum !$0
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.5",
+  skip = "current",
+  text = [[
+De mon temps, nous pouvions
+fouiller les citoyens... Mais
+le Roi a retiré ces pratiques !
+Les jugeant 'barbantes et 
+inutiles'. Mais bon, comme c'est 
+le Roi on ferme les yeux...
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.body_guard",
+  skip = "current",
+  text = [[
+Nous sommes les Gardes du corps
+personnels de Takapa.
+Ne cherche pas les ennuis !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.body_guard_night",
+  skip = "current",
+  text = [[
+Takapa est en train de se reposer.
+Je ne laisserai PERSONNE traverser
+cette porte. Du balai !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.body_guard_night_2",
+  skip = "current",
+  text = [[
+Je suis de garde devant ce 
+rideau... Je ne sais pas pourquoi 
+mais défense d'approcher !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.captain_guard",
+  skip = "current",
+  text = [[
+Oui ? Je suis bien le Capitaine
+des gardes de Takapa.
+Je travaille dur !
+Je suis chargé de faire des
+rapports réguliers à Takapa et...$0
+Organiser l'horaire des soldats...$0
+Hum...$0 Et d'autres affaires
+privées...$0 En ce moment même
+je suis très occupé...
+Allez du vent, je travaille !
+Vivement la fin de la journée que
+je puisse aller au bar...
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.takapa_mansion_dinner_room",
+  skip = "current",
+  text = [[
+Cette porte mène à la salle
+à manger. Notre Capitaine y
+travaille durant la journée.
+Ne le dérange surtout pas !
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.takapa_mansion_entrance",
+  skip = "current",
+  text = [[
+Voici le Manoir de Takapa.
+Tu peux y entrer, ordre du Comte.
+]],
+}
+
+dialog{
+  id = "takapa_village.soldiers.takapa_mansion_saloon",
+  skip = "current",
+  text = [[
+Cette porte mène au salon.
+Ellie, la fille du Comte aime
+y lire le temps de la journée.
+Ne la dérange surtout pas !
+]],
+}
+
+dialog{
+  id = "takapa_village.symetry",
+  skip = "current",
+  text = [[
+Mon frère habite juste à côté
+de chez moi et ne cesse de
+me copier.
+Mais il y a une différence
+chez moi qu'il ne trouvera
+jamais !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa",
+  skip = "current",
+  text = [[
+Sois le bienvenue Link.
+Je suis le Comte Takapa et je
+règne sur ce Comté.
+Sa Majesté Zeldo t'a invité ici
+pour les besoins de son second
+Défi.
+Il t'attend en ce moment même
+à la Tour des Souvenirs, dans
+les Ruines de la Brume.
+Pour t'y rendre, passe par les
+bois feuillus à l'est du village.
+Ensuite sors par le nord.
+Si tu le savais déjà excuse-moi,
+mon âge avancé me fait perdre
+la tête...
+Tu es ici comme chez toi, enfin
+presque... Ne fais pas n'importe
+quoi quand même !
+Dernière chose, si tu vois un
+vieil homme au bar n'y fais
+pas attention...
+C'est mon frère mais il a
+complètement perdu la tête...
+Trop de kanamojo... Quel désastre.
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_HEY",
+  skip = "current",
+  text = [[
+LINK !!!
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_angry",
+  skip = "current",
+  text = [[
+Maudit verrat !
+Disparais immédiatement !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_diary",
+  skip = "current",
+  text = [[
+C'est un journal intime...
+Il semble appartenir à
+Takapa !
+Hélas un cadenas empêche son
+ouverture...
+Qu'a-t-il donc à cacher ?
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_dress",
+  skip = "current",
+  text = [[
+Cette armoire contient
+de nombreux vieux vêtements...
+Tu y trouves un rubis bleu !
+Il vaudrait mieux le laisser
+à sa place...
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_secret",
+  skip = "current",
+  text = [[
+Ah on dirait que tu as trouvé
+ma pièce secrète ! Je t'autorise
+à y prendre le Quart de coeur
+mais je t'interdis formellement
+de voler mes rubis !
+Tu es prévenu !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_spell",
+  skip = "current",
+  text = [[
+sol.main.reset()
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_warning_1",
+  skip = "current",
+  text = [[
+Link ! Je t'avais prévenu !
+J'entends le bruit d'un rubis
+glisser dans ta bourse...
+Je vais te laisser le bénéfice
+du doute... Ne recommence pas !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_warning_2",
+  skip = "current",
+  text = [[
+Je t'avais prévenu !
+Sale voleur !
+Rembourse-moi et disparais !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_warning_3",
+  skip = "current",
+  text = [[
+Ah c'est comme ça !
+Ce sont mes terres et invité
+de Zeldo ou non tu vas payer !
+Je te prends tout ton argent,
+ça t'apprendra ! Ne t'avise pas 
+de prendre le dernier rubis !
+]],
+}
+
+dialog{
+  id = "takapa_village.takapa_warning_4",
+  skip = "current",
+  text = [[
+...$0
+Très bien...$0
+Tu ne me laisses pas le choix...$0
+Sa Majesté m'a appris un de
+ses sorts, voyons s'il est 
+super efficace !
+]],
+}
+
+dialog{
+  id = "takapa_village.thief.after_boots",
+  skip = "current",
+  text = [[
+Comment ? Tu n'es pas content ?
+Tu dis que cela ne correspond
+pas à ton sens de la justice ?
+Tu es bien drôle ! Je ne sais
+pas d'où tu viens mais sur
+ces terres la seule Justice
+est celle que tu te fais
+toi-même ! Je trouve cela
+très 'juste' personnellent.
+Bon allez, je file...
+Rassure-toi je vais arrêter
+mes affaires ici.
+De toute facon j'ai collecté
+assez de rubis pour pouvoir
+partir d'ici.
+Adieu !
+]],
+}
+
+dialog{
+  id = "takapa_village.thief.battle_end",
+  skip = "current",
+  text = [[
+Grrr !$0
+Pas mal pour un simple
+gringalet comme toi !
+Je te propose un marché:
+Prends ça et en échange
+tu ne diras rien aux gardes.
+]],
+}
+
+dialog{
+  id = "takapa_village.thief.before_battle",
+  skip = "current",
+  text = [[
+Qu...$0 Qu'est-ce que tu fais là ?$0
+Tu m'as entendu j'imagine ?
+
+Ce n'est pas bien de te mêler
+de ce qui ne te regarde pas...
+Je vais devoir te tuer ici...
+En garde !
+]],
+}
+
+dialog{
+  id = "takapa_village.thief.fountain",
+  skip = "current",
+  text = [[
+Eh eh eh... encore quelqu'un
+qui est tombé dans le panneau !
+Regarde-moi tout cet argent !
+Une fois que j'en aurai réuni
+assez, direction La Capitale !
+
+Il parait que les gens y sont
+à l'image de leur Roi,
+complètement stupides !
+Je serai riche en un rien de
+temps avec mes histoires
+loufoques...
+Hein ?$0
+D'où vient cette lumière ?
+]],
+}
+
+dialog{
+  id = "takapa_village.thief.home",
+  skip = "current",
+  text = [[
+Encore toi ? Que veux-tu ?
+Je t'ai donné mes bottes
+en échange de ton silence.
+Rassure-toi, je vais bientot
+partir d'ici... juste le
+temps de faire mes affaires...
+]],
+}
+
+dialog{
+  id = "takapa_village.thief_diary",
+  skip = "current",
+  text = [[
+C'est un journal intime...
+Son possesseur l'a mal caché...
+Donc lisons-le !
+Par contre passons tout de suite 
+aux dernières pages, les autres
+n'ont pas trop d'intérêt ici...
+'XV-Kasuto-1033,
+
+
+Aujourd'hui j'ai récupéré
+50 autres rubis. Mon plan est
+vraiment génial !
+Il suffit juste de trouver des
+gens assez naïfs ou bourrés au
+bar et leur raconter cette
+vieille histoire de Grande Fée
+et les voilà qui foncent faire
+une offrande à la fontaine !
+Seulement ils ne savent pas
+que c'est moi qui prend les
+offrandes pendant la nuit !
+Je suis vraiment trop
+intelligent ! Tant que personne
+ne trouve ce journal...
+Peut-être que je devrais arrêter
+d'écrire pour moi-même...'
+]],
+}
+
+dialog{
+  id = "takapa_village.tim",
+  skip = "current",
+  text = [[
+Oh salut... tu connais ce type ?
+
+
+Il a débarqué, rangé plein de
+livres au sous-sol et depuis
+squatte chez moi...
+J'espère qu'il partira
+bientot...
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.1",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 1: Commandes de base
+
+Voici la liste des commandes
+possible à faire dans le jeu:
+
+- Action (Espace) permet diverses
+interractions (parler, courir,
+porter, nager, ...).
+- Attaque (C) permet d'attaquer 
+avec l'épée. En maintenant la
+touche, vous pourrez charger
+votre épée. Vous pourrez alors
+tapoter les murs ou effectuer une 
+attaque circulaire en relachant.
+- Objet gauche/droit (X/V) permet
+d'utiliser un objet assigné
+à une de ces touches.
+- Pause (D) permet de mettre le
+jeu en pause et de naviguer entre
+les divers menus.
+- Sauvegarde (Echap) permet de
+sauvegarder la partie. Vous
+pourrez ensuite choisir de
+continuer ou non votre partie.
+N'oubliez pas que tout aventurier
+doit se reposer régulièrement !
+- Regarder autour (S) permet de
+regarder au-delà des limites
+de la caméra en la bougeant.
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.2",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 2: Les menus de pause:
+L'Inventaire
+En appuyant sur Pause, vous
+ouvrirez par défaut le menu
+de l'Inventaire.
+Ce menu comprend plusieurs
+informations divisées dans divers
+rectangles de couleur.
+Le rectangle bleu représente les
+objets assignables. Vous pouvez
+bouger votre curseur sur ces
+objets et décider de les utiliser
+en les assignant à Objet gauche/
+droit.
+Le rectangle jaune représente les
+objets de quête. Ils indiquent en
+général votre progression
+dans des quêtes diverses et 
+variées, principales ou annexes.
+
+Le rectangle vert représente les
+objets d'équipement. Ce sont des
+objets dont l'effet est passif ou 
+permettent une nouvelle commande.
+
+
+Enfin le rectangle rouge contient
+des statistiques relatives à la
+partie: Votre temps de jeu, 
+votre attaque/défense et votre
+nombre de morts.
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.3",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 3: Les autres menus de
+pause
+L'Inventaire n'est pas le seul
+menu de pause. En allant à
+l'extrême gauche/droite avec
+votre curseur, vous pouvez
+basculer à d'autres menus.
+
+Le menu de carte montrera la
+carte du monde et votre position si 
+vous êtes dans le monde extérieur.
+Si vous êtes dans un Donjon, il
+vous montrera la carte de la
+zone et les stats du Donjon.
+Un autre menu est le menu des
+Commandes. Il vous permettra
+de modifier les touches utilisées
+et même de jouer avec une manette
+(voir chapitre 5 pour plus de
+détails).
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.4",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 4: Le HUD
+
+Le HUD ou l'interface de jeu
+présente moult informations.
+
+En haut à gauche est indiquée la
+jauge de vie et en-dessous la
+jauge de magie.
+En haut a droite sont indiqués
+les objets assignés aux touches
+X et V, l'icone de l'épée
+ainsi que les actions possibles
+à faire si on appuie sur Action.
+
+En bas à gauche est répertorié
+le nombre de rubis actuels
+ainsi que le nombre de petites
+clés si on se trouve dans un
+Donjon ou une zone contenant des
+petites clés.
+En bas à droite se trouve
+l'horloge. Celle-ci indique le
+cycle actuel du Temps.
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.5",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 5: La customisation des
+commandes et support de manettes
+Le détail des commandes se trouve
+dans le menu Commandes.
+
+Nous n'allons pas les répéter ici
+mais vous indiquer qu'il est
+possible de les modifier.
+Pour ce faire, appuyez sur Action
+sur la commande souhaitée et
+appuyez sur la nouvelle touche.
+Bonne nouvelle pour les amateurs
+de gamepad: Il est possible de
+jouer avec une manette !
+Pour attribuer une action à une
+touche de manette, la méthode est 
+la même que citée précédemment.
+Cependant, il est important de
+signaler que toute customisation
+de touche est sauvegardée
+à chaque fichier de jeu
+uniquement. Si vous démarrez une
+nouvelle partie, vous devrez
+attribuer à nouveau vos touches
+personnelles de clavier/manette.
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.6",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 6: Remettre un objet
+à quelqu'un
+Pour remettre un objet, il ne
+suffit pas de parler à la personne
+concernée avec l'objet en poche.
+Il faut assigner l'objet et
+ensuite appuyer sur la touche
+assignée à côté de la personne.
+Cela semble anodin mais peut
+être contre instinctif pour
+certains !
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.7",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 7: Le cycle jour/nuit
+
+Dans le monde, le Temps passe
+uniquement dans le monde
+extérieur.
+Il suffit de rester assez
+longtemps dans une même zone 
+jusqu'à entendre un effet sonore.
+Cela voudra dire que le temps
+a passé d'un cycle.
+
+Au prochain changement de zone,
+le Temps sera au cycle suivant.
+
+Le Temps est divisé en 6 cycles:
+2 pour le jour, 1 pour le soir,
+2 pour la nuit, 1 pour l'aube.
+Il est conseillé de visiter
+les zones et particulièrement
+les villages de jour et de nuit.
+Suivant le moment de la journée,
+divers événements peuvent se
+passer.
+Note supplémentaire: Dormir dans
+un lit fera passer directement
+au prochain cycle de jour/nuit.
+]],
+}
+
+dialog{
+  id = "takapa_village.tuto_books.8",
+  skip = "all",
+  text = [[
+       Guide de l'Aventurier
+Chapitre 8: Les pièces secrètes
+
+Chaque Donjon dans le monde cache
+au moins une pièce secrète.
+
+Ces pièces se trouvent derrière
+des murs qu'on peut traverser.
+
+Elles cachent en général
+beaucoup d'argent et d'autres
+objets utiles à la quête.
+]],
+}
+
+dialog{
+  id = "toad.1st_time",
+  skip = "current",
+  text = [[
+Bonjour. Je suis un Toad.
+Je suis à la recherche de
+Lunes de Puissance.
+Il y en a 50 dispersées
+dans le Comté de Takapa.
+Mais j'ai trop peur d'y aller...
+Tu as l'air d'être un aventurier,
+veux-tu m'aider ?
+
+Je te donnerai une récompense
+toutes les 10 Lunes de Puissance.
+
+Et si par miracle tu trouves les
+50 Lunes je t'offrirai quelque
+chose d'unique !
+Marché conclu ?
+Tu ne le regretteras pas !
+
+Prends ce détecteur, il m'a été
+remis par mon Capitaine et il
+t'aidera à trouver les Lunes !
+]],
+}
+
+dialog{
+  id = "toad.finished",
+  skip = "current",
+  text = [[
+Je n'ai hélas plus rien
+à t'offrir mais grace à toi je
+possède toutes les Lunes d'ici !
+Le Capitaine sera content !
+]],
+}
+
+dialog{
+  id = "toad.moons_book",
+  text = [[
+Ces livres répertorient la
+position des milliers de
+Lunes de Puissance existantes...
+Tu décides de prendre le
+livre concernant le pays
+d'Haïroule et le Comté de Takapa.
+'Selon nos dernières recherches,
+les Lunes de Puissance sont
+réparties de la facon suivante:
+- 10 se trouvent dans les Donjons.
+- 5 se trouvent dans des maisons.
+- 5 se trouvent dans des cavernes.
+- 20 se trouvent dans le monde
+extérieur.
+- 10 sont détenues par un marchand.
+Ces données ainsi que le Détecteur
+de Lunes devraient faciliter
+leur recherche.'
+]],
+}
+
+dialog{
+  id = "toad.next_reward_10_moons",
+  skip = "current",
+  text = [[
+Je t'offrirai une récompense
+quand tu auras trouvé au moins
+10 Lunes de Puissance.
+]],
+}
+
+dialog{
+  id = "toad.next_reward_20_moons",
+  skip = "current",
+  text = [[
+Je t'offrirai une récompense
+quand tu auras trouvé au moins
+20 Lunes de Puissance.
+]],
+}
+
+dialog{
+  id = "toad.next_reward_30_moons",
+  skip = "current",
+  text = [[
+Je t'offrirai une récompense
+quand tu auras trouvé au moins
+30 Lunes de Puissance.
+]],
+}
+
+dialog{
+  id = "toad.next_reward_40_moons",
+  skip = "current",
+  text = [[
+Je t'offrirai une récompense
+quand tu auras trouvé au moins
+40 Lunes de Puissance.
+]],
+}
+
+dialog{
+  id = "toad.next_reward_50_moons",
+  skip = "current",
+  text = [[
+Je t'offrirai une récompense
+quand tu auras trouvé les
+50 Lunes de Puissance !
+]],
+}
+
+dialog{
+  id = "toad.reward_10_moons",
+  skip = "current",
+  text = [[
+Tu as trouvé au moins 10 Lunes
+de Puissance ? Pas mal !
+Prends ceci en récompense.
+]],
+}
+
+dialog{
+  id = "toad.reward_20_moons",
+  skip = "current",
+  text = [[
+Tu as trouvé au moins 20 Lunes
+de Puissance ? Bien joué !
+Prends ceci en récompense.
+]],
+}
+
+dialog{
+  id = "toad.reward_30_moons",
+  skip = "current",
+  text = [[
+Tu as trouvé au moins 30 Lunes
+de Puissance ? Bravo !
+Prends ceci en récompense.
+]],
+}
+
+dialog{
+  id = "toad.reward_40_moons",
+  skip = "current",
+  text = [[
+Tu as trouvé au moins 40 Lunes
+de Puissance ? Incroyable !
+Prends ceci en récompense.
+]],
+}
+
+dialog{
+  id = "toad.reward_50_moons",
+  skip = "current",
+  text = [[
+Tu as trouvé toutes les 50
+Lunes de Puissance cachées
+dans le Comté de Takapa ???
+Impossible ! Je ne pensais
+jamais que quelqu'un saurait
+y arriver !
+Tiens prends ça, je ne pensais
+pas m'en séparer un jour mais
+tu le mérites amplement !
+]],
+}
+
+dialog{
+  id = "ts.b1_grave_inscription",
+  skip = "current",
+  text = [[
+Ci-git Chara, l'enfant tombé.
+N'allumez pas les 3 bougies
+qui assurent son sommeil.
+]],
+}
+
+dialog{
+  id = "ts.ice_palace_hint_1",
+  skip = "current",
+  text = [[
+Seule la lumière permettra
+de faire fondre la glace
+de ce Palais.
+]],
+}
+
+dialog{
+  id = "ts.ice_palace_hint_2",
+  skip = "current",
+  text = [[
+La glace qui ne scintille pas
+doit être recouverte.
+]],
+}
+
+dialog{
+  id = "ts.ice_palace_hint_3",
+  skip = "current",
+  text = [[
+L'invocation d'un Bloc 
+permettra de dégeler
+la Clé dorée.
+]],
+}
+
+dialog{
+  id = "ts.path_to_ice_cave",
+  text = [[
+Si vous souhaitez vous rendre au 
+Sommet enneigé, il vous faudra 
+le pouvoir d'invoquer des Blocs.
+]],
+}
+
+dialog{
+  id = "ts.sahasrahla",
+  skip = "current",
+  text = [[
+Allo ? Link, c'est Sahasrahla.
+Ecoute-moi bien. J'ai entendu
+dire que Zeldo était faible mais
+méfie-toi de sa magie ! C'est un 
+Créateur donc il peut faire ce 
+qu'il veut en une ligne de code !
+Bon je te laisse, la réception
+est vraiment moisie
+dans ce pays... CLIC !
+]],
+}
+
+dialog{
+  id = "ts.telep_boss",
+  skip = "current",
+  text = [[
+Emprunte le téléporteur si tu
+souhaites ressortir du temple
+ou à contrario revenir ici.
+]],
+}
+
+dialog{
+  id = "zeldo.1st_encounter",
+  skip = "current",
+  text = [[
+Bienvenue à toi, Link...$0
+Ou plutot toi derrière ton écran,
+que tu sois Skye ou un autre...
+J'espère que ton petit voyage
+vers Haïroule s'est bien passé.
+
+Te voici dans mon second Défi:
+La Tour des Souvenirs.
+
+J'ai passé de longues nuits à la
+concevoir, elle ainsi que le
+monde extérieur que tu as vu...
+J'y ai mis moult amour et
+sadisme donc j'espère que tu
+apprécieras tout ça.
+Je te retrouverai en haut de
+la Tour... enfin ça c'est si
+tu y arrives avant de rager :P
+]],
+}
+
+dialog{
+  id = "zeldo.before_1st_encounter",
+  skip = "current",
+  text = [[
+Aaaah...
+Te voila enfin...
+]],
+}
+
+dialog{
+  id = "zeldo.boss.dead",
+  skip = "current",
+  text = [[
+$1Ah...$0 Aaaaah...$0
+Je meurs...$0
+A d i e u . .$0 .  .$0   .
+]],
+}
+
+dialog{
+  id = "zeldo.boss.intro",
+  skip = "current",
+  text = [[
+On dirait bien que tu as réussi
+mon second Défi !
+Bravo à toi !
+Cependant je n'ai pas dit mon
+dernier mot. Que dirais-tu d'un
+dernier combat ?
+Si tu gagnes, je libèrerai Tails
+promis. Si tu perds... tu pourras
+te consoler avec un Game Over :P
+Maestro ! Musique épique !
+]],
+}
+
+dialog{
+  id = "zeldo.boss.music",
+  skip = "current",
+  text = [[
+Heu... on dirait que je me
+suis trompé de musique...
+M{{{{ !
+Peu importe !
+En garde !
+]],
+}
+
+dialog{
+  id = "zeldo.boss.true_ending",
+  skip = "current",
+  text = [[
+Non je plaisante bien sûr...
+Je suis déjà en route pour
+mon Château à la Capitale.
+Comme promis, je libère Tails.
+Merci d'avoir fait ce second
+Défi et j'espère que tu as aimé.
+A plus du coup pour le prochain
+Chapitre ! Non je déconne :P
+Ou pas ? :thinking:
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.before_armos",
+  skip = "current",
+  text = [[
+Mouais trop facile je suppose...
+En plus j'imagine que tu dois en 
+avoir marre de voir celui-là...
+Bon, le Boss suivant te
+demandera d'utiliser un objet
+gagné dans cette Tour !
+Je vais aussi te permettre
+d'accéder aux vases de gauche.
+
+Va te soigner avec les coeurs
+cachés dedans si tu en as besoin.
+
+Assez parlé, place au second
+Boss !
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.before_moldorm",
+  skip = "current",
+  text = [[
+Tu te débrouilles plutôt bien!
+Il me reste un dernier Boss
+pour toi...
+Je vais aussi te libérer l'accès
+aux vases de droite si tu veux
+te soigner.
+Par contre je t'ai réservé le
+meilleur pour la fin car
+TOUT LE MONDE déteste ce Boss !
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.boss_rush_end",
+  skip = "current",
+  text = [[
+Félicitations Skye !
+Ou je ne sais qui... je suppose
+que je n'ai plus trop le choix.
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.follow",
+  skip = "current",
+  text = [[
+Tails se trouve en haut de
+l'escalier derrière moi.
+Suis-moi, je t'y conduis...
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.intro",
+  skip = "current",
+  text = [[
+Ca alors ! Tu es arrivé
+jusqu'ici ???
+Incroyable... :P
+Très bien, approche...
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.intro_boss_rush",
+  skip = "current",
+  text = [[
+Tu ne pensais tout de même
+pas que je te laisserais
+réussir mon défi si facilement ?
+Tout Donjon n'est rien sans
+un Boss ! Et j'ai pensé à
+mieux: un Boss Rush !
+Tu ne seras pas déçu...
+tu m'avais demandé plusieurs
+Boss tu les auras O:)
+Commençons en douceur par
+une version aux stéroïdes
+de mon papillon préféré...
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.spell_armos",
+  skip = "current",
+  text = [[
+armos:set_enabled(true)
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.spell_firewall",
+  skip = "current",
+  text = [[
+firewall:set_enabled(true)
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.spell_firewall_remove",
+  skip = "current",
+  text = [[
+firewall:set_enabled(false)
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.spell_moldorm",
+  skip = "current",
+  text = [[
+moldorm:set_enabled(true)
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.spell_mothula",
+  skip = "current",
+  text = [[
+mothula:set_enabled(true)
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.true_follow",
+  skip = "current",
+  text = [[
+A présent suis-moi...
+Je vais t'amener à Tails...
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.wait",
+  skip = "current",
+  text = [[
+Ah oui j'ai failli oublier...
+]],
+}
+
+dialog{
+  id = "zeldo.end_1st_encounter",
+  skip = "current",
+  text = [[
+Ah ah ah...$0 Hum...$0
+Bref, comme tu le constateras
+la Tour est composée de pièces
+inspirées de A Link to the Past,
+le meilleur jeu du monde !
+
+Donc si tu as du mal, ne me
+blame pas moi mais plutot ce jeu
+cultissime. Eh eh eh...
+Allez à plus tard.
+
+
+Ah oui, j'oubliais ! J'ai capturé
+Tails et je le retiens ici, 
+au sommet de cette Tour !
+Voila comme ca le point scénario
+est fait...
+Allez, je file !
+Je parle trop comme d'habitude !
+On se retrouve en haut de
+la Tour. Bon amusement...
+]],
+}
+

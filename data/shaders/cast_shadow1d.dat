@@ -1,0 +1,4 @@
+shader{
+  vertex_file = "cast_shadow1d.vert.glsl",
+  fragment_file = "cast_shadow1d.frag.glsl",
+}

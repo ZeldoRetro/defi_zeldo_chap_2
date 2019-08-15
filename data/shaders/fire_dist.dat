@@ -1,0 +1,4 @@
+shader{
+  vertex_file = "fire_dist.vert.glsl",
+  fragment_file = "fire_dist.frag.glsl",
+}
