@@ -1,0 +1,50 @@
+animation{
+  name = "brandish",
+  src_image = "hero/underwater.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+  },
+}
+animation{
+  name = "diving",
+  src_image = "hero/underwater.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 5 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+  },
+}
+animation{
+  name = "swimming_fast",
+  src_image = "hero/underwater.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+  },
+}
+animation{
+  name = "swimming_slow",
+  src_image = "hero/underwater.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+  },
+}
+animation{
+  name = "swimming_stopped",
+  src_image = "hero/underwater.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+    { x = 0, y = 0, frame_width = 12, frame_height = 6, origin_x = 6, origin_y = 4 },
+  },
+}
