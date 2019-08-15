@@ -1,0 +1,23 @@
+animation{
+  name = "closed",
+  src_image = "entities/Full Hyrule.entities.png",
+  directions = {
+    { x = 336, y = 120, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 8 },
+  },
+}
+animation{
+  name = "closing",
+  src_image = "entities/Full Hyrule.entities.png",
+  frame_delay = 100,
+  directions = {
+    { x = 336, y = 120, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 0 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "tileset",
+  frame_delay = 100,
+  directions = {
+    { x = 336, y = 120, frame_width = 16, frame_height = 16, origin_x = 0, origin_y = 8 },
+  },
+}

@@ -1,0 +1,7 @@
+animation{
+  name = "closed",
+  src_image = "entities/Doors/Outside/door_ice_palace.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 22, frame_height = 16, origin_x = 3, origin_y = -8 },
+  },
+}
