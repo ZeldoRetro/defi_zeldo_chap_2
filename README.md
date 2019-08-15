@@ -4,7 +4,7 @@
 
 **Le Défi de Zeldo - Ch. 2** is, obviously, the sequel of the first chapter. The game is in the same vein than *A Link to the Past* but with in a whackier universe than the typical Legend of Zelda games, to which multiple video games characters join, and lots of references.
 
-- **Release Date:** May 10th, 2017
+- **Release Date:** May 10th, 2019
 - **Players:** 1
 - **Length:** 3-6 hours
 - **License:** Copyrighted assets + CC BY-SA 4.0 assets.
