@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "backgrounds/fog.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 256, frame_height = 256, origin_x = 8, origin_y = 12 },
+    { x = 0, y = 0, frame_width = 256, frame_height = 256, origin_x = 128, origin_y = 253 },
+    { x = 0, y = 0, frame_width = 256, frame_height = 256, origin_x = 128, origin_y = 253 },
+    { x = 0, y = 0, frame_width = 256, frame_height = 256, origin_x = 0, origin_y = 0 },
+  },
+}
