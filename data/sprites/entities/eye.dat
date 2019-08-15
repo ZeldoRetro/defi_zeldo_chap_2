@@ -1,0 +1,20 @@
+animation{
+  name = "closed",
+  src_image = "entities/eye.png",
+  directions = {
+    { x = 56, y = 0, frame_width = 8, frame_height = 24, origin_x = 4, origin_y = 17 },
+    { x = 24, y = 8, frame_width = 24, frame_height = 8, origin_x = 12, origin_y = 9 },
+    { x = 80, y = 0, frame_width = 8, frame_height = 24, origin_x = 4, origin_y = 17 },
+    { x = 0, y = 8, frame_width = 24, frame_height = 8, origin_x = 12, origin_y = 9 },
+  },
+}
+animation{
+  name = "opened",
+  src_image = "entities/eye.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 8, frame_height = 24, origin_x = 4, origin_y = 17 },
+    { x = 24, y = 0, frame_width = 24, frame_height = 8, origin_x = 12, origin_y = 9 },
+    { x = 88, y = 0, frame_width = 8, frame_height = 24, origin_x = 4, origin_y = 17 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 8, origin_x = 12, origin_y = 9 },
+  },
+}

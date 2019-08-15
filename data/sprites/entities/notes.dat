@@ -1,0 +1,12 @@
+animation{
+  name = "normal",
+  src_image = "entities/notes.png",
+  frame_delay = 120,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 48, origin_x = 28, origin_y = 37, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 48, origin_x = 28, origin_y = 37, num_frames = 15 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 48, origin_x = 0, origin_y = 37, num_frames = 19 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 48, origin_x = 4, origin_y = 37, num_frames = 9 },
+  },
+}

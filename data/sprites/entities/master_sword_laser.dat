@@ -1,0 +1,23 @@
+animation{
+  name = "flying",
+  src_image = "entities/stars_effect.png",
+  frame_delay = 15,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 26, origin_y = 32, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 38, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 38, origin_y = 32, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 26, num_frames = 15 },
+  },
+}
+animation{
+  name = "reached_obstacle",
+  src_image = "entities/stars_effect.png",
+  frame_delay = 15,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 38, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 38, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 38, num_frames = 15 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 38, num_frames = 15 },
+  },
+}
