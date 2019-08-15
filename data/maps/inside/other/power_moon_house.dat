@@ -1,0 +1,548 @@
+properties{
+  x = 1488,
+  y = 412,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "Absolute Dungeon 03",
+  music = "power_moon_house",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-7",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-7",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-7",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 200,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-7",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.3-7",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "wall.1-7",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 40,
+  width = 24,
+  height = 160,
+  pattern = "wall.4-7",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 200,
+  width = 240,
+  height = 24,
+  pattern = "wall.2-7",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "floor.8-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "floor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 24,
+  width = 32,
+  height = 16,
+  pattern = "painting",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 192,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 152,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.3-2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 152,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 104,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 104,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 80,
+  width = 128,
+  height = 80,
+  pattern = "floor_border.4",
+  tileset = "Absolute Dungeon 01",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 88,
+  width = 112,
+  height = 64,
+  pattern = "floor_small.1",
+  tileset = "Absolute Dungeon 01",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+wall{
+  layer = 1,
+  x = 152,
+  y = 200,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 216,
+  width = 16,
+  height = 16,
+  destination_map = "outside/B1",
+  destination = "maison_lunes",
+}
+
+destination{
+  name = "entree",
+  layer = 1,
+  x = 160,
+  y = 197,
+  direction = 1,
+  default = true,
+}
+
+npc{
+  name = "toad",
+  layer = 1,
+  x = 160,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/toad",
+}
+
+npc{
+  name = "mario_paint",
+  layer = 1,
+  x = 160,
+  y = 37,
+  direction = 3,
+  subtype = 0,
+}
+
+pickable{
+  name = "power_moon_11",
+  layer = 1,
+  x = 128,
+  y = 117,
+  treasure_name = "quest_items/power_moon",
+  treasure_savegame_variable = "power_moon_11",
+}
+
+npc{
+  layer = 1,
+  x = 248,
+  y = 45,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#toad.moons_book",
+}
+
+npc{
+  layer = 1,
+  x = 264,
+  y = 45,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#toad.moons_book",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 0,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 224,
+  width = 288,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 128,
+  y = 216,
+  width = 64,
+  height = 8,
+  pattern = "2720",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 120,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 184,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
