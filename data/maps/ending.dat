@@ -1,0 +1,100 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 2560,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "end",
+  tileset = "Full Hyrule",
+  music = "ending_1",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 40,
+  y = 133,
+  direction = 0,
+  starting_location_mode = "no",
+  default = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 2136,
+  y = 120,
+  width = 16,
+  height = 16,
+  destination_map = "ending_2",
+  destination = "destination",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 16,
+  width = 2560,
+  height = 80,
+  pattern = "12429",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 96,
+  width = 2560,
+  height = 144,
+  pattern = "12440",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 2560,
+  height = 16,
+  pattern = "8106",
+  tileset = "Full Hyrule",
+}
+
+custom_entity{
+  layer = 1,
+  x = 32,
+  y = 413,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Decorations/memories_tower_top",
+}
+
+npc{
+  name = "flying_tails_tunic_1",
+  layer = 2,
+  x = 40,
+  y = 293,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails_and_link_tunic_1",
+}
+
+npc{
+  name = "flying_tails_tunic_2",
+  layer = 2,
+  x = 40,
+  y = 293,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/tails_and_link_tunic_2",
+}
+
+destination{
+  name = "target_tails_1",
+  layer = 2,
+  x = 168,
+  y = 45,
+  direction = 1,
+}
+

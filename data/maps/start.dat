@@ -1,0 +1,350 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+destination{
+  name = "start",
+  layer = 0,
+  x = 136,
+  y = 37,
+  direction = 3,
+  default = true,
+}
+
+destination{
+  name = "sortie_test",
+  layer = 0,
+  x = 80,
+  y = 45,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 72,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "tests/test_map",
+  destination = "entree_test",
+  sprite = "entities/Teletransporters/teletransporter_subrosia",
+  sound = "warp",
+}
+
+destination{
+  name = "sortie_temple",
+  layer = 0,
+  x = 312,
+  y = 237,
+  direction = 3,
+}
+
+block{
+  layer = 0,
+  x = 272,
+  y = 69,
+  sprite = "entities/blocks/statue",
+  pushable = true,
+  pullable = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 16,
+  height = 16,
+  destination_map = "outside/A2",
+  destination = "destination",
+  sprite = "entities/Teletransporters/teletranspoter_final",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "prologue",
+  destination = "start",
+  sprite = "entities/Teletransporters/teletranspoter_final",
+  sound = "warp",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 141,
+  treasure_name = "inventory/bow",
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 141,
+  treasure_name = "inventory/boomerang",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 141,
+  treasure_name = "inventory/bottle_1",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 173,
+  treasure_name = "inventory/bottle_2",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 141,
+  treasure_name = "equipment/bomb_bag",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 205,
+  treasure_name = "inventory/cane_of_somaria",
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 205,
+  treasure_name = "inventory/fire_rod",
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 173,
+  treasure_name = "inventory/hammer",
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 173,
+  treasure_name = "inventory/hookshot",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 173,
+  treasure_name = "inventory/lamp",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 205,
+  treasure_name = "inventory/magic_mushroom",
+}
+
+pickable{
+  layer = 0,
+  x = 40,
+  y = 205,
+  treasure_name = "inventory/magic_powder",
+}
+
+pickable{
+  layer = 0,
+  x = 24,
+  y = 237,
+  treasure_name = "inventory/echange",
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 205,
+  treasure_name = "inventory/magic_cape",
+}
+
+teletransporter{
+  layer = 0,
+  x = 304,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/fire_palace/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletranspoter_final",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "dungeons/ice_palace/RDC",
+  destination = "entree_donjon",
+  sprite = "entities/Teletransporters/teletranspoter_final",
+  sound = "warp",
+}
+
+teletransporter{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 16,
+  destination_map = "end_screen",
+  destination = "destination",
+  sprite = "entities/Teletransporters/teletranspoter_final",
+  sound = "warp",
+}
+
+pickable{
+  layer = 0,
+  x = 40,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 2,
+}
+
+pickable{
+  layer = 0,
+  x = 56,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 3,
+}
+
+pickable{
+  layer = 0,
+  x = 72,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 4,
+}
+
+pickable{
+  layer = 0,
+  x = 88,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 5,
+}
+
+pickable{
+  layer = 0,
+  x = 104,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 6,
+}
+
+pickable{
+  layer = 0,
+  x = 120,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 7,
+}
+
+pickable{
+  layer = 0,
+  x = 136,
+  y = 237,
+  treasure_name = "inventory/echange",
+  treasure_variant = 8,
+}
+
+pickable{
+  layer = 0,
+  x = 296,
+  y = 173,
+  treasure_name = "equipment/power_moon_detector",
+  treasure_savegame_variable = "get_power_moon_detector",
+}
+

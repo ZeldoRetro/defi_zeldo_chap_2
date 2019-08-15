@@ -1,0 +1,31 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "end",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  enabled_at_start = false,
+  width = 320,
+  height = 240,
+  pattern = "440",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 8,
+  y = 53,
+  direction = 0,
+  starting_location_mode = "no",
+  default = true,
+}
+
