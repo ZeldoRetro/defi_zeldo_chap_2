@@ -1,0 +1,16 @@
+quest{
+  solarus_version = "1.6",
+  write_dir = "defi_zeldo_chap_2",
+  title = "Le Défi de Zeldo - Chapitre 2: La Tour des Souvenirs",
+  short_description = "Après sa victoire face au 1er Défi de Zeldo, Link se retrouve transporté en Haïroule où l'attend Zeldo au sommet de la Tour des Souvenirs pour sa revanche!",
+  long_description = [[
+Après sa victoire face au 1er Défi de Zeldo, Link se retrouve transporté en Haïroule où l'attend Zeldo au sommet de la Tour des Souvenirs pour sa revanche!]],
+  author = "ZeldoRetro",
+  quest_version = "1.0",
+  release_date = "20190510",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+
