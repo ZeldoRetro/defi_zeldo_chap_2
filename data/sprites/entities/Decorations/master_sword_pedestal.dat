@@ -1,0 +1,7 @@
+animation{
+  name = "default",
+  src_image = "entities/Decorations/master_sword_pedestal.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 192, frame_height = 148, origin_x = 96, origin_y = 76 },
+  },
+}

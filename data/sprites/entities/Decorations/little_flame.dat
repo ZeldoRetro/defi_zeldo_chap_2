@@ -1,0 +1,12 @@
+animation{
+  name = "normal",
+  src_image = "entities/Decorations/little_flame.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 8, frame_height = 16, origin_x = 4, origin_y = 13, num_frames = 4 },
+  },
+}

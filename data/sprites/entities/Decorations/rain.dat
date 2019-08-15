@@ -1,0 +1,9 @@
+animation{
+  name = "stopped",
+  src_image = "entities/Decorations/rain.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 160, frame_height = 200, origin_x = 0, origin_y = 0, num_frames = 3 },
+  },
+}

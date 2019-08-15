@@ -1,0 +1,7 @@
+animation{
+  name = "base",
+  src_image = "entities/Decorations/ice_palace.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 88, frame_height = 64, origin_x = 44, origin_y = 60 },
+  },
+}

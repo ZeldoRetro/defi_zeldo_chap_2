@@ -1,0 +1,7 @@
+animation{
+  name = "top",
+  src_image = "entities/Decorations/memories_tower.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 176, frame_height = 360, origin_x = 88, origin_y = 349 },
+  },
+}

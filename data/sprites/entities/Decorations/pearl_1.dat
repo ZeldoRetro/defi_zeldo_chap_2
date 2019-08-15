@@ -1,0 +1,9 @@
+animation{
+  name = "normal",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 240, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 256, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 272, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
