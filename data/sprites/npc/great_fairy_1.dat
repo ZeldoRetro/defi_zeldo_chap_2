@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc/fairy.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 20, num_frames = 2, num_columns = 1 },
+  },
+}

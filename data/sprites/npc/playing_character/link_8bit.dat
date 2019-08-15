@@ -1,0 +1,95 @@
+animation{
+  name = "stopped",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "dying",
+  src_image = "npc/playing_character/link_8bit.png",
+  frame_delay = 100,
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 20 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 20 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 20 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 20 },
+  },
+}
+animation{
+  name = "grabbing",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "pulling",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "pushing",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "stopped_with_shield",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "victory",
+  src_image = "npc/playing_character/link_8bit.png",
+  directions = {
+    { x = 64, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 64, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc/playing_character/link_8bit.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}
+animation{
+  name = "walking_with_shield",
+  src_image = "npc/playing_character/link_8bit.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 16, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 2, num_columns = 1 },
+  },
+}

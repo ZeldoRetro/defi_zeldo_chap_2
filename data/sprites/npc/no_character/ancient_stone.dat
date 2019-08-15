@@ -1,0 +1,10 @@
+animation{
+  name = "normal",
+  src_image = "npc/no_character/ancient_stone.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 29 },
+  },
+}
