@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "tileset",
+  directions = {
+    { x = 0, y = 224, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 44 },
+  },
+}
