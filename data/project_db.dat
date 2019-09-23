@@ -1436,12 +1436,9 @@ file{ path = "maps/outside/volcano.lua", author = "ZeldoRetro", license = "GPL v
 file{ path = "maps/prologue.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/prologue.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/start.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/start.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/tests", author = " ZeldoRetro", license = "GPL v3, CC BY-SA 4.0" }
 file{ path = "maps/tests/inside_store.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/tests/inside_store.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/tests/outside_store.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/tests/outside_store.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/tests/test_boss.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/tests/test_boss.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "maps/tests/test_enemy.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
@@ -1449,7 +1446,6 @@ file{ path = "maps/tests/test_enemy.lua", author = "ZeldoRetro", license = "GPL 
 file{ path = "maps/tests/test_item.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "maps/tests/test_item.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "maps/tests/test_map.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
-file{ path = "maps/tests/test_map.lua", author = "ZeldoRetro", license = "GPL v3" }
 file{ path = "musics", author = "Mixed", license = "Proprietary (Fair use)" }
 file{ path = "musics/CHARA.ogg", author = "Toby Fox", license = "Proprietary (Fair use)" }
 file{ path = "musics/after_battle.ogg", author = "SquareSoft", license = "Proprietary (Fair use)" }
@@ -1692,10 +1688,8 @@ file{ path = "sprites/backgrounds/clouds_shadow.png", author = "stdgregwar", lic
 file{ path = "sprites/backgrounds/fog.dat", author = "Christopho", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/fog.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/fsaeffect.png", author = "Nintendo", license = "Proprietary (fair use)" }
-file{ path = "sprites/backgrounds/light_center.png", author = "ZeldoRetro", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/monicle.png", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/mountains background.png", author = "Nintendo, ZeldoRetro", license = "Proprietary (fair use)" }
-file{ path = "sprites/backgrounds/mountains.png", author = "Nintendo", license = "Proprietary (fair use)" }
 file{ path = "sprites/backgrounds/mountains_light.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/mountains_twilight.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
 file{ path = "sprites/backgrounds/triforce_sky.dat", author = "ZeldoRetro", license = "CC BY-SA 4.0" }
