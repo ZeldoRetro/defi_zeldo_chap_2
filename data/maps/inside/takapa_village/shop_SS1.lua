@@ -72,14 +72,15 @@ function map:on_started()
   elseif power_moon_49 ~= nil then
     power_moon_50:set_enabled(false)
   end
+
+  --Tout acheté: le vendeur est parti
+  if game:get_value("get_bottle_1") and game:get_value("hp_8") and game:get_value("power_moon_50") then shop_keeper:set_enabled(false) trigger_dialog_ss1:set_enabled(false) end
 end
 
 --DIALOGUES DE BIENVENUE DU MARCHAND
 function trigger_dialog_ss1:on_activated()
   trigger_dialog_ss1:set_enabled(false)
-  if game:get_value("get_bottle_1") and game:get_value("hp_8") and game:get_value("power_moon_50") then game:start_dialog("shop.welcome_takapa_shop_ss1_all_sold") 
-  else game:start_dialog("shop.welcome_takapa_shop_ss1")
-  end
+  game:start_dialog("shop.welcome_takapa_shop_ss1")
 end
 
 function map:on_obtained_treasure(item, variant, savegame_variable)

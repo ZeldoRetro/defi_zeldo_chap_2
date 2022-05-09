@@ -10,11 +10,24 @@ separator_manager:manage_map(map)
 
 --EFFET DE CHALEUR
 local heat = sol.surface.create(320,240)
-heat:set_opacity(80)
+heat:set_opacity(60)
 heat:fill_color({255,40,0})
+
+local detector_img = sol.surface.create("hud/detector.png")
 
 function map:on_draw(dst_surface)
   heat:draw(dst_surface)
+
+  --Détecteur: Symbole si fragment de Force a proximité
+  if game:get_value("get_power_moon_detector") then
+    for entity in game:get_map():get_entities("power_moon_") do
+      detector_img:draw(dst_surface)
+    end
+    for entity in game:get_map():get_entities("hidden_power_moon_") do
+      detector_img:draw(dst_surface)      
+    end
+  end
+
 end
 
 -- DEBUT DE LA MAP

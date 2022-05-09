@@ -98,10 +98,16 @@ function zeldo_cutscene:on_activated()
 end
 
 --BOSS 1: MOTHULA
+local armos_dialog = "zeldo.boss_rush.before_armos"
+local moldorm_dialog = "zeldo.boss_rush.before_moldorm"
+if heroic_mode_enabled_for_this_savegame or game:get_value("heroic_mode") then
+  armos_dialog = "zeldo.boss_rush.before_armos_heroic"
+  moldorm_dialog = "zeldo.boss_rush.before_moldorm_heroic"
+end
 if mothula ~= nil then
   function mothula:on_dead()
     hero:freeze()
-    game:start_dialog("zeldo.boss_rush.before_armos",function()
+    game:start_dialog(armos_dialog,function()
       zeldo:get_sprite():set_animation("spell")
       sol.audio.play_sound("boss_charge")
       game:start_dialog("zeldo.boss_rush.spell_armos",function()
@@ -128,7 +134,7 @@ for enemy in map:get_entities("armos_knight") do
   enemy.on_dead = function()
     if not map:has_entities("armos_knight") then
       hero:freeze()
-      game:start_dialog("zeldo.boss_rush.before_moldorm",function()
+      game:start_dialog(moldorm_dialog,function()
         zeldo:get_sprite():set_animation("spell")
         sol.audio.play_sound("boss_charge")
         game:start_dialog("zeldo.boss_rush.spell_moldorm",function()

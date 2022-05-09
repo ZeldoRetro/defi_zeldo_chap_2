@@ -15,8 +15,21 @@ local heat = sol.surface.create(320,240)
 heat:set_opacity(120)
 heat:fill_color({255,40,0})
 
+local detector_img = sol.surface.create("hud/detector.png")
+
 function map:on_draw(dst_surface)
   heat:draw(dst_surface)
+
+  --Détecteur: Symbole si fragment de Force a proximité
+  if game:get_value("get_power_moon_detector") then
+    for entity in game:get_map():get_entities("power_moon_") do
+      detector_img:draw(dst_surface)
+    end
+    for entity in game:get_map():get_entities("hidden_power_moon_") do
+      detector_img:draw(dst_surface)      
+    end
+  end
+
   --AFFICHAGE BOSS
   if texte_boss_on then texte_boss:draw(dst_surface) end
 end
@@ -30,6 +43,14 @@ function map:on_started()
   end
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
+
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
+
   texte_boss_1:set_enabled(false)
   map:set_entities_enabled("hidden_power_moon_",false)
 

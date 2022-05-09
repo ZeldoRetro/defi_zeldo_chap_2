@@ -555,7 +555,6 @@ block{
   layer = 1,
   x = 248,
   y = 109,
-  direction = 1,
   sprite = "entities/blocks/block_cave",
   pushable = true,
   pullable = false,
@@ -584,7 +583,6 @@ block{
   layer = 1,
   x = 56,
   y = 125,
-  direction = 3,
   sprite = "entities/blocks/block_cave",
   pushable = true,
   pullable = false,
@@ -604,7 +602,6 @@ block{
   layer = 1,
   x = 160,
   y = 77,
-  direction = 2,
   sprite = "entities/blocks/block_cave",
   pushable = true,
   pullable = false,
@@ -615,7 +612,6 @@ block{
   layer = 1,
   x = 144,
   y = 61,
-  direction = 2,
   sprite = "entities/blocks/block_cave",
   pushable = true,
   pullable = false,
@@ -626,7 +622,6 @@ block{
   layer = 1,
   x = 248,
   y = 173,
-  direction = 1,
   sprite = "entities/blocks/block_cave",
   pushable = true,
   pullable = false,
@@ -747,6 +742,60 @@ custom_entity{
   direction = 1,
   sprite = "entities/Torches/torch",
   model = "torch",
+}
+
+wall{
+  layer = 1,
+  x = 80,
+  y = 80,
+  width = 8,
+  height = 80,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 232,
+  y = 80,
+  width = 8,
+  height = 80,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 88,
+  y = 80,
+  width = 144,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 88,
+  y = 152,
+  width = 144,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 40,
+  y = 88,
+  width = 8,
+  height = 64,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 88,
+  width = 8,
+  height = 64,
+  stops_enemies = true,
 }
 
 tile{

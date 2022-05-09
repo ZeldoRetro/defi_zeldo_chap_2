@@ -850,9 +850,9 @@ npc{
 npc{
   name = "bed_2",
   layer = 1,
-  x = 96,
-  y = 173,
-  direction = 3,
+  x = 104,
+  y = 157,
+  direction = 0,
   subtype = 0,
 }
 
@@ -1077,6 +1077,33 @@ npc{
   direction = 0,
   subtype = 0,
   behavior = "dialog#decorations.bath",
+}
+
+npc{
+  name = "bed_3",
+  layer = 1,
+  x = 104,
+  y = 173,
+  direction = 0,
+  subtype = 0,
+}
+
+npc{
+  name = "bed_4",
+  layer = 1,
+  x = 88,
+  y = 157,
+  direction = 2,
+  subtype = 0,
+}
+
+npc{
+  name = "bed_5",
+  layer = 1,
+  x = 88,
+  y = 173,
+  direction = 2,
+  subtype = 0,
 }
 
 tile{

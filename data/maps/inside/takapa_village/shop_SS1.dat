@@ -699,6 +699,7 @@ wall{
 }
 
 npc{
+  name = "shop_keeper",
   layer = 1,
   x = 160,
   y = 77,

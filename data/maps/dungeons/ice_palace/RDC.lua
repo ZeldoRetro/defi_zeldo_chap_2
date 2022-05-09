@@ -16,6 +16,14 @@ separator_manager:manage_map(map)
 function map:on_started()
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
+
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
+
   texte_boss_1:set_enabled(false)
   freezor_enemy_1:set_enabled(false)
   freezor_enemy_2:set_enabled(false)

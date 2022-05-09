@@ -8,6 +8,12 @@ local speed = 64
 
 -- DEBUT DE LA MAP
 function map:on_started()
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
   game:set_hud_enabled(false) 
   game:set_pause_allowed(false)
   game:set_value("dark_room",true)

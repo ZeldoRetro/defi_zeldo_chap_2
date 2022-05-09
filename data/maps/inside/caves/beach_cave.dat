@@ -7472,7 +7472,6 @@ tile{
   layer = 1,
   x = 76,
   y = 376,
-  enabled_at_start = false,
   width = 40,
   height = 16,
   pattern = "water_pool_ladder.1",
@@ -7482,7 +7481,6 @@ tile{
   layer = 1,
   x = 700,
   y = 184,
-  enabled_at_start = false,
   width = 40,
   height = 16,
   pattern = "water_pool_ladder.2",
@@ -7573,7 +7571,6 @@ tile{
   layer = 1,
   x = 140,
   y = 184,
-  enabled_at_start = false,
   width = 40,
   height = 16,
   pattern = "water_pool_ladder.2",
@@ -7838,6 +7835,24 @@ tile{
   width = 16,
   height = 32,
   pattern = "wall_torch.4",
+}
+
+wall{
+  layer = 1,
+  x = 848,
+  y = 352,
+  width = 8,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 744,
+  y = 352,
+  width = 8,
+  height = 16,
+  stops_enemies = true,
 }
 
 wall{
@@ -11678,6 +11693,42 @@ dynamic_tile{
   pattern = "water",
 }
 
+wall{
+  layer = 1,
+  x = 144,
+  y = 624,
+  width = 32,
+  height = 8,
+  stops_enemies = true,
+}
+
+enemy{
+  name = "water_high_195",
+  layer = 1,
+  x = 160,
+  y = 413,
+  direction = 3,
+  breed = "zoura_water",
+}
+
+enemy{
+  name = "water_high_196",
+  layer = 1,
+  x = 800,
+  y = 317,
+  direction = 3,
+  breed = "zoura_water_blue",
+}
+
+wall{
+  layer = 1,
+  x = 792,
+  y = 344,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
 tile{
   layer = 2,
   x = 640,
@@ -12431,23 +12482,5 @@ custom_entity{
   height = 16,
   direction = 0,
   model = "light",
-}
-
-enemy{
-  name = "water_high_195",
-  layer = 2,
-  x = 160,
-  y = 413,
-  direction = 3,
-  breed = "zoura_water",
-}
-
-enemy{
-  name = "water_high_196",
-  layer = 2,
-  x = 800,
-  y = 317,
-  direction = 3,
-  breed = "zoura_water_blue",
 }
 

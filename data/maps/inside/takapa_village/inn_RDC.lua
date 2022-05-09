@@ -39,6 +39,14 @@ for npc in map:get_entities("inn_npc") do
   end
 end
 
+--AVERTISSEMENT AVANT DE QUITTER L'AUBERGE
+function exit_sensor:on_activated()
+  if game:get_value("get_inn_key") and not inn_room_door:is_open() then
+    exit_sensor:set_enabled(false)
+    game:start_dialog("inn.exit_warning")
+  end
+end
+
 --DIALOGUES AVEC LA CUISINIERE: POELE A FRIRE CONTRE ROCHE VOLCANIQUE
 function cooker:on_interaction()
   if game:get_value("get_fire_stone") then game:start_dialog("takapa_village.inn.cooker.trade_done",function() game:add_life(8) end)

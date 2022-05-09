@@ -10,6 +10,12 @@ separator_manager:manage_map(map)
 
 -- DEBUT DE LA MAP
 function map:on_started()
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
   map:set_entities_enabled("hidden_power_moon_",false)
   game:set_value("dark_room",true)
   sol.timer.start(map,10,function() game:set_value("dark_room",false) end)

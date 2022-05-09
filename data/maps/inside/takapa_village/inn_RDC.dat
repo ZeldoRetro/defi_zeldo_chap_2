@@ -1000,6 +1000,15 @@ tile{
   pattern = "seat.1",
 }
 
+sensor{
+  name = "exit_sensor",
+  layer = 1,
+  x = 232,
+  y = 197,
+  width = 32,
+  height = 16,
+}
+
 npc{
   layer = 1,
   x = 352,
@@ -1092,6 +1101,7 @@ stairs{
 }
 
 door{
+  name = "inn_room_door",
   layer = 1,
   x = 232,
   y = 24,

@@ -2792,6 +2792,7 @@ enemy{
   y = 149,
   direction = 3,
   breed = "armos",
+  savegame_variable = "armos_ice_path",
 }
 
 wall{

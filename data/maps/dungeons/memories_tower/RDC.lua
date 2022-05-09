@@ -15,6 +15,14 @@ separator_manager:manage_map(map)
 function map:on_started()
   --Initialisation de base
   map:set_entities_enabled("auto_chest",false)
+
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_visible(false)
+  else
+    hero:set_visible()
+  end
+
   zeldo:set_enabled(false)
 
   --Scene de Zeldo passée

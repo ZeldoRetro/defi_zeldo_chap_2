@@ -18,6 +18,6 @@ function map:on_started(destination)
   map:set_entities_enabled("auto_chest",false)
 
   --Porte ouverte si on en vient
-  if destination == souffrance_o then map:set_doors_open("auto_door_1") auto_switch_auto_door_1:set_activated(true) auto_switch_auto_door_1:set_locked(true) end
+  if game:get_value("da_dark_door_opened") then auto_switch_auto_door_1:set_activated(true) auto_switch_auto_door_1:set_locked(true) end
 
 end

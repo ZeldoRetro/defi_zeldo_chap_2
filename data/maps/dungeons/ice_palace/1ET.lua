@@ -36,10 +36,24 @@ function map:on_started()
 end
 
 --TOMBER RAMENE A L'ETAGE DU DESSOUS
+local fall_floor_below = true
 function hero:on_state_changed(state)
-  if state == "falling" then 
+  if state == "falling" and fall_floor_below == true then
+    local hero=game:get_hero()
+    local ground=hero:get_ground_below()
+    fall_floor_below = false
+    --game:set_value("tp_destination", teletransporter:get_destination_name())
+    game:set_value("tp_ground", ground) --save last ground for the ceiling drop manager
     sol.timer.start(map,750,function() game:add_life(2) hero:teleport("dungeons/ice_palace/RDC","_same") end) 
   end
+end
+
+function map:on_finished()
+  local game = self:get_game()
+  texte_lieu_on = false
+  nb_torches_lit = 0
+  temporary_torches = false
+  fall_floor_below = false
 end
 
 --BLOCS DE GLACE
