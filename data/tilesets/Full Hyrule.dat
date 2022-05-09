@@ -28935,6 +28935,7 @@ tile_pattern{
   y = 2464,
   width = 8,
   height = 8,
+  scrolling = "parallax",
 }
 
 tile_pattern{

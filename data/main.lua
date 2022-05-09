@@ -9,6 +9,8 @@ local debug_menu_player = require("scripts/debug_player")
 local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}
 
+local link_voice_manager = require("scripts/link_voice_manager")
+
 -- Starts the game passed as parameter.
 function sol.main.start_game(game)
 
@@ -35,6 +37,9 @@ function sol.main:on_started()
 
   sol.main.load_settings()
   math.randomseed(os.time())
+
+  link_voice_manager:load()
+  if link_voice_manager:get_link_voice_enabled() then link_voice_manager:set_link_voice_enabled() else link_voice_manager:set_link_voice_disabled() end
 
   -- Show the initial menus.
   if #initial_menus_config == 0 then
