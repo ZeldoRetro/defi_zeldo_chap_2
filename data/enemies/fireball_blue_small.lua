@@ -12,6 +12,7 @@ function enemy:on_created()
   enemy:set_origin(4, 4)
   enemy:set_obstacle_behavior("flying")
   enemy:set_can_hurt_hero_running(true)
+  enemy:set_layer(enemy:get_layer() + 1)
   enemy:set_layer_independent_collisions(true)
   enemy:set_invincible()
   enemy:set_minimum_shield_needed(2) -- Hylian shield.

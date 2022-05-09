@@ -1,9 +1,22 @@
 local enemy = ...
+local game = enemy:get_game()
+local hero = enemy:get_map():get_hero()
+
+local jumping_speed = 80
+local jumping_height = 16
+local jumping_duration = 600
+
+require("enemies/lib/common_actions").learn(enemy)
 
 --Skeleton blue
 
-enemy:set_life(2)
-enemy:set_damage(2)
+function enemy:on_created()
+  enemy:set_life(3)
+  enemy:set_damage(4)
+  enemy:set_hookshot_reaction(2)
+  enemy:set_attack_consequence("boomerang",1)
+  enemy:set_attack_consequence("thrown_item",2)
+end
 
 local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 
@@ -11,8 +24,11 @@ local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 function enemy:on_restarted()
 
   local m = sol.movement.create("straight")
+  local direction4 = math.random(4) - 1
+  enemy:set_exhausted(false)
   m:set_speed(0)
   m:start(self)
+  self:go(direction4)
   self:check_hero()
 end
 
@@ -65,43 +81,46 @@ function enemy:look_left_or_right()
   end
 end
 
-function enemy:check_hero()
+-- Event triggered when the enemy is close enough to the hero.
+function enemy:start_attacking()
 
-    local direction4 = math.random(4) - 1
-    local hero = self:get_map():get_hero()
-    local _, _, layer = self:get_position()
-    local _, _, hero_layer = hero:get_position()
-    local near_hero =
-        layer == hero_layer
-        and self:get_distance(hero) < 56
-        and self:is_in_same_region(hero)
-
-    if near_hero and hero:get_animation() == "sword" then
-        self:jump()
-    else
-        self:go(direction4)
-    end
-
-    sol.timer.stop_all(self)
-    sol.timer.start(self, 400, function() self:check_hero() end)
+  -- Start jumping away from the hero.
+  local hero_x, hero_y, _ = hero:get_position()
+  local enemy_x, enemy_y, _ = enemy:get_position()
+  local angle = math.atan2(hero_y - enemy_y, enemy_x - hero_x)
+  enemy:start_jumping(jumping_duration, jumping_height, angle, jumping_speed)
+  sol.audio.play_sound("throw")
+  sprite:set_animation("jumping")
+  enemy.is_exhausted = true
 end
 
-function enemy:jump()
+-- Start walking again when the attack finished.
+enemy:register_event("on_jump_finished", function(enemy)
+  enemy:restart()
+end)
 
-  local hero = self:get_map():get_hero()
-  local direction = hero:get_direction()
-  local direction4 = math.random(4) - 1
+-- Make the enemy able to attack or not.
+function enemy:set_exhausted(exhausted)
+  enemy.is_exhausted = exhausted
+end
 
-  -- Set the sprite.
-  sprite:set_animation("jumping")
-  sprite:set_direction(direction)
-  sol.audio.play_sound("throw")
+-- Start attacking when the hero is near enough and an attack is pressed, even if not assigned to an item.
+function enemy:check_hero()
+  local _, _, layer = enemy:get_position()
+  local _, _, hero_layer = hero:get_position()
+  local near_hero =
+      layer == hero_layer
+      and enemy:get_distance(hero) < 64
+      and enemy:is_in_same_region(hero)
+  if enemy:is_enabled() and not enemy.is_exhausted then
+    if near_hero and hero:get_animation() == "sword" then
+      enemy:start_attacking()
+    end
+  end
+  sol.timer.start(self, 100, function() self:check_hero() end)
+end
 
-  -- Set the movement.
-  local m_jump = sol.movement.create("straight")
-  m_jump:set_max_distance(48)
-  m_jump:set_smooth(true)
-  m_jump:set_speed(96)
-  m_jump:set_angle(direction)
-  m_jump:start(enemy,function() enemy:go(direction4) end)
+-- Set exhausted on hurt.
+function enemy:on_hurt()
+  enemy:set_exhausted(true)
 end

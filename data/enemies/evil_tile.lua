@@ -41,7 +41,7 @@ function enemy:go_hero()
 
   local angle = self:get_angle(self:get_map():get_entity("hero"))
   local m = sol.movement.create("straight")
-  m:set_speed(192)
+  m:set_speed(144)
   m:set_angle(angle)
   m:set_smooth(false)
   m:start(self)
