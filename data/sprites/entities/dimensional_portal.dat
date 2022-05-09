@@ -1,0 +1,12 @@
+animation{
+  name = "normal",
+  src_image = "entities/dimensional_portal.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 60, num_frames = 15, num_columns = 5 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 60, num_frames = 15, num_columns = 5 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 60, num_frames = 15, num_columns = 5 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 64, origin_x = 32, origin_y = 60, num_frames = 15, num_columns = 5 },
+  },
+}

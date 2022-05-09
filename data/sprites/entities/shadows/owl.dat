@@ -1,0 +1,34 @@
+animation{
+  name = "stopped",
+  src_image = "entities/shadows/owl.png",
+  directions = {
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21 },
+  },
+}
+animation{
+  name = "talking",
+  src_image = "entities/shadows/owl.png",
+  frame_delay = 350,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+    { x = 0, y = 24, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 9 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "entities/shadows/owl.png",
+  frame_delay = 80,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 96, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 48, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 72, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 24, origin_x = 16, origin_y = 21, num_frames = 5 },
+  },
+}

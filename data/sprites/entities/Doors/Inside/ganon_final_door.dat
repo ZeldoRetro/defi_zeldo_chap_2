@@ -1,0 +1,21 @@
+animation{
+  name = "closed",
+  src_image = "entities/Doors/Inside/ganon_final_door.png",
+  directions = {
+    { x = 0, y = 40, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0 },
+    { x = 0, y = 40, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0 },
+    { x = 0, y = 40, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0 },
+    { x = 0, y = 40, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0 },
+  },
+}
+animation{
+  name = "opening",
+  src_image = "entities/Doors/Inside/ganon_final_door.png",
+  frame_delay = 60,
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 40, origin_x = 24, origin_y = 0, num_frames = 4 },
+  },
+}
