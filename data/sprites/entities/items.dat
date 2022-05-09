@@ -196,6 +196,14 @@ animation{
   },
 }
 animation{
+  name = "inventory/bow_light",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 32, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 32, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "inventory/cane_of_somaria",
   src_image = "entities/items.png",
   directions = {
@@ -316,6 +324,16 @@ animation{
     { x = 192, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 192, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 192, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "pickable/arrow_light",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 208, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 208, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 208, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 208, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -451,7 +469,7 @@ animation{
   name = "quest_items/triforce",
   src_image = "entities/items.png",
   directions = {
-    { x = 0, y = 64, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 0, y = 32, frame_width = 17, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
