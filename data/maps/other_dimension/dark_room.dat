@@ -1,0 +1,39 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  world = "insode_world",
+  tileset = "Absolute Dungeon 01",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "865",
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 176,
+  y = 133,
+  direction = 1,
+  starting_location_mode = "no",
+  default = true,
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "865",
+}
+

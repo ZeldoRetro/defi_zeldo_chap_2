@@ -1,0 +1,116 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = -9,
+  max_layer = 9,
+  tileset = "Full Hyrule",
+  music = "same",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "907",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = 13,
+  width = 320,
+  height = 240,
+  direction = 0,
+  sprite = "menus/telep_map_light",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 125,
+  direction = 1,
+  default = true,
+}
+
+sensor{
+  name = "location_takapa_village_sensor",
+  layer = 0,
+  x = 112,
+  y = 185,
+  enabled_at_start = false,
+  width = 48,
+  height = 48,
+}
+
+custom_entity{
+  name = "location_takapa_village",
+  layer = 0,
+  x = 128,
+  y = 201,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "menus/telep_map_pointer",
+}
+
+sensor{
+  name = "location_ice_mountain_sensor",
+  layer = 0,
+  x = 118,
+  y = 29,
+  enabled_at_start = false,
+  width = 48,
+  height = 48,
+}
+
+custom_entity{
+  name = "location_ice_mountain",
+  layer = 0,
+  x = 134,
+  y = 45,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "menus/telep_map_pointer",
+}
+
+sensor{
+  name = "location_ruins_sensor",
+  layer = 0,
+  x = 230,
+  y = 77,
+  enabled_at_start = false,
+  width = 48,
+  height = 48,
+}
+
+custom_entity{
+  name = "location_ruins",
+  layer = 0,
+  x = 246,
+  y = 93,
+  enabled_at_start = false,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "menus/telep_map_pointer",
+}
+
+custom_entity{
+  name = "cursor",
+  layer = 1,
+  x = 160,
+  y = 120,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "menus/item_cursor",
+}
+

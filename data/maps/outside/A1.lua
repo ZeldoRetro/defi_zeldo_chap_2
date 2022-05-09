@@ -29,7 +29,7 @@ function map:on_started(destination)
   if game:get_value("get_pokeball") then map:set_entities_enabled("lost_man",false) end
 
   --Musique différente si on est au sommet enneigé
-  if destination == cave_path_to_village or destination == cave_hermit or destination == sortie_temple then sol.audio.play_music("ice_mountain") snow_effect:set_enabled(true) texte_lieu = sol.surface.create(sol.language.get_language().."/texte_lieu/ice_mountain.png") end
+  if destination == cave_path_to_village or destination == cave_hermit or destination == sortie_temple or destination == flight_destination then sol.audio.play_music("ice_mountain") snow_effect:set_enabled(true) texte_lieu = sol.surface.create(sol.language.get_language().."/texte_lieu/ice_mountain.png") end
 end
 
 --Trou caché
@@ -78,6 +78,23 @@ end
 --SON DE PIKACHU SI ON ESSAIE DE LUI PARLER
 function pikachu:on_interaction()
   sol.audio.play_sound("pika")
+end
+
+--STATUE DE HIBOU
+function owl_statue:on_interaction()
+  game:set_dialog_style("stone")
+  local game = map:get_game()
+  if game:get_value("owl_ice_mountain_activated") then
+    game:start_dialog("teleportation.question",function(answer)
+      if answer == 1 then
+        sol.audio.play_sound("warp")
+        hero:teleport("telep_light_world")
+      end
+    end)
+  else
+    game:start_dialog("teleportation.activation")
+    game:set_value("owl_ice_mountain_activated",true)
+  end
 end
 
 --LUNES DE PUISSANCE CACHEES

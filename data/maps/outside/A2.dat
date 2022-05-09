@@ -2400,7 +2400,6 @@ tile{
   layer = 0,
   x = 48,
   y = 0,
-  enabled_at_start = false,
   width = 8,
   height = 168,
   pattern = "121",
@@ -3724,7 +3723,6 @@ tile{
   layer = 0,
   x = 1240,
   y = 360,
-  enabled_at_start = false,
   width = 16,
   height = 64,
   pattern = "1534",
@@ -3914,7 +3912,6 @@ tile{
   layer = 0,
   x = 1240,
   y = 472,
-  enabled_at_start = false,
   width = 16,
   height = 32,
   pattern = "1534",
@@ -6168,15 +6165,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "10770",
-}
-
-tile{
-  layer = 0,
-  x = 1016,
-  y = 456,
-  width = 16,
-  height = 16,
-  pattern = "6200",
 }
 
 tile{
@@ -11787,6 +11775,15 @@ tile{
 }
 
 sensor{
+  name = "texte_lieu_3",
+  layer = 0,
+  x = 1024,
+  y = 485,
+  width = 16,
+  height = 16,
+}
+
+sensor{
   name = "exit_inn",
   layer = 0,
   x = 696,
@@ -14627,8 +14624,8 @@ npc{
 npc{
   name = "soldier_2",
   layer = 0,
-  x = 1024,
-  y = 485,
+  x = 1072,
+  y = 405,
   direction = 3,
   subtype = 1,
   sprite = "npc/castle_guard_green",
@@ -14690,6 +14687,51 @@ npc{
   subtype = 1,
   sprite = "npc/woman_yellow",
   behavior = "dialog#takapa_village.cucco_keeper",
+}
+
+npc{
+  name = "owl_statue",
+  layer = 0,
+  x = 1024,
+  y = 469,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue",
+}
+
+destination{
+  name = "flight_destination",
+  layer = 0,
+  x = 1024,
+  y = 485,
+  direction = 3,
+}
+
+sensor{
+  name = "not_texte_5",
+  layer = 0,
+  x = 1008,
+  y = 469,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "not_texte_6",
+  layer = 0,
+  x = 1040,
+  y = 469,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "not_texte_7",
+  layer = 0,
+  x = 1008,
+  y = 501,
+  width = 48,
+  height = 16,
 }
 
 tile{
@@ -16091,7 +16133,6 @@ tile{
   layer = 1,
   x = 856,
   y = 32,
-  enabled_at_start = false,
   width = 352,
   height = 8,
   pattern = "1289",
@@ -17751,15 +17792,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "5920",
-}
-
-tile{
-  layer = 1,
-  x = 1016,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "6199",
 }
 
 tile{
@@ -21179,7 +21211,7 @@ chest{
   treasure_name = "pickable/rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "a2_rupees_1",
-  sprite = "entities/Chests/chest",
+  sprite = "entities/Chests/chest_LttP",
 }
 
 npc{
@@ -21753,7 +21785,6 @@ tile{
   layer = 2,
   x = 1144,
   y = 32,
-  enabled_at_start = false,
   width = 64,
   height = 8,
   pattern = "1289",

@@ -1,0 +1,2391 @@
+properties{
+  x = 320,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 3,
+  world = "inside_world",
+  floor = 1,
+  tileset = "Absolute Dungeon 14",
+  music = "dimension_ganon_theme",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 0,
+  width = 336,
+  height = 240,
+  pattern = "440",
+  tileset = "Full Hyrule",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 32,
+  width = 24,
+  height = 176,
+  pattern = "wall.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 8,
+  width = 256,
+  height = 24,
+  pattern = "wall.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 32,
+  width = 24,
+  height = 176,
+  pattern = "wall.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 208,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 208,
+  width = 256,
+  height = 24,
+  pattern = "wall.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 8,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 8,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 208,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 208,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 208,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 144,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 64,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 64,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 144,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 0,
+  width = 48,
+  height = 16,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 256,
+  height = 176,
+  pattern = "floor_low.20-2",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 112,
+  y = 80,
+  width = 96,
+  height = 80,
+  pattern = "floor_border.1",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 120,
+  y = 88,
+  width = 80,
+  height = 64,
+  pattern = "floor.11-2",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-1",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 128,
+  y = 120,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-2",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 160,
+  y = 120,
+  width = 32,
+  height = 24,
+  pattern = "triforce.tile-2",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_8",
+  layer = 1,
+  x = 32,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_10",
+  layer = 1,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_5",
+  layer = 1,
+  x = 272,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_12",
+  layer = 1,
+  x = 272,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_14",
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_16",
+  layer = 1,
+  x = 224,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_18",
+  layer = 1,
+  x = 80,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_20",
+  layer = 1,
+  x = 224,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_42",
+  layer = 1,
+  x = 96,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_44",
+  layer = 1,
+  x = 208,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_46",
+  layer = 1,
+  x = 208,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_48",
+  layer = 1,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_49",
+  layer = 1,
+  x = 48,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_50",
+  layer = 1,
+  x = 256,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_51",
+  layer = 1,
+  x = 168,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_52",
+  layer = 1,
+  x = 136,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_53",
+  layer = 1,
+  x = 152,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_54",
+  layer = 1,
+  x = 168,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_55",
+  layer = 1,
+  x = 136,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_56",
+  layer = 1,
+  x = 152,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_24",
+  layer = 1,
+  x = 128,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_25",
+  layer = 1,
+  x = 144,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_26",
+  layer = 1,
+  x = 160,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_27",
+  layer = 1,
+  x = 176,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_1",
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_7",
+  layer = 1,
+  x = 224,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_9",
+  layer = 1,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_2",
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_3",
+  layer = 1,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_4",
+  layer = 1,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_6",
+  layer = 1,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_11",
+  layer = 1,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_13",
+  layer = 1,
+  x = 240,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_15",
+  layer = 1,
+  x = 64,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_17",
+  layer = 1,
+  x = 240,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_19",
+  layer = 1,
+  x = 64,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_23",
+  layer = 1,
+  x = 112,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_28",
+  layer = 1,
+  x = 192,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_29",
+  layer = 1,
+  x = 272,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_30",
+  layer = 1,
+  x = 272,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_31",
+  layer = 1,
+  x = 272,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_32",
+  layer = 1,
+  x = 192,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_33",
+  layer = 1,
+  x = 176,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_34",
+  layer = 1,
+  x = 160,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_35",
+  layer = 1,
+  x = 144,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_36",
+  layer = 1,
+  x = 128,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_37",
+  layer = 1,
+  x = 112,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_38",
+  layer = 1,
+  x = 32,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_39",
+  layer = 1,
+  x = 32,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_40",
+  layer = 1,
+  x = 32,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_41",
+  layer = 1,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_43",
+  layer = 1,
+  x = 240,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_45",
+  layer = 1,
+  x = 240,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_47",
+  layer = 1,
+  x = 64,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+sensor{
+  name = "falling_tiles_sensor_1",
+  layer = 1,
+  x = 40,
+  y = 45,
+  enabled_at_start = false,
+  width = 256,
+  height = 176,
+}
+
+enemy{
+  name = "ganon_enemy",
+  layer = 1,
+  x = 160,
+  y = 77,
+  enabled_at_start = false,
+  direction = 3,
+  breed = "boss/ganon",
+}
+
+custom_entity{
+  name = "falling_tile_entity_7",
+  layer = 1,
+  x = 232,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_8",
+  layer = 1,
+  x = 40,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_9",
+  layer = 1,
+  x = 88,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_10",
+  layer = 1,
+  x = 40,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "torch_1",
+  layer = 1,
+  x = 360,
+  y = 149,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "torch_2",
+  layer = 1,
+  x = 360,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "timed_torch_1",
+  layer = 1,
+  x = 56,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "timed_torch_2",
+  layer = 1,
+  x = 264,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Torches/torch",
+  model = "torch",
+}
+
+dynamic_tile{
+  name = "final_door_opened_3",
+  layer = 1,
+  x = 184,
+  y = 8,
+  enabled_at_start = false,
+  width = 8,
+  height = 24,
+  pattern = "2718",
+}
+
+dynamic_tile{
+  name = "final_door_opened_1",
+  layer = 1,
+  x = 128,
+  y = 8,
+  enabled_at_start = false,
+  width = 8,
+  height = 24,
+  pattern = "2717",
+}
+
+dynamic_tile{
+  name = "final_door_opened_4",
+  layer = 1,
+  x = 136,
+  y = 16,
+  enabled_at_start = false,
+  width = 48,
+  height = 16,
+  pattern = "2721",
+}
+
+wall{
+  layer = 1,
+  x = 128,
+  y = 0,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 184,
+  y = 0,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+door{
+  name = "final_door",
+  layer = 1,
+  x = 152,
+  y = 8,
+  direction = 3,
+  sprite = "entities/Doors/Inside/ganon_final_door",
+}
+
+custom_entity{
+  name = "falling_tile_entity_1",
+  layer = 1,
+  x = 40,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_2",
+  layer = 1,
+  x = 280,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_3",
+  layer = 1,
+  x = 280,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_4",
+  layer = 1,
+  x = 40,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_5",
+  layer = 1,
+  x = 280,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_6",
+  layer = 1,
+  x = 88,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_11",
+  layer = 1,
+  x = 232,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_12",
+  layer = 1,
+  x = 280,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_13",
+  layer = 1,
+  x = 248,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_14",
+  layer = 1,
+  x = 88,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_15",
+  layer = 1,
+  x = 72,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_16",
+  layer = 1,
+  x = 232,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_17",
+  layer = 1,
+  x = 248,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_18",
+  layer = 1,
+  x = 88,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_19",
+  layer = 1,
+  x = 72,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_20",
+  layer = 1,
+  x = 232,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_23",
+  layer = 1,
+  x = 120,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_24",
+  layer = 1,
+  x = 136,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_25",
+  layer = 1,
+  x = 152,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_26",
+  layer = 1,
+  x = 168,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_27",
+  layer = 1,
+  x = 184,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_28",
+  layer = 1,
+  x = 200,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_29",
+  layer = 1,
+  x = 280,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_30",
+  layer = 1,
+  x = 280,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_31",
+  layer = 1,
+  x = 280,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_32",
+  layer = 1,
+  x = 200,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_33",
+  layer = 1,
+  x = 184,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_34",
+  layer = 1,
+  x = 168,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_35",
+  layer = 1,
+  x = 152,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_36",
+  layer = 1,
+  x = 136,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_37",
+  layer = 1,
+  x = 120,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_38",
+  layer = 1,
+  x = 40,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_39",
+  layer = 1,
+  x = 40,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_40",
+  layer = 1,
+  x = 40,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_41",
+  layer = 1,
+  x = 72,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_42",
+  layer = 1,
+  x = 104,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_43",
+  layer = 1,
+  x = 248,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_44",
+  layer = 1,
+  x = 216,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_45",
+  layer = 1,
+  x = 248,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_46",
+  layer = 1,
+  x = 216,
+  y = 45,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_47",
+  layer = 1,
+  x = 72,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_48",
+  layer = 1,
+  x = 104,
+  y = 205,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_49",
+  layer = 1,
+  x = 56,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_50",
+  layer = 1,
+  x = 264,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_51",
+  layer = 1,
+  x = 176,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_52",
+  layer = 1,
+  x = 144,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_53",
+  layer = 1,
+  x = 160,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_54",
+  layer = 1,
+  x = 176,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_55",
+  layer = 1,
+  x = 144,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  name = "falling_tile_entity_56",
+  layer = 1,
+  x = 160,
+  y = 133,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+dynamic_tile{
+  name = "final_door_opened_5",
+  layer = 1,
+  x = 128,
+  y = 32,
+  enabled_at_start = false,
+  width = 64,
+  height = 16,
+  pattern = "2722",
+}
+
+wall{
+  layer = 1,
+  x = 80,
+  y = 192,
+  width = 160,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 160,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 80,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 80,
+  width = 16,
+  height = 80,
+  stops_enemies = true,
+}
+
+custom_entity{
+  layer = 1,
+  x = 232,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 232,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+npc{
+  name = "ganon_pnj",
+  layer = 1,
+  x = 160,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/boss/ganon",
+}
+
+custom_entity{
+  layer = 1,
+  x = 88,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 88,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_22",
+  layer = 1,
+  x = 144,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+custom_entity{
+  name = "falling_tile_entity_22",
+  layer = 1,
+  x = 152,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+dynamic_tile{
+  name = "falling_tile_after_21",
+  layer = 1,
+  x = 160,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "hole",
+}
+
+custom_entity{
+  name = "falling_tile_entity_21",
+  layer = 1,
+  x = 168,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/Collapsing Tiles/collapse_tile3",
+}
+
+custom_entity{
+  layer = 1,
+  x = 104,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 72,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 88,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 104,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 120,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 200,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 216,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 216,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 232,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 248,
+  y = 109,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 248,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 232,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 216,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 216,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 200,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 120,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 104,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 104,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 88,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+custom_entity{
+  layer = 1,
+  x = 72,
+  y = 141,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/pike_ground",
+  tiled = true,
+  model = "pike_ground",
+}
+
+wall{
+  layer = 1,
+  x = 136,
+  y = 104,
+  width = 48,
+  height = 32,
+  stops_enemies = true,
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 160,
+  y = 157,
+  direction = 1,
+}
+
+wall{
+  layer = 1,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 64,
+  y = 144,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 240,
+  y = 144,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 240,
+  y = 64,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 224,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 144,
+  y = 176,
+  width = 32,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 256,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 48,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 1,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+teletransporter{
+  name = "triforce_room",
+  layer = 1,
+  x = 136,
+  y = 0,
+  width = 48,
+  height = 16,
+  destination_map = "other_dimension/triforce_room",
+  destination = "destination",
+}
+
+teletransporter{
+  name = "back_to_highrule",
+  layer = 1,
+  x = 136,
+  y = 0,
+  enabled_at_start = false,
+  width = 48,
+  height = 16,
+  destination_map = "outside/B1",
+  destination = "cheat_cave",
+  sound = "warp",
+}
+
+tile{
+  layer = 2,
+  x = -8,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 8,
+  y = 0,
+  width = 304,
+  height = 8,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 8,
+  y = 232,
+  width = 304,
+  height = 8,
+  pattern = "ceiling.1",
+}
+
+dynamic_tile{
+  name = "final_door_opened_2",
+  layer = 2,
+  x = 136,
+  y = 8,
+  enabled_at_start = false,
+  width = 48,
+  height = 8,
+  pattern = "2719",
+}
+
+dynamic_tile{
+  name = "darkness_1",
+  layer = 2,
+  x = -8,
+  y = 0,
+  width = 336,
+  height = 240,
+  pattern = "2231",
+}
+
+wall{
+  layer = 2,
+  x = 80,
+  y = 32,
+  width = 160,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 80,
+  width = 16,
+  height = 80,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 136,
+  y = 104,
+  width = 48,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 64,
+  y = 64,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 240,
+  y = 64,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 240,
+  y = 144,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 64,
+  y = 144,
+  width = 16,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 80,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 224,
+  y = 64,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 224,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 80,
+  y = 160,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 144,
+  y = 176,
+  width = 32,
+  height = 16,
+  stops_enemies = true,
+}
+
+dynamic_tile{
+  name = "darkness_2",
+  layer = 2,
+  x = -8,
+  y = 0,
+  width = 336,
+  height = 240,
+  pattern = "2232",
+}
+
+wall{
+  layer = 2,
+  x = 48,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 256,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 80,
+  y = 192,
+  width = 160,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 272,
+  y = 80,
+  width = 16,
+  height = 80,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 272,
+  y = 32,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 272,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 192,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 32,
+  y = 32,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 24,
+  y = 48,
+  width = 8,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 24,
+  y = 160,
+  width = 8,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 288,
+  y = 160,
+  width = 8,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 240,
+  y = 208,
+  width = 32,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 48,
+  y = 208,
+  width = 32,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 48,
+  y = 24,
+  width = 32,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 2,
+  x = 240,
+  y = 24,
+  width = 32,
+  height = 8,
+  stops_enemies = true,
+}
+

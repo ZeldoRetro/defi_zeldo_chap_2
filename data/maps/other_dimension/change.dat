@@ -1,0 +1,41 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 1680,
+  min_layer = 0,
+  max_layer = 2,
+  world = "inside_world",
+  tileset = "Absolute Dungeon 01",
+  music = "dimension_change",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 1920,
+  pattern = "1",
+  tileset = "dimension",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 245,
+  direction = -1,
+  default = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 1432,
+  width = 16,
+  height = 16,
+  destination_map = "other_dimension/pyramid",
+  destination = "destination",
+}
+

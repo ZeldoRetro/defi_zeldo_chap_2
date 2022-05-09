@@ -66,11 +66,3 @@ function map:on_opening_transition_finished()
     if i < 5 then return true end
   end)
 end
-
-function map:on_key_pressed(key)
-  if key == "space" then hero:teleport("ending_2") end
-end
-
-function map:on_joypad_button_pressed(button)
-  hero:teleport("ending_2")
-end

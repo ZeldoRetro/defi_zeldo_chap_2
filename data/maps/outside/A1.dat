@@ -2885,7 +2885,6 @@ tile{
   layer = -1,
   x = 392,
   y = 72,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "371",
@@ -2904,7 +2903,6 @@ tile{
   layer = -1,
   x = 376,
   y = 56,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "371",
@@ -2923,7 +2921,6 @@ tile{
   layer = -1,
   x = 392,
   y = 40,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "371",
@@ -2942,7 +2939,6 @@ tile{
   layer = -1,
   x = 408,
   y = 56,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "371",
@@ -3235,7 +3231,7 @@ chest{
   treasure_name = "pickable/rupee",
   treasure_variant = 4,
   treasure_savegame_variable = "a1_rupees_1",
-  sprite = "entities/Chests/chest",
+  sprite = "entities/Chests/chest_LttP",
 }
 
 sensor{
@@ -3316,6 +3312,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_9",
   layer = -1,
   x = 88,
   y = 96,
@@ -3325,6 +3322,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_10",
   layer = -1,
   x = 80,
   y = 96,
@@ -3334,6 +3332,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_11",
   layer = -1,
   x = 72,
   y = 104,
@@ -3343,6 +3342,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_12",
   layer = -1,
   x = 72,
   y = 112,
@@ -3352,6 +3352,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_13",
   layer = -1,
   x = 80,
   y = 120,
@@ -3361,6 +3362,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_14",
   layer = -1,
   x = 88,
   y = 120,
@@ -3370,6 +3372,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_15",
   layer = -1,
   x = 96,
   y = 128,
@@ -3379,6 +3382,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_16",
   layer = -1,
   x = 96,
   y = 136,
@@ -3388,6 +3392,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_17",
   layer = -1,
   x = 88,
   y = 144,
@@ -3397,6 +3402,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_18",
   layer = -1,
   x = 80,
   y = 144,
@@ -3406,6 +3412,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_19",
   layer = -1,
   x = 72,
   y = 144,
@@ -3415,6 +3422,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_8",
   layer = -1,
   x = 96,
   y = 96,
@@ -3424,6 +3432,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_20",
   layer = -1,
   x = 128,
   y = 96,
@@ -3433,6 +3442,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_21",
   layer = -1,
   x = 136,
   y = 96,
@@ -3442,6 +3452,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_22",
   layer = -1,
   x = 144,
   y = 96,
@@ -3451,6 +3462,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_35",
   layer = -1,
   x = 120,
   y = 104,
@@ -3460,6 +3472,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_34",
   layer = -1,
   x = 120,
   y = 112,
@@ -3469,6 +3482,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_33",
   layer = -1,
   x = 120,
   y = 120,
@@ -3478,6 +3492,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_32",
   layer = -1,
   x = 120,
   y = 128,
@@ -3487,6 +3502,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_30",
   layer = -1,
   x = 128,
   y = 144,
@@ -3496,6 +3512,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_28",
   layer = -1,
   x = 144,
   y = 144,
@@ -3505,6 +3522,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_29",
   layer = -1,
   x = 136,
   y = 144,
@@ -3514,6 +3532,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_31",
   layer = -1,
   x = 120,
   y = 136,
@@ -3523,6 +3542,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_23",
   layer = -1,
   x = 152,
   y = 104,
@@ -3532,6 +3552,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_24",
   layer = -1,
   x = 152,
   y = 112,
@@ -3541,6 +3562,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_25",
   layer = -1,
   x = 152,
   y = 120,
@@ -3550,6 +3572,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_26",
   layer = -1,
   x = 152,
   y = 128,
@@ -3559,6 +3582,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_27",
   layer = -1,
   x = 152,
   y = 136,
@@ -3568,6 +3592,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_36",
   layer = -1,
   x = 192,
   y = 96,
@@ -3577,6 +3602,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_37",
   layer = -1,
   x = 184,
   y = 96,
@@ -3586,6 +3612,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_38",
   layer = -1,
   x = 176,
   y = 104,
@@ -3595,6 +3622,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_39",
   layer = -1,
   x = 176,
   y = 112,
@@ -3604,6 +3632,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_40",
   layer = -1,
   x = 184,
   y = 120,
@@ -3613,6 +3642,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_41",
   layer = -1,
   x = 192,
   y = 120,
@@ -3622,6 +3652,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_42",
   layer = -1,
   x = 200,
   y = 128,
@@ -3631,6 +3662,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_43",
   layer = -1,
   x = 200,
   y = 136,
@@ -3640,6 +3672,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_44",
   layer = -1,
   x = 192,
   y = 144,
@@ -3649,6 +3682,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_45",
   layer = -1,
   x = 184,
   y = 144,
@@ -3658,6 +3692,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_46",
   layer = -1,
   x = 176,
   y = 144,
@@ -3667,12 +3702,101 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "lost_man_items_47",
   layer = -1,
   x = 200,
   y = 96,
   width = 8,
   height = 8,
   pattern = "6163",
+}
+
+wall{
+  layer = -1,
+  x = 312,
+  y = 96,
+  width = 32,
+  height = 32,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 352,
+  y = 0,
+  width = 8,
+  height = 176,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 272,
+  y = 0,
+  width = 8,
+  height = 168,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 120,
+  y = 168,
+  width = 152,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 112,
+  y = 168,
+  width = 8,
+  height = 48,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 360,
+  y = 16,
+  width = 88,
+  height = 96,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 440,
+  y = 128,
+  width = 16,
+  height = 16,
+  stops_enemies = true,
+}
+
+wall{
+  layer = -1,
+  x = 544,
+  y = 8,
+  width = 32,
+  height = 32,
+  stops_enemies = true,
+}
+
+enemy{
+  layer = -1,
+  x = 320,
+  y = 165,
+  direction = 3,
+  breed = "zoura_water",
+}
+
+enemy{
+  layer = -1,
+  x = 512,
+  y = 45,
+  direction = 3,
+  breed = "zoura_water",
 }
 
 tile{
@@ -4003,7 +4127,6 @@ tile{
   layer = 0,
   x = 48,
   y = 568,
-  enabled_at_start = false,
   width = 8,
   height = 152,
   pattern = "121",
@@ -6856,22 +6979,6 @@ dynamic_tile{
   pattern = "14005",
 }
 
-enemy{
-  layer = 0,
-  x = 544,
-  y = 45,
-  direction = 3,
-  breed = "zoura_water",
-}
-
-enemy{
-  layer = 0,
-  x = 328,
-  y = 133,
-  direction = 3,
-  breed = "zoura_water",
-}
-
 tile{
   layer = 1,
   x = 536,
@@ -7281,7 +7388,6 @@ tile{
   layer = 1,
   x = 80,
   y = 632,
-  enabled_at_start = false,
   width = 8,
   height = 88,
   pattern = "121",
@@ -9127,7 +9233,6 @@ tile{
   layer = 1,
   x = 232,
   y = 336,
-  enabled_at_start = false,
   width = 64,
   height = 8,
   pattern = "1289",
@@ -9597,7 +9702,6 @@ tile{
   layer = 2,
   x = 1248,
   y = 608,
-  enabled_at_start = false,
   width = 8,
   height = 104,
   pattern = "13903",
@@ -16361,7 +16465,6 @@ tile{
   layer = 3,
   x = 832,
   y = 312,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -16380,7 +16483,6 @@ tile{
   layer = 3,
   x = 832,
   y = 296,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -16399,7 +16501,6 @@ tile{
   layer = 3,
   x = 832,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -16472,7 +16573,6 @@ tile{
   layer = 3,
   x = 800,
   y = 312,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18048,7 +18148,6 @@ tile{
   layer = 3,
   x = 1104,
   y = 424,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18067,7 +18166,6 @@ tile{
   layer = 3,
   x = 1136,
   y = 440,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18086,7 +18184,6 @@ tile{
   layer = 3,
   x = 1056,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18105,7 +18202,6 @@ tile{
   layer = 3,
   x = 1136,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18124,7 +18220,6 @@ tile{
   layer = 3,
   x = 1056,
   y = 200,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18142,8 +18237,7 @@ tile{
 tile{
   layer = 3,
   x = 1136,
-  y = 200,
-  enabled_at_start = false,
+  y = 184,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18152,7 +18246,7 @@ tile{
 tile{
   layer = 3,
   x = 1136,
-  y = 200,
+  y = 184,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -18162,7 +18256,6 @@ tile{
   layer = 3,
   x = 1024,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18181,7 +18274,6 @@ tile{
   layer = 3,
   x = 1168,
   y = 144,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18200,7 +18292,6 @@ tile{
   layer = 3,
   x = 768,
   y = 624,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18219,7 +18310,6 @@ tile{
   layer = 3,
   x = 752,
   y = 624,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18238,7 +18328,6 @@ tile{
   layer = 3,
   x = 896,
   y = 576,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18257,7 +18346,6 @@ tile{
   layer = 3,
   x = 880,
   y = 592,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18276,7 +18364,6 @@ tile{
   layer = 3,
   x = 864,
   y = 608,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18295,7 +18382,6 @@ tile{
   layer = 3,
   x = 848,
   y = 624,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18314,7 +18400,6 @@ tile{
   layer = 3,
   x = 928,
   y = 520,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18333,7 +18418,6 @@ tile{
   layer = 3,
   x = 944,
   y = 536,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18352,7 +18436,6 @@ tile{
   layer = 3,
   x = 1216,
   y = 296,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18371,7 +18454,6 @@ tile{
   layer = 3,
   x = 1216,
   y = 280,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18390,7 +18472,6 @@ tile{
   layer = 3,
   x = 1216,
   y = 264,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18409,7 +18490,6 @@ tile{
   layer = 3,
   x = 976,
   y = 264,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18428,7 +18508,6 @@ tile{
   layer = 3,
   x = 992,
   y = 280,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18447,7 +18526,6 @@ tile{
   layer = 3,
   x = 1008,
   y = 296,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18466,7 +18544,6 @@ tile{
   layer = 3,
   x = 1024,
   y = 296,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18476,25 +18553,6 @@ tile{
   layer = 3,
   x = 1024,
   y = 296,
-  width = 16,
-  height = 16,
-  pattern = "1111",
-}
-
-tile{
-  layer = 3,
-  x = 1056,
-  y = 264,
-  enabled_at_start = false,
-  width = 16,
-  height = 16,
-  pattern = "8106",
-}
-
-tile{
-  layer = 3,
-  x = 1056,
-  y = 264,
   width = 16,
   height = 16,
   pattern = "1111",
@@ -18522,7 +18580,6 @@ tile{
   layer = 3,
   x = 1200,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18604,7 +18661,6 @@ tile{
   layer = 3,
   x = 1168,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18623,7 +18679,6 @@ tile{
   layer = 3,
   x = 1168,
   y = 344,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18642,7 +18697,6 @@ tile{
   layer = 3,
   x = 1152,
   y = 360,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -18670,7 +18724,6 @@ tile{
   layer = 3,
   x = 800,
   y = 616,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18698,7 +18751,6 @@ tile{
   layer = 3,
   x = 840,
   y = 584,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18726,7 +18778,6 @@ tile{
   layer = 3,
   x = 872,
   y = 536,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18754,7 +18805,6 @@ tile{
   layer = 3,
   x = 1000,
   y = 536,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18782,7 +18832,6 @@ tile{
   layer = 3,
   x = 1064,
   y = 512,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18810,7 +18859,6 @@ tile{
   layer = 3,
   x = 1112,
   y = 528,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18838,7 +18886,6 @@ tile{
   layer = 3,
   x = 1088,
   y = 400,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18866,7 +18913,6 @@ tile{
   layer = 3,
   x = 1008,
   y = 328,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18894,7 +18940,6 @@ tile{
   layer = 3,
   x = 1128,
   y = 288,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18922,7 +18967,6 @@ tile{
   layer = 3,
   x = 1120,
   y = 360,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18950,7 +18994,6 @@ tile{
   layer = 3,
   x = 1136,
   y = 280,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -18978,7 +19021,6 @@ tile{
   layer = 3,
   x = 1184,
   y = 224,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19006,7 +19048,6 @@ tile{
   layer = 3,
   x = 976,
   y = 208,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19034,7 +19075,6 @@ tile{
   layer = 3,
   x = 1064,
   y = 168,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19062,7 +19102,6 @@ tile{
   layer = 3,
   x = 1024,
   y = 88,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19090,7 +19129,6 @@ tile{
   layer = 3,
   x = 856,
   y = 200,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19118,7 +19156,6 @@ tile{
   layer = 3,
   x = 792,
   y = 208,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19146,7 +19183,6 @@ tile{
   layer = 3,
   x = 640,
   y = 448,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19174,7 +19210,6 @@ tile{
   layer = 3,
   x = 624,
   y = 424,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -19517,7 +19552,6 @@ tile{
   layer = 3,
   x = 784,
   y = 624,
-  enabled_at_start = false,
   width = 16,
   height = 16,
   pattern = "8106",
@@ -19969,7 +20003,7 @@ destructible{
   name = "auto_destructible_30",
   layer = 3,
   x = 1144,
-  y = 213,
+  y = 197,
   treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_10",
   destruction_sound = "bush",
@@ -20130,16 +20164,6 @@ destructible{
   layer = 3,
   x = 1032,
   y = 309,
-  treasure_name = "pickable/random",
-  sprite = "entities/Bushes/bush_l_10",
-  destruction_sound = "bush",
-}
-
-destructible{
-  name = "auto_destructible_48",
-  layer = 3,
-  x = 1064,
-  y = 277,
   treasure_name = "pickable/random",
   sprite = "entities/Bushes/bush_l_10",
   destruction_sound = "bush",
@@ -20396,7 +20420,7 @@ custom_entity{
 wall{
   layer = 3,
   x = 1136,
-  y = 232,
+  y = 208,
   width = 16,
   height = 24,
   stops_hero = true,
@@ -20410,7 +20434,7 @@ custom_entity{
   name = "day_entity_20",
   layer = 3,
   x = 1144,
-  y = 253,
+  y = 229,
   width = 16,
   height = 16,
   direction = 0,
@@ -20422,44 +20446,7 @@ custom_entity{
   name = "night_entity_29",
   layer = 3,
   x = 1144,
-  y = 253,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/Torches/torch_wood",
-  model = "torch",
-}
-
-wall{
-  layer = 3,
-  x = 1056,
-  y = 232,
-  width = 16,
-  height = 24,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-custom_entity{
-  name = "day_entity_21",
-  layer = 3,
-  x = 1064,
-  y = 253,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/Torches/torch_wood",
-  model = "torch",
-}
-
-custom_entity{
-  name = "night_entity_30",
-  layer = 3,
-  x = 1064,
-  y = 253,
+  y = 229,
   width = 16,
   height = 16,
   direction = 1,
@@ -20635,6 +20622,60 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "get_ice_key",
   cannot_open_dialog = "door.ice_palace",
+}
+
+sensor{
+  name = "texte_lieu_3",
+  layer = 3,
+  x = 1064,
+  y = 245,
+  width = 16,
+  height = 16,
+}
+
+npc{
+  name = "owl_statue",
+  layer = 3,
+  x = 1064,
+  y = 229,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/no_character/owl_statue",
+}
+
+destination{
+  name = "flight_destination",
+  layer = 3,
+  x = 1064,
+  y = 245,
+  direction = 3,
+}
+
+sensor{
+  name = "not_texte_7",
+  layer = 3,
+  x = 1048,
+  y = 229,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "not_texte_8",
+  layer = 3,
+  x = 1080,
+  y = 229,
+  width = 16,
+  height = 48,
+}
+
+sensor{
+  name = "not_texte_9",
+  layer = 3,
+  x = 1048,
+  y = 261,
+  width = 48,
+  height = 16,
 }
 
 tile{
@@ -21649,7 +21690,6 @@ tile{
   layer = 4,
   x = 768,
   y = 496,
-  enabled_at_start = false,
   width = 64,
   height = 8,
   pattern = "1289",
@@ -22010,7 +22050,6 @@ tile{
   layer = 4,
   x = 696,
   y = 584,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22038,7 +22077,6 @@ tile{
   layer = 4,
   x = 696,
   y = 504,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22066,7 +22104,6 @@ tile{
   layer = 4,
   x = 800,
   y = 448,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22094,7 +22131,6 @@ tile{
   layer = 4,
   x = 840,
   y = 128,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22122,7 +22158,6 @@ tile{
   layer = 4,
   x = 960,
   y = 112,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22150,7 +22185,6 @@ tile{
   layer = 4,
   x = 896,
   y = 64,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22178,7 +22212,6 @@ tile{
   layer = 4,
   x = 984,
   y = 40,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22206,7 +22239,6 @@ tile{
   layer = 4,
   x = 904,
   y = 16,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",
@@ -22234,7 +22266,6 @@ tile{
   layer = 4,
   x = 912,
   y = 120,
-  enabled_at_start = false,
   width = 16,
   height = 8,
   pattern = "8106",

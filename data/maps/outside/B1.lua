@@ -150,6 +150,23 @@ function map:restart_overlay_movement()
 
 end
 
+--STATUE DE HIBOU
+function owl_statue:on_interaction()
+  game:set_dialog_style("stone")
+  local game = map:get_game()
+  if game:get_value("owl_ruins_activated") then
+    game:start_dialog("teleportation.question",function(answer)
+      if answer == 1 then
+        sol.audio.play_sound("warp")
+        hero:teleport("telep_light_world")
+      end
+    end)
+  else
+    game:start_dialog("teleportation.activation")
+    game:set_value("owl_ruins_activated",true)
+  end
+end
+
 --LUNES DE PUISSANCE CACHEES
 function destructible_power_moon_1:on_lifting() 
   if hidden_power_moon_36 ~= nil then hidden_power_moon_36:set_enabled(true) end

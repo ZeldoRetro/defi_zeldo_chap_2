@@ -49,7 +49,10 @@ function door_manager:open_when_enemies_dead(door)
     if door:is_closed() and not has_entities_with_prefix_in_region(map, enemy_prefix) then
       local door_prefix_x,door_prefix_y = door:get_position()
       sol.audio.play_sound("correct")
-      map:move_camera(door_prefix_x,door_prefix_y,256,function() map:open_doors(door_prefix) end)
+      map:move_camera(door_prefix_x,door_prefix_y,256,function()
+        map:open_doors(door_prefix)
+        map:set_entities_enabled("sensor_falling_"..door_prefix, false)
+      end)
     end
   end
 
