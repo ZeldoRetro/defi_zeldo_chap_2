@@ -372,6 +372,9 @@ Lunes s'y trouvent.
 Dans un Donjon, le Détecteur
 fera un son si une Lune
 est présente dans l'étage.
+De plus, un symbole
+apparaitra à côté de
+l'Horloge.
 C'est ça le progrès !
 ]],
 }
@@ -702,6 +705,17 @@ sans risque !
 }
 
 dialog{
+  id = "_treasure.inventory/bow_light.1",
+  icon = "2",
+  skip = "current",
+  text = [[
+Voici les Flèches d'Argent
+qui sont indispensables
+pour vaincre Ganon !
+]],
+}
+
+dialog{
   id = "_treasure.inventory/cane_of_somaria.1",
   icon = "20",
   skip = "current",
@@ -998,8 +1012,8 @@ dialog{
   next = "_treasure.pickable/arrow.1.1",
   skip = "current",
   text = [[
-Tu as trouvé une
-flèche !$0
+Tu as trouvé la
+flèche unique !$0
 ]],
 }
 
@@ -1309,15 +1323,6 @@ dialog{
   skip = "all",
   text = [[
 Vous gagnez une Lune ! $0
-]],
-}
-
-dialog{
-  id = "_treasure.quest_items/triforce.1",
-  text = [[
-Tu as trouvé la Triforce ! $0
-
-
 ]],
 }
 
@@ -1838,6 +1843,42 @@ pour la transporter...
 }
 
 dialog{
+  id = "ganon.2",
+  skip = "current",
+  text = [[
+Tenace comme toujours...
+Mais il est temps de te montrer
+ma nouvelle technique !
+Prépare-toi à affronter mes
+toutes nouvelles invocations.
+]],
+}
+
+dialog{
+  id = "ganon.3",
+  skip = "current",
+  text = [[
+As-tu trouvé les Flèches
+d'Argent dans le Monde
+des Ténèbres ?
+]],
+}
+
+dialog{
+  id = "ganon.intro",
+  skip = "current",
+  text = [[
+Te voici enfin Link...
+Je commençais à me demander
+si tu ne t'étais pas perdu...
+En garde ! J'ai profité de ton
+retard pour m'entrainer sur
+de nouvelles techniques.
+Prépare-toi à mourir !
+]],
+}
+
+dialog{
   id = "hermit.answer_no",
   skip = "current",
   text = [[
@@ -1932,6 +1973,16 @@ une demi journée)
 Dormir ?
 Oui
 Non
+]],
+}
+
+dialog{
+  id = "inn.exit_warning",
+  skip = "current",
+  text = [[
+Attention ! Tu ne t'es pas encore
+reposé dans cette Auberge. Tu
+perdras ta clé si tu pars !
 ]],
 }
 
@@ -2552,6 +2603,22 @@ vous en avez besoin.
 }
 
 dialog{
+  id = "shop.welcome_takapa_shop_rdc_ss1_empty",
+  skip = "current",
+  text = [[
+Bonjour Monsieur.
+Besoin d'un article en
+particulier ?
+Nous avons tout ce qui peut
+servir aux aventuriers.
+
+Mon frère a vendu tous ses
+articles ! Il est parti se
+réapprovisionner à La Capitale.
+]],
+}
+
+dialog{
   id = "shop.welcome_takapa_shop_ss1",
   skip = "current",
   text = [[
@@ -2664,9 +2731,9 @@ dialog{
   id = "tails.rescued",
   skip = "current",
   text = [[
-Hey Kibô !
-Comment tu vas depuis 
-le combat contre Anima ?
+Merci de m'avoir sauvé Link.
+Comment je sais ton nom ?
+C'est marqué sur ton bouclier !
 Moi ? Et bien Zeldo m'a fait
 quitter Mobius via un téléporteur
 jusqu'ici...
@@ -4027,6 +4094,63 @@ objets utiles à la quête.
 }
 
 dialog{
+  id = "teleportation.activation",
+  skip = "current",
+  text = [[
+Ca alors ! Enfin un Humain qui
+s'intéresse à moi... si tu veux
+voyager rapidement dans le
+Monde, reviens me voir.
+Pas que j'en ai envie mais
+pas trop le choix...
+Par contre, tu devras trouver
+mes semblables si tu veux
+aller ailleurs.
+]],
+}
+
+dialog{
+  id = "teleportation.ice_mountain",
+  question = "1",
+  text = [[
+Aller au Sommet enneigé ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "teleportation.question",
+  question = "1",
+  skip = "current",
+  text = [[
+Te revoila Humain... que veux-tu ?
+Me téléporter
+Rien
+]],
+}
+
+dialog{
+  id = "teleportation.ruins",
+  question = "1",
+  text = [[
+Aller aux Ruines de la Brume ?
+Oui
+Non
+]],
+}
+
+dialog{
+  id = "teleportation.takapa_village",
+  question = "1",
+  text = [[
+Aller au Village de Takapa ?
+Oui
+Non
+]],
+}
+
+dialog{
   id = "toad.1st_time",
   skip = "current",
   text = [[
@@ -4206,6 +4330,17 @@ qui assurent son sommeil.
 }
 
 dialog{
+  id = "ts.ganon_hint",
+  skip = "current",
+  text = [[
+Quand Ganon est étourdi,
+inflige-lui le coup de grâce
+avec une Flèche d'Argent !
+As-tu compris Link ?
+]],
+}
+
+dialog{
   id = "ts.ice_palace_hint_1",
   skip = "current",
   text = [[
@@ -4236,6 +4371,7 @@ la Clé dorée.
 
 dialog{
   id = "ts.path_to_ice_cave",
+  skip = "current",
   text = [[
 Si vous souhaitez vous rendre au 
 Sommet enneigé, il vous faudra 
@@ -4270,12 +4406,32 @@ ou à contrario revenir ici.
 }
 
 dialog{
+  id = "ts.ultimate_door",
+  skip = "current",
+  text = [[
+Seuls les Complétionnistes
+les plus chevronnés verront
+cette Porte s'ouvrir...
+]],
+}
+
+dialog{
+  id = "ts.ultimate_door_2",
+  skip = "current",
+  text = [[
+Seul un véritable
+Héros pourra espérer
+atteindre la Triforce.
+]],
+}
+
+dialog{
   id = "zeldo.1st_encounter",
   skip = "current",
   text = [[
 Bienvenue à toi, Link...$0
 Ou plutot toi derrière ton écran,
-que tu sois Skye ou un autre...
+qui que tu sois... bienvenue !
 J'espère que ton petit voyage
 vers Haïroule s'est bien passé.
 
@@ -4348,13 +4504,12 @@ dialog{
   text = [[
 Non je plaisante bien sûr...
 Je suis déjà en route pour
-mon Château à la Capitale.
+mon Château à La Capitale.
 Comme promis, je libère Tails.
 Merci d'avoir fait ce second
 Défi et j'espère que tu as aimé.
-A plus du coup pour le prochain
-Chapitre ! Non je déconne :P
-Ou pas ? :thinking:
+A plus pour le prochain Chapitre !
+ 
 ]],
 }
 
@@ -4380,10 +4535,28 @@ Boss !
 }
 
 dialog{
+  id = "zeldo.boss_rush.before_armos_heroic",
+  skip = "current",
+  text = [[
+Mouais trop facile je suppose...
+En plus j'imagine que tu dois en 
+avoir marre de voir celui-là...
+Bon, le Boss suivant te
+demandera d'utiliser un objet
+gagné dans cette Tour !
+Je vois que tu joues en mode
+Héroïque. Pas de soin pour
+toi alors !
+Assez parlé, place au second
+Boss !
+]],
+}
+
+dialog{
   id = "zeldo.boss_rush.before_moldorm",
   skip = "current",
   text = [[
-Tu te débrouilles plutôt bien!
+Tu te débrouilles plutôt bien !
 Il me reste un dernier Boss
 pour toi...
 Je vais aussi te libérer l'accès
@@ -4396,11 +4569,27 @@ TOUT LE MONDE déteste ce Boss !
 }
 
 dialog{
+  id = "zeldo.boss_rush.before_moldorm_heroic",
+  skip = "current",
+  text = [[
+Tu te débrouilles plutôt bien !
+Il me reste un dernier Boss
+pour toi...
+Toujours pas de soin pour toi,
+il ne fallait pas jouer en
+Mode Héroïque !
+Par contre je t'ai réservé le
+meilleur pour la fin car
+TOUT LE MONDE déteste ce Boss !
+]],
+}
+
+dialog{
   id = "zeldo.boss_rush.boss_rush_end",
   skip = "current",
   text = [[
-Félicitations Skye !
-Ou je ne sais qui... je suppose
+Félicitations à toi, jeune
+inconnu... je suppose
 que je n'ai plus trop le choix.
 ]],
 }
@@ -4527,6 +4716,93 @@ Allez, je file !
 Je parle trop comme d'habitude !
 On se retrouve en haut de
 la Tour. Bon amusement...
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.1",
+  text = [[
+Seul un excellent joueur, ou
+un tricheur, pouvait battre
+cette immondice.
+Si je peux te rassurer, il est
+parfaitement possible de la
+battre légalement.
+Tu ne me crois pas ? Ah ah ah !
+J'ai fait une vidéo sur ce
+boss. Va sur YouTube !
+J'aimerais continuer de te
+congratuler mais je n'ai pas
+le temps de parler avec toi.
+Obligations et cliché de
+Grand Méchant, tout ça
+tout ça...
+(pssst, vraiment GG pour avoir
+réussi à venir ici... ça m'émeut...
+enfin bref, retour à l'action.)
+Tu possèdes un objet qui
+m'intéresse... permets-moi
+de te le prendre...
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.2",
+  text = [[
+Grace à cette fameuse Triforce, je
+vais pouvoir accélérer la création
+de mon futur monde parfait !
+Je te remercie d'avoir battu
+ce gros balourd de Ganon,
+tu m'as évité un moment pénible.
+Je me répète mais tu as encore
+toutes mes félicitations. Tu as
+dû consacrer beaucoup de
+temps à ce jeu pour être
+arrivé aussi loin...
+
+As-tu vu les 2 Cadres cachés
+dans la Pyramide ? 
+Tu sais ce que ça veut dire...
+J'ai encore beaucoup de choses
+à faire. Les Défis suivants ne
+vont pas se faire tout seuls !
+Mais il me fera très plaisir
+de vous accueillir toi et Tails
+à La Capitale...
+En parlant de ça, il serait
+peut-être temps de retourner
+à Haïroule, non ?
+Je vais également bloquer l'accès à
+cette Chambre pour de bon. Il n'y
+a plus rien à y voir après tout.
+On se reverra.
+Très prochainement dans
+le Chapitre 3 !
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.intro",
+  text = [[
+$2Toutes mes félicitations !
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.spell_1",
+  text = [[
+throw_mvmt:start(hero,function()
+     magnet_mvmt:start(triforce)
+end)
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.spell_2",
+  text = [[
+hero:teleport(outside/B1,
+vortex_cave,fade)
 ]],
 }
 

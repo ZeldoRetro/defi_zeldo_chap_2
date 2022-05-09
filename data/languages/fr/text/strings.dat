@@ -17,6 +17,9 @@ text{ key = "options_menu.cheats_unlocked", value = "Félicitations ! Tu as déb
 text{ key = "options_menu.language", value = "LANGUE" }
 text{ key = "options_menu.last_option", value = "CHEATS" }
 text{ key = "options_menu.last_option_hidden", value = "??????" }
+text{ key = "options_menu.link_voice", value = "VOIX DE LINK" }
+text{ key = "options_menu.link_voice_no", value = "sans" }
+text{ key = "options_menu.link_voice_yes", value = "avec" }
 text{ key = "options_menu.music_volume", value = "MUSIQUE" }
 text{ key = "options_menu.need_achievements", value = "Tu dois avoir remporté tous$les Succès pour dévoiler$cette option..." }
 text{ key = "options_menu.sound_volume", value = "SON" }

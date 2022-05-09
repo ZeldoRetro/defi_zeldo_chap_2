@@ -359,6 +359,9 @@ inform you.
 In a Dungeon, the radar
 will do a sound if a Moon is 
 hidden in the current floor.
+An image will also
+appear beside the Clock
+if a Power Moon is close.
 It's a revolution !
 ]],
 }
@@ -671,6 +674,17 @@ You found a Bow and arrows !$0
 
 You can now defeat enemies
 afar and without danger !
+]],
+}
+
+dialog{
+  id = "_treasure.inventory/bow_light.1",
+  icon = "2",
+  skip = "current",
+  text = [[
+These are the Silver
+Arrows you need
+to defeat Ganon !
 ]],
 }
 
@@ -1246,15 +1260,6 @@ You got a Moon ! $0
 }
 
 dialog{
-  id = "_treasure.quest_items/triforce.1",
-  text = [[
-You found the Triforce ! $0
-
-
-]],
-}
-
-dialog{
   id = "_treasure.quest_items/trophy.1",
   icon = "130",
   text = [[
@@ -1748,6 +1753,40 @@ empty bottle to take it..
 }
 
 dialog{
+  id = "ganon.2",
+  skip = "current",
+  text = [[
+It is time to show you my new
+super secret technique !
+Fight my new invocations !
+]],
+}
+
+dialog{
+  id = "ganon.3",
+  skip = "current",
+  text = [[
+Did you find the
+Arrows in the Dark
+World ?
+]],
+}
+
+dialog{
+  id = "ganon.intro",
+  skip = "current",
+  text = [[
+You finally arrived Link...
+I was wondering if you
+were lost somewhere...
+En garde ! Your delay
+permited me to perfect
+my fight tactics !
+Prepare to die !
+]],
+}
+
+dialog{
   id = "hermit.answer_no",
   skip = "current",
   text = [[
@@ -1842,6 +1881,16 @@ a day)
 Sleep ?
 Yes
 No
+]],
+}
+
+dialog{
+  id = "inn.exit_warning",
+  skip = "current",
+  text = [[
+Attention ! You didn't sleep
+in that Inn yet. You'll lose
+your key if you leave !
 ]],
 }
 
@@ -2448,6 +2497,19 @@ basement if you need it.
 }
 
 dialog{
+  id = "shop.welcome_takapa_shop_rdc_ss1_empty",
+  skip = "current",
+  text = [[
+Welcome Sir.
+Do you need something ?
+We have a lot of articles.
+My brother sold all his
+articles. He left to The
+Capital to refill his stock.
+]],
+}
+
+dialog{
   id = "shop.welcome_takapa_shop_ss1",
   skip = "current",
   text = [[
@@ -2558,9 +2620,9 @@ dialog{
   id = "tails.rescued",
   skip = "current",
   text = [[
-Hey Kibô !
-How are you since the 
-last time ?
+Thanks for saving me Link.
+How do I know your name ?
+It's written on your shield !
 Me ? Zeldo warped me from Mobius
 to here...
 
@@ -2817,8 +2879,8 @@ More than the worst monsters
 in this world.
 
 I repeat, be very careful... 
-These cuccos are dangerouser
-than the hylian ones !
+These cuccos are more dangerous
+than the Hylian ones !
 ]],
 }
 
@@ -3874,6 +3936,56 @@ other items in general.
 }
 
 dialog{
+  id = "teleportation.activation",
+  skip = "current",
+  text = [[
+You activated an Owl Statue.
+You can now fast travel here.
+Find other statues !
+]],
+}
+
+dialog{
+  id = "teleportation.ice_mountain",
+  question = "1",
+  text = [[
+Travel to Freezeezy peak ?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "teleportation.question",
+  question = "1",
+  text = [[
+What do you want ?
+Fast travel
+Nothing
+]],
+}
+
+dialog{
+  id = "teleportation.ruins",
+  question = "1",
+  text = [[
+Travel to Misty ruins ?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "teleportation.takapa_village",
+  question = "1",
+  text = [[
+Travel to Takapa Village ?
+Yes
+No
+]],
+}
+
+dialog{
   id = "toad.1st_time",
   skip = "current",
   text = [[
@@ -4053,6 +4165,17 @@ ensuring his eternal sleep.
 }
 
 dialog{
+  id = "ts.ganon_hint",
+  skip = "current",
+  text = [[
+When Ganon is stunned, give
+him his last moment with a
+Silver Arrow !
+Do you understand, Link ?
+]],
+}
+
+dialog{
   id = "ts.ice_palace_hint_1",
   skip = "current",
   text = [[
@@ -4083,6 +4206,7 @@ the Boss Key.
 
 dialog{
   id = "ts.path_to_ice_cave",
+  skip = "current",
   text = [[
 If you want to go to Freezeezy
 Peak, you will need the ability
@@ -4112,6 +4236,25 @@ dialog{
 Go in the teleporter if you
 want to go out of the Dungeon 
 and come back here later.
+]],
+}
+
+dialog{
+  id = "ts.ultimate_door",
+  skip = "current",
+  text = [[
+Only the true Completionists
+will see this door opened.
+]],
+}
+
+dialog{
+  id = "ts.ultimate_door_2",
+  skip = "current",
+  text = [[
+Only a true Hero
+will reach the Triforce
+Chamber.
 ]],
 }
 
@@ -4199,11 +4342,7 @@ As I promised, I release Tails.
 Thanks to you for playing my 
 second Challenge and I hope you 
 loved it.
-
-
-See you later fot the 
-3rd Chapter ! No it's a joke :P
-Or not ? :thinking:
+See you later !
 ]],
 }
 
@@ -4229,6 +4368,24 @@ second Boss !
 }
 
 dialog{
+  id = "zeldo.boss_rush.before_armos_heroic",
+  skip = "current",
+  text = [[
+Too easy I suppose...
+More, I think that you're
+bored to see this Boss again...
+You'll need to use an item
+you found in this Tower to
+defeat the second Boss !
+I see that you are playing
+in Heroic Mode. No
+healing for you !
+Enough talk, let's go for the
+second Boss !
+]],
+}
+
+dialog{
   id = "zeldo.boss_rush.before_moldorm",
   skip = "current",
   text = [[
@@ -4238,6 +4395,22 @@ There is a last Boss for you...
 You'll can go to the vases on
 the right to heal you if
 you need it.
+I kept the best one for the end
+because EVERYBODY hates
+this Boss !
+]],
+}
+
+dialog{
+  id = "zeldo.boss_rush.before_moldorm_heroic",
+  skip = "current",
+  text = [[
+You're doing very well !
+There is a last Boss for you...
+
+No healing for you, again.
+You are playing in Heroic
+Mode after all !
 I kept the best one for the end
 because EVERYBODY hates
 this Boss !
@@ -4369,6 +4542,93 @@ the top of this Tower !
 Scenario, done...
 Okay, I go !
 Have a great time...
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.1",
+  text = [[
+Only a superplayer, or a cheater,
+was able to beat this very bad
+designed boss.
+You must know that it's
+possible to beat it
+without cheating.
+You don't believe me ? Ah ah ah !
+I did a video on my YouTube
+channel. Go see it !
+I'd like to congratulate you yet
+but I don't have time to waste
+with you.
+I'm a Bad Guy Cliché
+after all..
+
+(seriously, GG to reach this place.
+You are very invested and I'm 
+affected to see that. Thank you.)
+You got the Triforce... but I need
+it... could I take it ? Anyway, you
+don't have the choice...
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.2",
+  text = [[
+With the Triforce, the creation
+of my future world will be
+done in no time !
+Thanks to you, I don't have
+to beat this large pork
+again... it was awful.
+I must congratulate you
+again. You dedicated a
+lot of time in this game
+to reach these room...
+
+
+Did you see the 2 hidden
+Frames in the Pyramid ?
+You know what it means...
+I have still a lot to do. The
+futures Chapters will not
+be released by themselves !
+I will be very glad to welcome
+you and Tails at The Capital.
+
+Nevermind... it's time to
+return in High-Rule don't
+you think ?
+I will block the access to this
+Chamber too. You have no
+more thing to do here anyway.
+We will meet again.
+In the 3rd Chapter !
+Soon !
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.intro",
+  text = [[
+$2 Congratulations !
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.spell_1",
+  text = [[
+throw_mvmt:start(hero,function()
+     magnet_mvmt:start(triforce)
+end)
+]],
+}
+
+dialog{
+  id = "zeldo.triforce_chamber.spell_2",
+  text = [[
+hero:teleport(outside/B1,
+vortex_cave,fade)
 ]],
 }
 
