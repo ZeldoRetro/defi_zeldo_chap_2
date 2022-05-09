@@ -1,0 +1,27 @@
+title{
+  "Appuyez sur Escape",
+}
+locations
+{
+  "Rivage abrupt",
+  "Le Défi de Zeldo",
+  "Palais du Feu",
+  "Bois feuillus",
+  "Sommet enneigé",
+  "Palais de la Glace",
+  "Tour des Souvenirs",
+  "Ruines de la Brume",
+  "Village de Takapa",
+  "Volcan grondant",
+}
+boss
+{
+  "Kholdstare - Oeuil gelé (parce qu'il fallait bien un boss"",
+  "Sulfura - Oiseau de Feu légendaire",
+  "Mothula - Papillon de Lumière",
+  "Zeldo - Créateur et Seigneur d'Haïroule",
+}
+credits
+{
+  "",
+}
