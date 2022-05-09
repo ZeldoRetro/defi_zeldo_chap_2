@@ -2,6 +2,8 @@
 
 local item = ...
 
+local link_voice_manager = require("scripts/link_voice_manager")
+
 local function drink_potion(variant)
 
   local game = item:get_game()
@@ -34,7 +36,7 @@ local function drink_potion(variant)
     end
     item:set_variant(1)
     potion:remove()
-    sol.audio.play_sound("link_drinking_end")
+    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_drinking_end") end
     hero:unfreeze()
   end
 end
