@@ -13,6 +13,8 @@ local languages = sol.language.get_languages()
 local language_index
 local records = require("scripts/records_manager")
 local last_option
+local link_voice_option
+local link_voice_manager = require("scripts/link_voice_manager")
 
 -- Cursor position:
 -- 1: music volume
@@ -34,11 +36,15 @@ local function build_layout()
   layout:make_green_frame(16, 192, 136, 32)
   layout:make_text(sol.language.get_string("options_menu.music_volume"), 64, 56)
   layout:make_image(slider_img, 128, 56)
-  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 88)
-  layout:make_image(slider_img, 128, 88)
-  layout:make_text(sol.language.get_string("options_menu.video_filter"), 64, 120)
-  if sol.video.get_shader()== nil then layout:make_text("< " .. sol.language.get_string("options_menu.video_filter_nil") .. " >", 288, 120, "right")
-  else shader = sol.video.get_shader() layout:make_text("< " .. shader:get_id() .. " >", 288, 120, "right") end
+  layout:make_text(sol.language.get_string("options_menu.sound_volume"), 64, 80)
+  layout:make_image(slider_img, 128, 80)
+  layout:make_text(sol.language.get_string("options_menu.link_voice"), 64, 104)
+  if link_voice_manager:get_link_voice_enabled() then link_voice_option = "options_menu.link_voice_yes"
+  else link_voice_option = "options_menu.link_voice_no" end
+  layout:make_text("< " .. sol.language.get_string(link_voice_option) .. " >", 288, 104, "right")
+  layout:make_text(sol.language.get_string("options_menu.video_filter"), 64, 128)
+  if sol.video.get_shader()== nil then layout:make_text("< " .. sol.language.get_string("options_menu.video_filter_nil") .. " >", 288, 128, "right")
+  else shader = sol.video.get_shader() layout:make_text("< " .. shader:get_id() .. " >", 288, 128, "right") end
   layout:make_text(sol.language.get_string("options_menu.language"), 64, 152)
   layout:make_text("< " .. sol.language.get_language_name() .. " >", 288, 152, "right")
   layout:make_text(sol.language.get_string("options_menu.back"), 64, 200)
@@ -56,9 +62,10 @@ end
 local function set_cursor_position(index)
 
   cursor_position = index
-  cursor_img:set_xy(32, 37 + index * 32)
-  if cursor_position == 5 then cursor_img:set_xy(32, 212) end
-  if cursor_position == 6 then cursor_img:set_xy(184, 212) end
+  cursor_img:set_xy(32, 38 + index * 26)
+  if cursor_position == 1 then cursor_img:set_xy(32, 69) end
+  if cursor_position == 6 then cursor_img:set_xy(32, 212) end
+  if cursor_position == 7 then cursor_img:set_xy(184, 212) end
 end
 
 local function update_music_slider()
@@ -111,6 +118,14 @@ local function decrease_sound_volume()
     sol.audio.set_sound_volume(volume)
     update_sound_slider()
   end
+end
+
+local function toggle_link_voice_option()
+  if link_voice_manager:get_link_voice_enabled() then 
+    link_voice_manager:set_link_voice_disabled()
+  else link_voice_manager:set_link_voice_enabled() end
+  link_voice_manager:save()
+  build_layout()
 end
 
 local function previous_video_mode()
@@ -169,7 +184,7 @@ function options_menu:on_started()
 
   records:load()
   build_layout()
-  set_cursor_position(5)  -- Back.
+  set_cursor_position(6)  -- Back.
   update_music_slider()
   update_sound_slider()
 
@@ -185,14 +200,14 @@ function options_menu:on_draw(dst_surface)
   layout:draw(dst_surface)
   cursor_img:draw(dst_surface)
   slider_cursor_img:draw(dst_surface, music_slider_x, 56)
-  slider_cursor_img:draw(dst_surface, sound_slider_x, 88)
+  slider_cursor_img:draw(dst_surface, sound_slider_x, 80)
 end
 
 function options_menu:on_key_pressed(key)
 
   if key == "down" then
     sol.audio.play_sound("save_menu_cursor")
-    if cursor_position < 5 then
+    if cursor_position < 7 then
       set_cursor_position(cursor_position + 1)
     else
       set_cursor_position(1)
@@ -202,7 +217,7 @@ function options_menu:on_key_pressed(key)
     if cursor_position > 1 then
       set_cursor_position(cursor_position - 1)
     else
-      set_cursor_position(5)
+      set_cursor_position(6)
     end
   elseif key == "left" then
     if cursor_position == 1 then
@@ -212,17 +227,20 @@ function options_menu:on_key_pressed(key)
       decrease_sound_volume()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 3 then
-      previous_video_mode()
+      toggle_link_voice_option()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 4 then
-      previous_language()
+      previous_video_mode()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 5 then
-      set_cursor_position(6)
+      previous_language()
+      sol.audio.play_sound("pause_turn")
+    elseif cursor_position == 6 then
+      set_cursor_position(7)
       sol.audio.play_sound("save_menu_cursor")
       handled = true
-    elseif cursor_position == 6 then
-      set_cursor_position(5)
+    elseif cursor_position == 7 then
+      set_cursor_position(6)
       sol.audio.play_sound("save_menu_cursor")
       handled = true
     end
@@ -234,25 +252,28 @@ function options_menu:on_key_pressed(key)
       increase_sound_volume()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 3 then
-      next_video_mode()
+      toggle_link_voice_option()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 4 then
-      next_language()
+      next_video_mode()
       sol.audio.play_sound("pause_turn")
     elseif cursor_position == 5 then
-      set_cursor_position(6)
+      next_language()
+      sol.audio.play_sound("pause_turn")
+    elseif cursor_position == 6 then
+      set_cursor_position(7)
       sol.audio.play_sound("save_menu_cursor")
       handled = true
-    elseif cursor_position == 6 then
-      set_cursor_position(5)
+    elseif cursor_position == 7 then
+      set_cursor_position(7)
       sol.audio.play_sound("save_menu_cursor")
       handled = true
     end
   elseif key == "space" then
-    if cursor_position == 5 then
+    if cursor_position == 6 then
       sol.audio.play_sound("save_menu_cancel")
       sol.menu.stop(options_menu)
-    elseif cursor_position == 6 then
+    elseif cursor_position == 7 then
       -- ???: You must earn all the achievements to unlock this last option
       show_popup()
     end

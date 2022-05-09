@@ -3,6 +3,8 @@
 require("scripts/multi_events")
 local hero_meta = sol.main.get_metatable("hero")
 
+local link_voice_manager = require("scripts/link_voice_manager")
+
 hero_meta:register_event("on_state_changed", function(hero)
   local current_state = hero:get_state()
   if hero.previous_state == "carrying" then
@@ -26,7 +28,13 @@ hero_meta:register_event("on_state_changed", function(hero , state)
   elseif state == "sword swinging" then
     -- Sword swinging
     local index = math.random(1, 3)
-    sol.audio.play_sound("sword_voice_" .. index) 
+    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/sword_voice_" .. index) end
+  elseif state == "falling" then
+    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/hero_falls") else sol.audio.play_sound("hero_falls") end
+  elseif state == "sword spin attack" then
+    -- Sword spinning
+    local index = math.random(1, 3)
+    if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/spin_voice_" .. index) end
   end
 end)
 
@@ -60,6 +68,8 @@ function hero_meta:on_taking_damage(damage)
   end
 
   game:remove_life(damage)
+
+  if link_voice_manager:get_link_voice_enabled() then sol.audio.play_sound("link_voices/hero_hurt") else sol.audio.play_sound("hero_hurt") end
 end
 
 -- Set fixed stopped/walking animations for the hero (or nil to disable them).

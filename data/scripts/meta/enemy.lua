@@ -1,6 +1,7 @@
 -- Initialize enemy behavior specific to this quest.
 
 require("scripts/multi_events")
+local entity_manager= require("scripts/entity_manager") 
 
 local enemy_meta = sol.main.get_metatable("enemy")
 
@@ -111,5 +112,18 @@ function enemy_meta:on_dying()
     end)
   end
 end
+
+enemy_meta:register_event("on_removed", function(enemy)
+
+    local game = enemy:get_game()
+    local map = game:get_map()
+    if enemy:get_ground_below()== "hole" and enemy:get_obstacle_behavior()=="normal" then
+      entity_manager:create_falling_entity(enemy)
+    elseif enemy:get_ground_below()== "deep_water" and enemy:get_obstacle_behavior()=="normal" then
+      entity_manager:create_drowning_entity(enemy)
+    elseif enemy:get_ground_below()== "lava" and enemy:get_obstacle_behavior()=="normal" then
+      entity_manager:create_burning_entity(enemy)
+    end
+end)
 
 return true

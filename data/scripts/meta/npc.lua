@@ -20,18 +20,6 @@ function npc_meta:on_interaction()
     game:start_dialog(name)
   end
 
-  --Statues de hibou
-  if name:match("^owl") then
-    game:set_dialog_style("stone")
-    local game = map:get_game()
-    if game:has_dungeon_stone_beak() then
-      game:start_dialog(name)
-    else
-      sol.audio.play_sound("wrong")
-      game:start_dialog("owl.no_beak")
-    end
-  end
-
   --Stèle à la fin du donjon: fais apparaitre un téléporteur vers l'entrée
   if name:match("^stele_telep_boss") then
     game:set_dialog_style("stone")

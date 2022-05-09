@@ -8,6 +8,8 @@ texte_boss_on = false
 
 local monicle_img = sol.surface.create("backgrounds/monicle.png")
 monicle_img:set_opacity(92)
+
+local detector_img = sol.surface.create("hud/detector.png")
      
 --SYSTEME DE JOUR/NUIT
 --Crépuscule (+ aube avec effet soleil levant)
@@ -36,11 +38,26 @@ function map_meta:on_draw(dst_surface)
     if game:get_value("twilight") then twilight_surface_red:draw(dst_surface) twilight_surface_yellow:draw(dst_surface) end
   end
 
+  --Détecteur: Symbole si fragment de Force a proximité
+  if game:get_value("get_power_moon_detector") then
+    for entity in game:get_map():get_entities("power_moon_") do
+      detector_img:draw(dst_surface)
+    end
+    for entity in game:get_map():get_entities("hidden_power_moon_") do
+      detector_img:draw(dst_surface)      
+    end
+  end
+
 
   --AFFICHAGE LIEU
   if texte_lieu_on then texte_lieu:draw(dst_surface) end
   --AFFICHAGE BOSS
   if texte_boss_on then texte_boss:draw(dst_surface) end
+end
+
+local ceiling_drop_manager = require("scripts/ceiling_drop_manager")
+for _, entity_type in pairs({"hero"}) do
+  ceiling_drop_manager:create(entity_type)
 end
 
 function map_meta:on_opening_transition_finished()
@@ -49,7 +66,20 @@ function map_meta:on_opening_transition_finished()
   if not game:get_value("intro") and game:get_map():get_world() == "outside" then
     sol.timer.start(30000, function() 
       daytime_increment = true 
-      sol.audio.play_sound("shield")
+      sol.audio.play_sound("time_cycle")
+    end)
+  end
+
+  --Effet de chute
+  local hero = game:get_hero()
+  local ground=game:get_value("tp_ground")
+  if ground=="hole" then
+    hero:set_invincible()
+    hero:set_visible(false)
+    hero:fall_from_ceiling(240, nil, function()
+        sol.audio.play_sound("hero_lands")
+        game:set_value("tp_ground","traversable")
+        hero:set_invincible(false)
     end)
   end
 
@@ -57,9 +87,11 @@ function map_meta:on_opening_transition_finished()
   if game:get_value("get_power_moon_detector") then
     for entity in game:get_map():get_entities("power_moon_") do
       sol.audio.play_sound("detector")
+      return
     end
     for entity in game:get_map():get_entities("hidden_power_moon_") do
       sol.audio.play_sound("detector")
+      return
     end
   end
 end

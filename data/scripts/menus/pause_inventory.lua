@@ -34,6 +34,7 @@ local function create_item_widget(game)
   widget:set_xy(28 - movement_distance, 52)
   local items_surface = widget:get_surface()
 
+  item_names[1] = game:has_item("inventory/bow_light") and "inventory/bow_light" or "inventory/bow"
   item_names[9] = game:has_item("inventory/magic_powder") and "inventory/magic_powder" or "inventory/magic_mushroom"
   item_names[12] = game:has_item("inventory/magic_cape") and "inventory/magic_cape" or "inventory/echange"
 
@@ -318,7 +319,14 @@ function inventory_manager:new(game)
     elseif command == "item_1" then
       -- Assign an item.
       local item = game:get_item(item_names[cursor_index + 1])
-      if item == game:get_item_assigned(2) then return
+      if item == game:get_item_assigned(2) then
+        sol.audio.play_sound("assign_item")
+        game:set_item_assigned(2, game:get_item_assigned(1))
+        game:set_item_assigned(1, item)
+        item_assigned_row, item_assigned_column = cursor_row, cursor_column
+        item_assigned_index = cursor_row * items_num_rows + cursor_column
+        item_cursor_moving_sprite:set_animation("solid_fixed")
+        item_cursor_moving_sprite:set_frame(0)
       elseif cursor_index ~= item_assigned_index
           and item:has_variant()
           and item:is_assignable() then
@@ -334,7 +342,14 @@ function inventory_manager:new(game)
     elseif command == "item_2" then
       -- Assign an item.
       local item = game:get_item(item_names[cursor_index + 1])
-      if item == game:get_item_assigned(1) then return
+      if item == game:get_item_assigned(1) then
+        sol.audio.play_sound("assign_item")
+        game:set_item_assigned(1, game:get_item_assigned(2))
+        game:set_item_assigned(2, item)
+        item_assigned_row, item_assigned_column = cursor_row, cursor_column
+        item_assigned_index = cursor_row * items_num_rows + cursor_column
+        item_cursor_moving_sprite:set_animation("solid_fixed")
+        item_cursor_moving_sprite:set_frame(0)
       elseif cursor_index ~= item_assigned_index
           and item:has_variant()
           and item:is_assignable() then
