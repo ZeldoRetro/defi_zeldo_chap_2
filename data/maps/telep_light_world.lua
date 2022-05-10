@@ -3,13 +3,6 @@ local game = map:get_game()
 
 function map:on_started()
 
-  sword_level = game:get_ability("sword")
-  game:set_ability("sword",0)
-  item_assigned_slot_1 = game:get_item_assigned(1)
-  game:set_item_assigned(1, nil)
-  item_assigned_slot_2 = game:get_item_assigned(2)
-  game:set_item_assigned(2, nil)
-
   game:set_pause_allowed(false)
   game:set_hud_enabled(false)
   hero:set_visible(false)
@@ -21,6 +14,15 @@ function map:on_started()
   if game:get_value("owl_takapa_village_activated") then location_takapa_village:set_enabled(true) location_takapa_village_sensor:set_enabled(true) end
   if game:get_value("owl_ruins_activated") then location_ruins:set_enabled(true) location_ruins_sensor:set_enabled(true) end
   if game:get_value("owl_ice_mountain_activated") then location_ice_mountain:set_enabled(true) location_ice_mountain_sensor:set_enabled(true) end
+end
+
+function map:on_opening_transition_finished()
+  sword_level = game:get_ability("sword")
+  game:set_ability("sword",0)
+  item_assigned_slot_1 = game:get_item_assigned(1)
+  game:set_item_assigned(1, nil)
+  item_assigned_slot_2 = game:get_item_assigned(2)
+  game:set_item_assigned(2, nil)
 end
 
 local can_select_location = false
