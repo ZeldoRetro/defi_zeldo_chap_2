@@ -2,6 +2,8 @@ local item = ...
 local game = item:get_game()
 local cape_active = false
 
+sword_level = game:get_ability("sword")
+
 function item:on_created()
 
   -- Define the properties.
@@ -43,6 +45,10 @@ end
 -- FONCTIONS PERMETTANT LE DRAINAGE DE MAGIE
 function item:on_map_changed()
   game:set_value("magic_drained",false)
+    game:get_hero():set_blinking(false)
+    game:get_hero():set_invincible(false)
+    game:set_ability("sword",sword_level)
+		cape_active = false
 end
 function item:on_update()
 	local map = item:get_map()
