@@ -43,6 +43,7 @@ falling_state:set_affected_by_ground("deep_water", false)
 falling_state:set_affected_by_ground("hole", false)
 falling_state:set_affected_by_ground("lava", false)
 falling_state:set_can_use_item(false)
+falling_state:set_can_use_sword(false)
 
 function ceiling_drop_manager:create(meta)
   local object_meta = sol.main.get_metatable(meta)
