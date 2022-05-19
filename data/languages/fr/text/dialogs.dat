@@ -910,11 +910,6 @@ Tu obtiens la Cape magique ! $0
 
 Tu peux te rendre invincible
 tant que tu as de la magie !
-
-Cependant tu ne pourras
-pas utiliser ton épée ni
-mettre le jeu en pause
-pendant ton invulnérabilité.
 A utiliser prudemment !
 ]],
 }
@@ -2289,10 +2284,10 @@ un objet unique. Il s'agit de
 la Cape magique !
 Cette Cape unique te rendra
 invisible et invincible !
+
 Par contre elle consomme de
-la magie et il te sera impossible
-d'utiliser ton épée tant que
-tu la porteras mais bon...
+la magie mais bon...
+
 Tiens, je te la donne et
 gratuitement. Considérons ton
 diamant comme mon pairement...
