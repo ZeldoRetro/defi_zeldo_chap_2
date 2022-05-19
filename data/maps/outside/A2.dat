@@ -5812,7 +5812,7 @@ tile{
   x = 904,
   y = 472,
   width = 32,
-  height = 168,
+  height = 176,
   pattern = "6161",
 }
 
@@ -5857,7 +5857,7 @@ tile{
   x = 912,
   y = 576,
   width = 16,
-  height = 56,
+  height = 64,
   pattern = "12547",
 }
 
@@ -14737,9 +14737,9 @@ sensor{
 tile{
   layer = 1,
   x = 856,
-  y = -8,
+  y = -24,
   width = 368,
-  height = 192,
+  height = 208,
   pattern = "14834",
 }
 
