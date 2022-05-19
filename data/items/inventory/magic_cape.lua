@@ -3,6 +3,7 @@ local game = item:get_game()
 local cape_active = false
 
 sword_level = game:get_ability("sword")
+if sword_level == 0 then sword_level = 3 end
 
 function item:on_created()
 
@@ -23,7 +24,6 @@ function item:on_using()
     game:get_hero():set_blinking(false)
     game:get_hero():set_invincible(false)
     game:set_ability("sword",sword_level)
-    game:set_pause_allowed(true)
 		cape_active = false
 	else
   		if self:get_game():get_magic() >= magic_needed then
@@ -32,7 +32,6 @@ function item:on_using()
         game:get_hero():set_invincible(true)
         sword_level = game:get_ability("sword")
         game:set_ability("sword",0)
-    	  game:set_pause_allowed(false)
 			  cape_active = true
   		else
     			sol.audio.play_sound("wrong")
