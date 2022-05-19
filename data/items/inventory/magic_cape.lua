@@ -2,9 +2,6 @@ local item = ...
 local game = item:get_game()
 local cape_active = false
 
-sword_level = game:get_ability("sword")
-if sword_level == 0 then sword_level = 3 end
-
 function item:on_created()
 
   -- Define the properties.
@@ -23,15 +20,12 @@ function item:on_using()
 		sol.audio.play_sound("cane")
     game:get_hero():set_blinking(false)
     game:get_hero():set_invincible(false)
-    game:set_ability("sword",sword_level)
 		cape_active = false
 	else
   		if self:get_game():get_magic() >= magic_needed then
    			sol.audio.play_sound("cane")
         game:get_hero():set_blinking(true)
         game:get_hero():set_invincible(true)
-        sword_level = game:get_ability("sword")
-        game:set_ability("sword",0)
 			  cape_active = true
   		else
     			sol.audio.play_sound("wrong")
@@ -46,7 +40,6 @@ function item:on_map_changed()
   game:set_value("magic_drained",false)
     game:get_hero():set_blinking(false)
     game:get_hero():set_invincible(false)
-    game:set_ability("sword",sword_level)
 		cape_active = false
 end
 function item:on_update()
@@ -59,8 +52,6 @@ function item:on_update()
           sol.audio.play_sound("cane")
           game:get_hero():set_blinking(false)
           game:get_hero():set_invincible(false)
-          game:set_ability("sword",sword_level)
-          game:set_pause_allowed(true)
       		cape_active = false
           game:set_value("magic_drained",false)
         else
