@@ -6,7 +6,7 @@ quest{
   long_description = [[
 Après sa victoire face au 1er Défi de Zeldo, Link se retrouve transporté en Haïroule où l'attend Zeldo au sommet de la Tour des Souvenirs pour sa revanche!]],
   author = "ZeldoRetro",
-  quest_version = "1.1",
+  quest_version = "1.2.0",
   release_date = "20190510",
   website = "",
   normal_quest_size = "320x240",
